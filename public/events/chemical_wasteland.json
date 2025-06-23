@@ -1,0 +1,349 @@
+{
+    "id": "chemical_wasteland",
+    "name": "Chemical Wasteland",
+    "banner_url": "",
+    "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Chemical_Wasteland",
+    "nodes": [
+        {
+            "id": "start",
+            "text": "Chemical Wasteland",
+            "choices": [
+                {
+                    "id": "start_choice_0",
+                    "text": "Investigate the robots.",
+                    "next": "chapter_2a",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                },
+                {
+                    "id": "start_choice_1",
+                    "text": "Explore the cave.",
+                    "next": "chapter_2b",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_2a",
+            "text": "Drone Encounter",
+            "choices": [
+                {
+                    "id": "chapter_2a_choice_0",
+                    "text": "Allow the drones to approach.",
+                    "next": "chapter_3a",
+                    "reward": [
+                        "research_engineering_18x"
+                    ]
+                },
+                {
+                    "id": "chapter_2a_choice_1",
+                    "text": "Disable them.",
+                    "next": "chapter_3b",
+                    "reward": [
+                        "research_engineering_18x"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_2b",
+            "text": "Signs of Life",
+            "choices": [
+                {
+                    "id": "chapter_2b_choice_0",
+                    "text": "Autopsy the avian corpse.",
+                    "next": "chapter_3_4a_then_b",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                },
+                {
+                    "id": "chapter_2b_choice_1",
+                    "text": "Reactivate the drone.",
+                    "next": "chapter_3_4b_then_a",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_3a",
+            "text": "Clean Shot",
+            "choices": [
+                {
+                    "id": "chapter_3a_choice_0",
+                    "text": "Follow the drones.",
+                    "next": "chapter_4a",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_3b",
+            "text": "Disabled Drones",
+            "choices": [
+                {
+                    "id": "chapter_3b_choice_0",
+                    "text": "Trace the distress signal.",
+                    "next": "chapter_4a",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                },
+                {
+                    "id": "chapter_3b_choice_1",
+                    "text": "Flee before potential reinforcements arrive.",
+                    "next": "chapter_6c",
+                    "reward": [
+                        "astral_threads_large"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_3_4a_then_b",
+            "text": "Avian Autopsy",
+            "choices": [
+                {
+                    "id": "chapter_3_4a_choice_0",
+                    "text": "Reactivate the drone.",
+                    "next": "chapter_5b",
+                    "reward": [
+                        "progress_biology_25pc",
+                        "research_engineering_18x"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_3_4b_then_a",
+            "text": "Drone Repaired",
+            "choices": [
+                {
+                    "id": "chapter_3_4b_choice_0",
+                    "text": "Examine the avian corpse.",
+                    "next": "chapter_5b",
+                    "reward": [
+                        "research_engineering_18x",
+                        "progress_biology_25pc"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_4a",
+            "text": "Signs of the Makers",
+            "choices": [
+                {
+                    "id": "chapter_4a_choice_0",
+                    "text": "Explore the lab.",
+                    "next": "chapter_5a",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_5a",
+            "text": "Scrubbed History",
+            "choices": [
+                {
+                    "id": "chapter_5a_choice_0",
+                    "text": "Document and study the sanitary infrastructure.",
+                    "next": "chapter_6a",
+                    "requirements": "(biological or lithoid) and not gestalt_consciousness",
+                    "reward": [
+                        "progress_computing_25pc"
+                    ]
+                },
+                {
+                    "id": "chapter_5a_choice_0b",
+                    "text": "Document and study the sanitary infrastructure.",
+                    "next": "chapter_6a_gestalt",
+                    "requirements": "(biological or lithoid) and gestalt_consciousness",
+                    "reward": [
+                        "progress_computing_25pc"
+                    ]
+                },
+                {
+                    "id": "chapter_5a_choice_1",
+                    "text": "Shut down the Facility.",
+                    "next": "chapter_6b",
+                    "requirements": "not genocidal",
+                    "reward": [
+                        "progress_computing_25pc"
+                    ]
+                },
+                {
+                    "id": "chapter_5a_choice_1b",
+                    "text": "Shut down the Facility.",
+                    "next": "chapter_6b_genocidal",
+                    "requirements": "genocidal",
+                    "reward": [
+                        "progress_computing_25pc"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_5b",
+            "text": "Hygienic Hypothesis",
+            "choices": [
+                {
+                    "id": "chapter_5b_choice_0",
+                    "text": "Repurpose the drone's technology.",
+                    "next": "chapter_6d",
+                    "reward": [
+                        "research_society_18x"
+                    ]
+                },
+                {
+                    "id": "chapter_5b_choice_1",
+                    "text": "Engineer a virus to disable the sanitation network.",
+                    "next": "chapter_6e",
+                    "reward": [
+                        "research_society_18x"
+                    ]
+                },
+                {
+                    "id": "chapter_5b_choice_2",
+                    "text": "Keep this drone as a personal research assistant.",
+                    "next": "chapter_6f",
+                    "requirements": "not gestalt_consciousness",
+                    "reward": [
+                        "research_society_18x"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_6a",
+            "text": "Automated Disinfection (Standard)",
+            "choices": [
+                {
+                    "id": "chapter_6a_choice_0",
+                    "text": "Continue.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_large",
+                        "edict_automated_disinfection"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_6a_gestalt",
+            "text": "Automated Disinfection (Gestalt)",
+            "choices": [
+                {
+                    "id": "chapter_6a_choice_gestalt",
+                    "text": "Continue.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_large",
+                        "edict_automated_disinfection",
+                        "research_society_24x"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_6b",
+            "text": "Shutdown Complete (Standard)",
+            "choices": [
+                {
+                    "id": "chapter_6b_choice_0",
+                    "text": "Continue.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_large",
+                        "energy_output_24x"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_6b_genocidal",
+            "text": "Shutdown Complete (Genocidal)",
+            "choices": [
+                {
+                    "id": "chapter_6b_choice_genocidal",
+                    "text": "Continue.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_large",
+                        "energy_output_48x"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_6c",
+            "text": "Evaded Reinforcements",
+            "choices": [
+                {
+                    "id": "chapter_6c_choice_0",
+                    "text": "Continue.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_large",
+                        "alloys_output_18x"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_6d",
+            "text": "Repurposed Cleaning Drone",
+            "choices": [
+                {
+                    "id": "chapter_6d_choice_0",
+                    "text": "Continue.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_large",
+                        "specimen_cleaning_drone",
+                        "modifier_colonization_drones"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_6e",
+            "text": "Quantum Virus",
+            "choices": [
+                {
+                    "id": "chapter_6e_choice_0",
+                    "text": "Continue.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_large",
+                        "tech_quantum_upgrade"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_6f",
+            "text": "Sanitary Drone Assistant",
+            "choices": [
+                {
+                    "id": "chapter_6f_choice_0",
+                    "text": "Continue.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_large",
+                        "trait_sanitary_drone_assistant"
+                    ]
+                }
+            ]
+        }
+    ]
+}

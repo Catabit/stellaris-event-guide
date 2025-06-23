@@ -1,0 +1,130 @@
+{
+  "id": "abandoned_complex",
+  "name": "Abandoned Complex",
+  "banner_url": "",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Abandoned_Complex",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Abandoned Complex",
+      "choices": [
+        {
+          "id": "chapter1_choice0",
+          "text": "Search for the caretakers.",
+          "next": "chapter_2a",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "chapter1_choice1",
+          "text": "Open an egg.",
+          "next": "chapter_2b",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_2a",
+      "text": "<Unknown Title>",
+      "choices": [
+        {
+          "id": "chapter2a_choice0",
+          "text": "Open an egg.",
+          "next": "chapter_2b",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "chapter2a_choice1",
+          "text": "Return with the remains.",
+          "next": "chapter_3a",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_2b",
+      "text": "Quantum Parasites",
+      "choices": [
+        {
+          "id": "chapter2b_choice0",
+          "text": "Inject the liquid into the egg.",
+          "next": "chapter_3b",
+          "failure_next": "chapter_4b",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "chapter2b_choice1",
+          "text": "Euthanize the remaining creatures.",
+          "next": "chapter_3c",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_3a",
+      "text": "<Unknown Title>",
+      "choices": [
+        {
+          "id": "chapter3a_choice0",
+          "text": "Ends the rift.",
+          "next": null,
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_3b",
+      "text": "Metabolization",
+      "choices": [
+        {
+          "id": "chapter3b_choice0",
+          "text": "Do not intervene.",
+          "next": "chapter_4b",
+          "reward": ["research_society"]
+        },
+        {
+          "id": "chapter3b_choice1",
+          "text": "Inject astral thread.",
+          "next": "chapter_4a",
+          "reward": ["research_society"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_3c",
+      "text": "<Unknown Title>",
+      "choices": [
+        {
+          "id": "chapter3c_choice0",
+          "text": "Ends the rift.",
+          "next": null,
+          "reward": ["astral_threads_large"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_4a",
+      "text": "Biological Weapon",
+      "choices": [
+        {
+          "id": "chapter4a_choice0",
+          "text": "Ends the rift.",
+          "next": null,
+          "reward": ["astral_threads_large", "recruit_warpling_armies"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_4b",
+      "text": "<Unknown Title>",
+      "choices": [
+        {
+          "id": "chapter4b_choice0",
+          "text": "Ends the rift.",
+          "next": null,
+          "reward": ["astral_threads_large", "research_physics"],
+          "costs": ["scientist_dies_1month"]
+        }
+      ]
+    }
+  ]
+}

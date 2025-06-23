@@ -1,0 +1,59 @@
+{
+  "id": "the_mechanism",
+  "name": "The Mechanism",
+  "banner_url": "",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#The_Mechanism",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "The Mechanism",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Continue.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "dimensional_machine"
+        }
+      ]
+    },
+    {
+      "id": "dimensional_machine",
+      "text": "Dimensional Machine",
+      "choices": [
+        {
+          "id": "dimensional_machine_choice_0",
+          "text": "Interfering would be irresponsible.",
+          "costs": [],
+          "reward": ["research_engineering_18x", "research_engineering_96x", "astral_threads_large"],
+          "requirements": "",
+          "next": null
+        },
+        {
+          "id": "dimensional_machine_choice_1",
+          "text": "Jam the gears.",
+          "costs": [],
+          "reward": ["research_engineering_18x", "relic_continuum"],
+          "requirements": "",
+          "next": null,
+          "failure_next": "shatter"
+        }
+      ]
+    },
+    {
+      "id": "shatter",
+      "text": "Shatter",
+      "choices": [
+        {
+          "id": "shatter_choice_0",
+          "text": "End the rift.",
+          "costs": ["scientist_ages_20y"],
+          "reward": ["research_engineering_96x", "astral_threads_large"],
+          "requirements": "",
+          "next": null
+        }
+      ]
+    }
+  ]
+}

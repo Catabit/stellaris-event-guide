@@ -1,0 +1,110 @@
+{
+  "id": "psionic_stranger",
+  "name": "Psionic Stranger",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/4/49/Evt_astral_rift_psionic_stranger.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Psionic_Stranger",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Psionic Stranger",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Find this being.",
+          "next": "farseer",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "farseer",
+      "text": "The Far-Seer",
+      "choices": [
+        {
+          "id": "farseer_choice_0",
+          "text": "Listen to the Far-Seer's words.",
+          "next": "burden",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "burden",
+      "text": "The Far Seer's Burden",
+      "choices": [
+        {
+          "id": "burden_choice_0",
+          "text": "Reveal the fate of the Zroni. / Reveal what we know of the Zroni. / We can only offer our perspective.",
+          "next": "perspective",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "burden_choice_1",
+          "text": "It is not our place to intervene. / Such spiritual pursuits are trivial.",
+          "next": "leaving",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "leaving",
+      "text": "Leaving it to Fate",
+      "choices": [
+        {
+          "id": "leaving_choice_0",
+          "text": "Explore the mineral cache.",
+          "next": null,
+          "reward": ["minerals", "rare_crystals", "astral_threads_large"]
+        }
+      ]
+    },
+    {
+      "id": "perspective",
+      "text": "Portents of Doom / Certain Fate / Our Perspective",
+      "choices": [
+        {
+          "id": "perspective_choice_0",
+          "text": "It is a doomed endeavor. / Advise against interfering with the Shroud.",
+          "next": null,
+          "reward": ["progress_particles_75pc", "astral_threads_large"],
+          "requirements": "not (fanatic_spiritualist and not has_zroni)"
+        },
+        {
+          "id": "perspective_choice_0_gestalt",
+          "text": "It is a doomed endeavor. / Advise against interfering with the Shroud.",
+          "next": null,
+          "reward": ["energy"],
+          "requirements": "gestalt_consciousness"
+        },
+        {
+          "id": "perspective_choice_0_mat",
+          "text": "It is a doomed endeavor. / Advise against interfering with the Shroud.",
+          "next": null,
+          "reward": ["energy"],
+          "requirements": "materialist or fanatic_materialist"
+        },
+        {
+          "id": "perspective_choice_1",
+          "text": "This time, it may be different. / Encourage the Far-Seer to breach the Shroud.",
+          "next": null,
+          "reward": ["zroni_storm_modifier", "energy", "rare_crystals", "astral_threads_large"],
+          "requirements": "not (fanatic_materialist and not has_zroni)"
+        },
+        {
+          "id": "perspective_choice_1_gestalt",
+          "text": "This time, it may be different. / Encourage the Far-Seer to breach the Shroud.",
+          "next": null,
+          "reward": ["energy"],
+          "requirements": "gestalt_consciousness"
+        },
+        {
+          "id": "perspective_choice_1_mat",
+          "text": "This time, it may be different. / Encourage the Far-Seer to breach the Shroud.",
+          "next": null,
+          "reward": ["energy"],
+          "requirements": "materialist or fanatic_materialist"
+        }
+      ]
+    }
+  ]
+}

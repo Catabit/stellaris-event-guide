@@ -1,0 +1,92 @@
+{
+  "id": "dimensional_conflict",
+  "name": "Dimensional Conflict",
+  "banner_url": "",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Dimensional_Conflict",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Dimensional Conflict",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Study its composition.",
+          "next": "chapter_2a",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Let's get in there.",
+          "next": "chapter_2b",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_2a",
+      "text": "Exotic Armor",
+      "choices": [
+        {
+          "id": "chapter_2a_choice_0",
+          "text": "<Unknown Response>",
+          "next": "chapter_3",
+          "reward": ["alloys", "tech_armor"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_2b",
+      "text": "<Unknown Title>",
+      "choices": [
+        {
+          "id": "chapter_2b_choice_0",
+          "text": "<Unknown Response>",
+          "next": "chapter_3",
+          "reward": ["progress_biology_25pc"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_3",
+      "text": "A Dozen Faces",
+      "choices": [
+        {
+          "id": "chapter_3_choice_0",
+          "text": "Try to activate the dodecahedron.",
+          "next": "chapter_4a",
+          "reward": ["astral_threads_medium"]
+        },
+        {
+          "id": "chapter_3_choice_1",
+          "text": "Strip it for parts.",
+          "next": "chapter_4b",
+          "reward": ["astral_threads_medium"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_4a",
+      "text": "Activation",
+      "choices": [
+        {
+          "id": "chapter_4a_choice_0",
+          "text": "Take the relic.",
+          "next": null,
+          "reward": ["relic_daedalus_seal"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_4b",
+      "text": "Disassembly",
+      "choices": [
+        {
+          "id": "chapter_4b_choice_0",
+          "text": "Collect materials.",
+          "next": null,
+          "reward": ["astral_threads_large", "resource_dark_matter"]
+        }
+      ]
+    }
+  ]
+}

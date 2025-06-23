@@ -1,0 +1,257 @@
+{
+  "id": "the_garden",
+  "name": "The Garden",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/0/02/Evt_astral_rift_garden_1.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#The_Garden",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "The Garden",
+      "choices": [
+        {
+          "id": "thorns_choice_0",
+          "text": "Burn the weeds.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "the_hollow_burned"
+        },
+        {
+          "id": "thorns_choice_1",
+          "text": "Extract the fruit.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "the_hollow_unburned",
+          "failure_next": "entangled"
+        }
+      ]
+    },
+    {
+      "id": "entangled",
+      "text": "Entangled",
+      "choices": [
+        {
+          "id": "entangled_choice_0",
+          "text": "Burn the entangling vines.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "the_hollow_burned",
+          "failure_next": "conflagration"
+        },
+        {
+          "id": "entangled_choice_1",
+          "text": "Pull anchor. Escape.",
+          "costs": [],
+          "reward": ["progress_biology_25pc", "astral_threads_large"],
+          "requirements": "",
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "conflagration",
+      "text": "Conflagration",
+      "choices": [
+        {
+          "id": "conflagration_choice_0",
+          "text": "End the rift.",
+          "costs": [],
+          "reward": ["astral_threads_large"],
+          "requirements": "",
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "the_hollow_burned",
+      "text": "The Hollow",
+      "choices": [
+        {
+          "id": "the_hollow_burned_choice_0",
+          "text": "Burn it all.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "a_creature"
+        },
+        {
+          "id": "the_hollow_burned_choice_1",
+          "text": "Study this place.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "a_creature_study_success",
+          "failure_next": "a_creature_study_fail"
+        }
+      ]
+    },
+    {
+      "id": "the_hollow_unburned",
+      "text": "The Hollow",
+      "choices": [
+        {
+          "id": "the_hollow_unburned_choice_0",
+          "text": "Burn it all.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "a_creature"
+        },
+        {
+          "id": "the_hollow_unburned_choice_1",
+          "text": "Study this place.",
+          "costs": [],
+          "reward": ["progress_biology_25pc"],
+          "requirements": "",
+          "next": "a_creature_study_success",
+          "failure_next": "a_creature_study_fail"
+        }
+      ]
+    },
+    {
+      "id": "a_creature",
+      "text": "A Creature",
+      "choices": [
+        {
+          "id": "a_creature_choice_0",
+          "text": "Escape.",
+          "costs": [],
+          "reward": ["progress_biology_25pc", "astral_threads_large"],
+          "requirements": "",
+          "next": null
+        },
+        {
+          "id": "a_creature_choice_1",
+          "text": "Do nothing.",
+          "costs": ["scientist_dies"],
+          "reward": ["progress_biology_25pc", "astral_threads_medium", "scientist_returns_plantoid"],
+          "requirements": "",
+          "next": null
+        },
+        {
+          "id": "a_creature_choice_2",
+          "text": "Burn the Creature.",
+          "costs": [],
+          "reward": ["relic_infinity_root", "plantoid_leader"],
+          "requirements": "",
+          "next": null,
+          "failure_next": "plant_material"
+        }
+      ]
+    },
+    {
+      "id": "a_creature_study_success",
+      "text": "A Creature",
+      "choices": [
+        {
+          "id": "a_creature_study_success_choice_0",
+          "text": "Burn the Creature.",
+          "costs": [],
+          "reward": ["relic_infinity_root", "plantoid_leader"],
+          "requirements": "",
+          "next": null
+        },
+        {
+          "id": "a_creature_study_success_choice_1",
+          "text": "Continue Studies.",
+          "costs": [],
+          "reward": [],
+          "requirements": "",
+          "next": "continued_studies"
+        }
+      ]
+    },
+    {
+      "id": "a_creature_study_fail",
+      "text": "A Creature",
+      "choices": [
+        {
+          "id": "a_creature_study_fail_choice_0",
+          "text": "Escape.",
+          "costs": [],
+          "reward": ["progress_biology_25pc", "astral_threads_large"],
+          "requirements": "",
+          "next": null
+        },
+        {
+          "id": "a_creature_study_fail_choice_1",
+          "text": "Burn the Creature.",
+          "costs": [],
+          "reward": ["relic_infinity_root", "plantoid_leader"],
+          "requirements": "",
+          "next": null,
+          "failure_next": "plant_material"
+        }
+      ]
+    },
+    {
+      "id": "continued_studies",
+      "text": "Continued Studies",
+      "choices": [
+        {
+          "id": "continued_studies_choice_0",
+          "text": "Continued Studies.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "continued_studies_cont",
+          "failure_next": "noticed"
+        }
+      ]
+    },
+    {
+      "id": "continued_studies_cont",
+      "text": "Continued Studies (cont.)",
+      "choices": [
+        {
+          "id": "continued_studies_cont_choice_0",
+          "text": "Continued Studies.",
+          "costs": [],
+          "reward": ["astral_threads_small", "relic_infinity_root", "plantoid_leader"],
+          "requirements": "",
+          "next": null,
+          "failure_next": "noticed"
+        }
+      ]
+    },
+    {
+      "id": "noticed",
+      "text": "Noticed",
+      "choices": [
+        {
+          "id": "noticed_choice_0",
+          "text": "Escape.",
+          "costs": [],
+          "reward": ["astral_threads_small", "progress_biology_25pc", "astral_threads_large"],
+          "requirements": "",
+          "next": null
+        },
+        {
+          "id": "noticed_choice_1",
+          "text": "Burn the Creature.",
+          "costs": [],
+          "reward": ["astral_threads_small", "relic_infinity_root", "plantoid_leader"],
+          "requirements": "",
+          "next": null,
+          "failure_next": "plant_material"
+        }
+      ]
+    },
+    {
+      "id": "plant_material",
+      "text": "Plant Material",
+      "choices": [
+        {
+          "id": "plant_material_choice_0",
+          "text": "End the rift.",
+          "costs": ["scientist_dies"],
+          "reward": ["progress_biology_25pc", "astral_threads_medium", "scientist_returns_plantoid"],
+          "requirements": "",
+          "next": null
+        }
+      ]
+    }
+  ]
+}

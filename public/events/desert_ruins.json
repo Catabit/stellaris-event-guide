@@ -1,0 +1,229 @@
+{
+    "id": "desert_ruins",
+    "name": "Desert Ruins",
+    "banner_url": "https://stellaris.paradoxwikis.com/images/c/ca/Evt_astral_rift_desert_ruins_first_chamber.png",
+    "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Desert_Ruins",
+    "nodes": [
+        {
+            "id": "start",
+            "text": "Desert Ruins",
+            "choices": [
+                {
+                    "id": "start_choice_0",
+                    "text": "Fascinating.",
+                    "next": "chapter_2",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_2",
+            "text": "Lost Contact",
+            "choices": [
+                {
+                    "id": "chapter_2_choice_0",
+                    "text": "Let's hope for the best.",
+                    "next": "chapter_3",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_3",
+            "text": "Outer Ruins",
+            "choices": [
+                {
+                    "id": "chapter_3_choice_0",
+                    "text": "What on [homeworld name] is going on? Weren't they lost?",
+                    "next": "chapter_4a",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_4a",
+            "text": "A Choice",
+            "choices": [
+                {
+                    "id": "chapter_4a_choice_0",
+                    "text": "Press the blue button.",
+                    "next": "chapter_5a",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                },
+                {
+                    "id": "chapter_4a_choice_1",
+                    "text": "Press the green button.",
+                    "next": null,
+                    "failure_next": "chapter_4b",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_4b",
+            "text": "The Wrong Button",
+            "choices": [
+                {
+                    "id": "chapter_4b_choice_0",
+                    "text": "Green was the wrong choice...",
+                    "next": "chapter_4c",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_4c",
+            "text": "The Blue Button",
+            "choices": [
+                {
+                    "id": "chapter_4c_choice_0",
+                    "text": "Press the blue button.",
+                    "next": "chapter_5a"
+                }
+            ]
+        },
+        {
+            "id": "chapter_5a",
+            "text": "The Second Chamber",
+            "choices": [
+                {
+                    "id": "chapter_5a_choice_0",
+                    "text": "Press the pentagon button.",
+                    "next": "chapter_6a",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                },
+                {
+                    "id": "chapter_5a_choice_1",
+                    "text": "Press the triangle button.",
+                    "next": null,
+                    "failure_next": "chapter_5b",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_5b",
+            "text": "Wrong Button",
+            "choices": [
+                {
+                    "id": "chapter_5b_choice_0",
+                    "text": "Unfortunate.",
+                    "next": "chapter_5c",
+                    "requirements": "not toxoid",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                },
+                {
+                    "id": "chapter_5b_choice_1",
+                    "text": "Fortunate.",
+                    "next": "chapter_6a",
+                    "requirements": "toxoid",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_5c",
+            "text": "The Second Chamber (retry)",
+            "choices": [
+                {
+                    "id": "chapter_5c_choice_0",
+                    "text": "Press the pentagon button.",
+                    "next": "chapter_6a",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_6a",
+            "text": "The Third Chamber",
+            "choices": [
+                {
+                    "id": "chapter_6a_choice_0",
+                    "text": "Press the button with six dots.",
+                    "next": "chapter_7a",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                },
+                {
+                    "id": "chapter_6a_choice_1",
+                    "text": "Press the button with four dots.",
+                    "next": null,
+                    "failure_next": "chapter_6b",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_6b",
+            "text": "Flood",
+            "choices": [
+                {
+                    "id": "chapter_6b_choice_0",
+                    "text": "Unfortunate.",
+                    "next": "chapter_6c",
+                    "requirements": "not aquatic"
+                },
+                {
+                    "id": "chapter_6b_choice_1",
+                    "text": "Fortunate.",
+                    "next": "chapter_7a",
+                    "requirements": "aquatic"
+                }
+            ]
+        },
+        {
+            "id": "chapter_6c",
+            "text": "The Third Chamber (retry)",
+            "choices": [
+                {
+                    "id": "chapter_6c_choice_0",
+                    "text": "Press the button with six dots.",
+                    "next": "chapter_7a",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_7a",
+            "text": "Time Crystal",
+            "choices": [
+                {
+                    "id": "chapter_7a_choice_0",
+                    "text": "Take the relic.",
+                    "next": null,
+                    "reward": [
+                        "relic_time_crystal",
+                        "trait_psychic_gain"
+                    ]
+                }
+            ]
+        }
+    ]
+}

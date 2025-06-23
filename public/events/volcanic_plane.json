@@ -1,0 +1,180 @@
+{
+    "id": "volcanic_plane",
+    "name": "Volcanic Plane",
+    "banner_url": "https://stellaris.paradoxwikis.com/images/c/c3/Evt_astral_rift_volcano.png",
+    "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Volcanic_Plane",
+    "nodes": [
+        {
+            "id": "start",
+            "text": "Volcanic Plane",
+            "choices": [
+                {
+                    "id": "start_choice_0",
+                    "text": "Explore the surroundings.",
+                    "next": "pursued",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                },
+                {
+                    "id": "start_choice_1",
+                    "text": "Fly toward the obelisk.",
+                    "next": "captured",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "pursued",
+            "text": "Pursued",
+            "choices": [
+                {
+                    "id": "pursued_choice_0",
+                    "text": "Pull the emergency anchor.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_small",
+                        "astral_threads_medium"
+                    ]
+                },
+                {
+                    "id": "pursued_choice_1",
+                    "text": "Hide in the lava.",
+                    "next": "black_obelisk",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "captured",
+            "text": "Captured",
+            "choices": [
+                {
+                    "id": "captured_choice_0",
+                    "text": "Attempt to escape.",
+                    "next": "black_obelisk",
+                    "costs": [
+                        "astral_threads_100"
+                    ]
+                },
+                {
+                    "id": "captured_choice_1",
+                    "text": "This is dangerous. Pull the emergency anchor.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_medium"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "black_obelisk",
+            "text": "The Black Obelisk",
+            "choices": [
+                {
+                    "id": "black_obelisk_choice_0",
+                    "text": "Decipher the runes.",
+                    "next": "names",
+                    "reward": [
+                        "astral_threads_medium"
+                    ]
+                },
+                {
+                    "id": "black_obelisk_choice_1",
+                    "text": "Destroy the obelisk.",
+                    "next": "shattered_obelisk_sacrifice",
+                    "failure_next": "shattered_obelisk_failure",
+                    "costs": [
+                        "exotic_gases_100"
+                    ],
+                    "reward": [
+                        "astral_threads_medium",
+                        "minerals_output_12x",
+                        "alloys_output_12x",
+                        "unity_output_12x",
+                        "astral_threads_large",
+                        "obsidian_obelisk_fragment"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "names",
+            "text": "Names",
+            "choices": [
+                {
+                    "id": "names_choice_0",
+                    "text": "Enough. Pull the emergency anchor.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_small",
+                        "astral_threads_medium"
+                    ]
+                },
+                {
+                    "id": "names_choice_1",
+                    "text": "Destroy this infernal device.",
+                    "next": "shattered_obelisk_sacrifice",
+                    "failure_next": "shattered_obelisk_failure",
+                    "reward": [
+                        "astral_threads_small",
+                        "minerals_output_12x",
+                        "alloys_output_12x",
+                        "unity_output_12x",
+                        "astral_threads_large",
+                        "obsidian_obelisk_fragment"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "shattered_obelisk_failure",
+            "text": "Shattered Obelisk or Failure",
+            "choices": [
+                {
+                    "id": "shattered_obelisk_failure_choice_0",
+                    "text": "Shattered Obelisk",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_large"
+                    ],
+                    "costs": [
+                        "scientist_temporarily_lost_1y",
+                        "scientist_returns_paranoid_traumatized"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "shattered_obelisk_sacrifice",
+            "text": "Happens in 2160 days from ending the rift",
+            "choices": [
+                {
+                    "id": "shattered_obelisk_sacrifice_choice_0",
+                    "text": "Accept",
+                    "next": null,
+                    "reward": [
+                        "restoring_the_balance_modifier"
+                    ],
+                    "costs": [
+                        "obelisk_curse_sacrifice"
+                    ]
+                },
+                {
+                    "id": "shattered_obelisk_sacrifice_choice_1",
+                    "text": "Refuse",
+                    "next": null,
+                    "reward": [],
+                    "costs": [
+                        "obelisk_curse_modifier",
+                        "obelisk_curse_sacrifice"
+                    ]
+                }
+            ]
+        }
+    ]
+}

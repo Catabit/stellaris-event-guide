@@ -1,0 +1,88 @@
+{
+  "id": "genesis",
+  "name": "Genesis",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/3/33/Evt_astral_rift_genesis_2.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Genesis",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Genesis",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Arm them with might.",
+          "reward": ["trait_strong", "astral_threads_small"],
+          "next": "fruit_of_knowledge"
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Plant the seeds of knowledge.",
+          "reward": ["trait_natural_intellectuals", "astral_threads_small"],
+          "next": "fruit_of_knowledge"
+        },
+        {
+          "id": "start_choice_2",
+          "text": "We play no games. Activate an E.M.P.",
+          "reward": ["astral_threads_large", "alloys_output_48x"],
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "fruit_of_knowledge",
+      "text": "Fruit of Knowledge",
+      "choices": [
+        {
+          "id": "fruit_of_knowledge_choice_0",
+          "text": "Diligence.",
+          "reward": ["trait_proles", "astral_threads_small"],
+          "next": "to_the_stars"
+        },
+        {
+          "id": "fruit_of_knowledge_choice_1",
+          "text": "Intuition.",
+          "reward": ["trait_ingenious", "astral_threads_small"],
+          "next": "to_the_stars"
+        }
+      ]
+    },
+    {
+      "id": "to_the_stars",
+      "text": "To The Stars",
+      "choices": [
+        {
+          "id": "to_the_stars_choice_0",
+          "text": "Preserve the old ways.",
+          "reward": ["trait_conservative", "astral_threads_small"],
+          "next": "new_life"
+        },
+        {
+          "id": "to_the_stars_choice_1",
+          "text": "Challenge every frontier.",
+          "reward": ["trait_starborn", "astral_threads_small"],
+          "next": "new_life"
+        }
+      ]
+    },
+    {
+      "id": "new_life",
+      "text": "New Life",
+      "choices": [
+        {
+          "id": "new_life_choice_0",
+          "text": "End the rift.",
+          "reward":["astral_threads_large", "pop_new_species", "genesis_core_specimen"],
+          "next": null,
+          "requirements": "not gestalt_consciousness"
+        },
+        {
+          "id": "new_life_choice_1",
+          "text": "End the rift.",
+          "reward":["astral_threads_large", "pop_new_species", "genesis_core_specimen", "research_society_24x", "genesis_insight"],
+          "next": null,
+          "requirements": "gestalt_consciousness"
+        }
+      ]
+    }
+  ]
+}

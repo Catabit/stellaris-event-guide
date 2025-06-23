@@ -1,0 +1,28 @@
+{
+  "alloys_25": { "text": "{{alloys}} 25 Alloys" },
+  "alloys_100": { "text": "{{alloys}} 100 Alloys" },
+  "astral_threads_10": { "text": "{{astral_threads}}10 Astral Threads" },
+  "astral_threads_50": { "text": "{{astral_threads}}50 Astral Threads" },
+  "astral_threads_100": { "text": "{{astral_threads}}100 Astral Threads" },
+  "astral_threads_500": { "text": "{{astral_threads}}500 Astral Threads" },
+  "exotic_gases_50": { "text": "{{exotic_gases}} 50 Exotic Gases" },
+  "exotic_gases_100": { "text": "{{exotic_gases}} 100 Exotic Gases" },
+  "minerals_50": { "text": "{{minerals}} 50 Minerals" },
+  "basic_resources_1000": { "text": "{{food}} 1000 Food (Biological) / {{minerals}} 1000 Minerals ({{lithoid}} Lithoid) / {{energy}} 1000 Energy ({{machine}} Machine)" },
+  "energy_1000": { "text": "{{energy}} 1000 Energy" },
+  "food_1000": { "text": "{{food}} 1000 Food" },
+
+  "scientist_dies": { "text": "Scientist dies" },
+  "scientist_dies_1month": { "text": "Scientist dies within a month" },
+  "scientist_ages_20y": { "text": "Scientist ages 20 years" },
+  "scientist_maimed": { "text": "Scientist gains the Maimed trait" },
+  "scientist_returns_paranoid_traumatized": { "text": "Scientist gains Immortal, Paranoia, and Traumatized traits; after another year gains Obelisk's Curse trait (+10% {{energy}} Energy production, sacrifices a {{pop}} pop yearly if on council)" },
+  "scientist_temporarily_lost": { "text": "Scientist is lost. Returns after several years" },
+  "scientist_temporarily_lost_1y": { "text": "Scientist disappears for 1 year" },
+  "scientist_temporarily_lost_5y": { "text": "Scientist disappears for 5 years" },
+
+  "hostile_fleet_spawn": { "text": "A hostile fleet is spawned" },
+  "leader_trait_black_light_blinded": { "text": "Scientist gains the Black Light Blinded trait" },
+  "obelisk_curse_modifier": { "text": "Obelisk's Curse modifier: -6% happiness for 6 years (gestalts: +6 deviancy)" },
+  "obelisk_curse_sacrifice": { "text": "Obelisk's Curse sacrifice: {{pop}} 1 pop sacrificed yearly for 6 years" }
+}

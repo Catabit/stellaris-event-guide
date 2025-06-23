@@ -1,0 +1,557 @@
+{
+  "alloys": {
+    "text": "{{alloys}} Alloys"
+  },
+  "energy": {
+    "text": "{{energy}} Energy"
+  },
+  "exotic_gases": {
+    "text": "{{exotic_gases}} Exotic Gases"
+  },
+  "minerals": {
+    "text": "{{minerals}} Minerals"
+  },
+  "minerals_5": {
+    "text": "{{minerals}} 5 Minerals"
+  },
+  "rare_crystals": {
+    "text": "{{rare_crystals}} Rare Crystals"
+  },
+  "unity": {
+    "text": "{{unity}} Unity"
+  },
+  "alloys_output_12x": {
+    "text": "{{alloys}} 12x Alloys Output"
+  },
+  "alloys_output_18x": {
+    "text": "{{alloys}} 18x Alloys Output"
+  },
+  "alloys_output_24x": {
+    "text": "{{alloys}} 24x Alloys Output"
+  },
+  "alloys_output_48x": {
+    "text": "{{alloys}} 48x Alloys Output"
+  },
+  "energy_output_18x": {
+    "text": "{{energy}} 18x Energy Output"
+  },
+  "energy_output_24x": {
+    "text": "{{energy}} 24x Energy Output"
+  },
+  "energy_output_48x": {
+    "text": "{{energy}} 48x Energy Output"
+  },
+  "exotic_gases_output_18x": {
+    "text": "{{exotic_gases}} 18x Exotic Gases output"
+  },
+  "food_output_48x": {
+    "text": "{{food}} 48x Food output"
+  },
+  "minerals_output_12x": {
+    "text": "{{minerals}} 12x Mineral Output"
+  },
+  "minerals_output_24x": {
+    "text": "{{minerals}} 24x Mineral Output"
+  },
+  "research_biology_10x": {
+    "text": "{{biology}} 10x Biology Research"
+  },
+  "research_biology_15x": {
+    "text": "{{biology}} 15x Biology Research"
+  },
+  "research_engineering": {
+    "text": "{{engineering}} Engineering Research"
+  },
+  "research_engineering_18x": {
+    "text": "{{engineering}} 18x Engineering Research output"
+  },
+  "research_engineering_24x": {
+    "text": "{{engineering}} 24x Engineering Research output"
+  },
+  "research_engineering_96x": {
+    "text": "{{engineering}} 96x Engineering Output"
+  },
+  "research_physics": {
+    "text": "{{physics}} Physics Research"
+  },
+  "research_physics_12x": {
+    "text": "{{physics}} 12x Physics Research output"
+  },
+  "research_physics_24x": {
+    "text": "{{physics}} 24x Physics Research output"
+  },
+  "research_physics_48x": {
+    "text": "{{physics}} 48x Physics Research output"
+  },
+  "research_physics_96x": {
+    "text": "{{physics}} 96x Physics Research output"
+  },
+  "research_society": {
+    "text": "{{society}} Society Research"
+  },
+  "research_society_2x": {
+    "text": "{{society}} 2x Society Research output"
+  },
+  "research_society_3": {
+    "text": "{{society}} 3x Society Research output"
+  },
+  "research_society_4": {
+    "text": "{{society}} 4x Society Research output"
+  },
+  "research_society_12x": {
+    "text": "{{society}} 12x Society Research output"
+  },
+  "research_society_18x": {
+    "text": "{{society}} 18x Society Research output"
+  },
+  "research_society_24x": {
+    "text": "{{society}} 24x Society Research output"
+  },
+  "research_society_96x": {
+    "text": "{{society}} 96x Society Research output"
+  },
+  "unity_output_12x": {
+    "text": "{{unity}} 12x Unity Output"
+  },
+  "unity_output_18x": {
+    "text": "{{unity}} 18x Unity Output"
+  },
+  "unity_output_24x": {
+    "text": "{{unity}} 24x Unity Output"
+  },
+  "unity_output_48x": {
+    "text": "{{unity}} 48x Unity Output"
+  },
+  "unity_output_96x": {
+    "text": "{{unity}} 96x Unity Output"
+  },
+  "modifier_biology_research_10pc": {
+    "text": "Empire gains Rift Samples modifier: {{biology}} +10% Biology Research for 5-10 years"
+  },
+  "modifier_biology_research_20pc": {
+    "text": "Empire gains Rift Samples modifier: {{biology}} +20% Biology Research for 10 years"
+  },
+  "modifier_physics_research_10pc_10y": {
+    "text": "Empire gains {{physics}} +10% Physics Research for 10 years",
+    "significant": true
+  },
+  "modifier_vortex_fuel": {
+    "text": "Vortex Fuel modifier: {{energy}} +10% Energy for 10 years",
+    "significant": true
+  },
+  "restoring_the_balance_modifier": {
+    "text": "Restoring the Balance modifier: {{energy}} +10% Energy production for 6 years",
+    "significant": true
+  },
+  "shield_hardening_5pc": {
+    "text": "+5% Shield Hardening",
+    "significant": true
+  },
+  "shield_hp_5pc": {
+    "text": "+5% Shield Hit Points",
+    "significant": true
+  },
+  "ship_fire_rate_10pc": {
+    "text": "+10% Ship Fire Rate",
+    "significant": true
+  },
+  "extra_dimensional_spores_modifier": {
+    "text": "Extra Dimensional Spores modifier: {{exotic_gases}} +25% Exotic Gases",
+    "significant": true
+  },
+  "lonely_planet_propulsion_modifier": {
+    "text": "{{propulsion}} +30% Propulsion Research Speed for 15 years",
+    "significant": true
+  },
+  "modifier_colonization_drones": {
+    "text": "Colonization Drones modifier: +25% Colony Development and Blocker Clearing Speed",
+    "significant": true
+  },
+  "modifier_procedural_space": {
+    "text": "Empire gains Procedural Space modifier: +1 Max Districts, +1 Max Corporate Buildings in Branch Offices",
+    "significant": true
+  },
+  "modifier_formula_pink": {
+    "text": "Formula Pink modifier: +20 opinion (non-robotic/lithoid/toxoid), +10% army health, -50% morale damage taken to armies",
+    "significant": true
+  },
+  "zroni_storm_modifier": {
+    "text": "Zroni Insight Storm Safeguard modifier: -50% negative effects of space storms",
+    "significant": true
+  },
+  "foreign_consciousness_mod": {
+    "text": "Empire gains Foreign Consciousness modifier: {{research}} +5% to all research",
+    "significant": true
+  },
+  "progress_biology_10pc": {
+    "text": "10% progress towards a random {{biology}} Biology technology"
+  },
+  "progress_biology_15pc": {
+    "text": "15% progress towards a random {{biology}} Biology technology"
+  },
+  "progress_biology_25pc": {
+    "text": "25% progress towards a random {{biology}} Biology technology"
+  },
+  "progress_computing_20pc": {
+    "text": "20% progress towards a random {{computing}} Computing technology"
+  },
+  "progress_computing_25pc": {
+    "text": "25% progress towards a random {{computing}} Computing technology"
+  },
+  "progress_field_manipulation_25pc": {
+    "text": "25% progress towards a random {{field_manipulation}} Field Manipulation technology"
+  },
+  "progress_particles_25pc": {
+    "text": "25% progress towards a random {{particles}} Particles technology"
+  },
+  "progress_particles_75pc": {
+    "text": "75% progress towards a random {{particles}} Particles technology"
+  },
+  "progress_psionics_75pc": {
+    "text": "75% progress towards a random {{psionics}} Psionics technology"
+  },
+  "research_random_military_25pc": {
+    "text": "25% progress towards a random {{military_theory}} Military Theory technology"
+  },
+  "astral_threads_small": {
+    "text": "{{astral_threads}} Small Astral Threads reward (40, 50, or 60)"
+  },
+  "astral_threads_medium": {
+    "text": "{{astral_threads}} Medium Astral Threads reward (90, 100, or 110)"
+  },
+  "astral_threads_large": {
+    "text": "{{astral_threads}} Large Astral Threads reward (140, 150, or 160)"
+  },
+  "deposit_10_physics_rift": {
+    "text": "Adds a {{physics}} 10 Physics Research deposit to the rift"
+  },
+  "deposit_10_society_rift": {
+    "text": "Adds a {{society}} 10 Society Research deposit to the rift"
+  },
+  "deposit_10_unity_rift": {
+    "text": "Adds a {{unity}} 10 Unity deposit to the rift"
+  },
+  "deposit_society_15_10y": {
+    "text": "Adds a {{society}} 15 Society Research deposit on the astral rift (removed after 10 years)"
+  },
+  "deposit_25_society_rift": {
+    "text": "Adds a {{society}} 25 Society Research deposit on the Astral Rift"
+  },
+  "physics_engineering_deposit": {
+    "text": "Adds a deposit: {{physics}} 25 Physics and {{engineering}} 25 Engineering (removed after 10 years)"
+  },
+  "convert_scientist_envoy": {
+    "text": "Option to convert the scientist into an {{envoy}} envoy (Reconverted Leader: +1 available envoys)",
+    "significant": true
+  },
+  "edict_astral_cloaking": {
+    "text": "Unlocks Astral Cloaking edict (+1 cloaking strength)",
+    "significant": true
+  },
+  "edict_automated_disinfection": {
+    "text": "Unlocks Automated Disinfection edict",
+    "significant": true
+  },
+  "event_dust_to_dust": {
+    "text": "After 2-4 years, triggers the Dust to Dust event: gives {{society}} Society Research and {{engineering}} Engineering Research, removes the {{society}} Society Research deposit from the Rift",
+    "significant": true
+  },
+  "fractal_seed_planetary_decision_3": {
+    "text": "Gain 3 Fractal Seed planetary decisions (+1 building slot)",
+    "significant": true
+  },
+  "fractal_seed_planetary_decision_9": {
+    "text": "Gain 9 Fractal Seed planetary decisions (+1 building slot)",
+    "significant": true
+  },
+  "incubate_wind_creatures_decision": {
+    "text": "Unlocks Incubate Wind Creatures decision on 3 planets (+5 max generator districts each)",
+    "significant": true
+  },
+  "intentional_tidal_locking_decision": {
+    "text": "Unlocks the Intentional Tidal Locking planetary decision (reduces max agriculture/mining districts by 3, enables Expand Dayside Infrastructure: {{energy}} +30% Energy from jobs)",
+    "significant": true
+  },
+  "obsidian_obelisk_fragment": {
+    "text": "Obsidian Obelisk Fragment specimen"
+  },
+  "paragon_oakenstalk": {
+    "text": "An option to recruit the Paragon Oakenstalk",
+    "significant": true
+  },
+  "planet_decision_rockworm_hive": {
+    "text": "Unlocks single use Rockworm Hive planetary decision ({{minerals}} +20% minerals from jobs, +5 max mining districts)",
+    "significant": true
+  },
+  "recruit_flamestorm_troopers": {
+    "text": "Unlocks the ability to recruit Flamestorm Troopers",
+    "significant": true
+  },
+  "recruit_warpling_armies": {
+    "text": "Unlocks the ability to recruit Warpling Armies",
+    "significant": true
+  },
+  "relic_continuum": {
+    "text": "Gain The Continuum relic",
+    "significant": true
+  },
+  "relic_daedalus_seal": {
+    "text": "Unlocks the Daedalus Seal relic",
+    "significant": true
+  },
+  "relic_ever_spinning_top": {
+    "text": "Gain the Ever Spinning Top relic",
+    "significant": true
+  },
+  "relic_infinity_root": {
+    "text": "Gain the Infinity Root relic",
+    "significant": true
+  },
+  "relic_plasmic_core": {
+    "text": "Grants the Plasmic Core relic",
+    "significant": true
+  },
+  "relic_time_crystal": {
+    "text": "Unlocks the Time Crystal relic",
+    "significant": true
+  },
+  "research_option_transgenic_crops": {
+    "text": "Unlocks the Transgenic Crops research option",
+    "significant": true
+  },
+  "shallow_impact_decision": {
+    "text": "Unlocks single use Display Microplanet Husk decision (+10 Stability, -30 Crime)",
+    "significant": true
+  },
+  "tech_celestial_tear": {
+    "text": "Unlocks Celestial Tear relic (+5% habitability on A/B/F/G star planets, {{astral_threads}} 1250 Astral Threads active use)",
+    "significant": true
+  },
+  "tech_farming_biology": {
+    "text": "Unlocks a random {{farming}} Farming Technology",
+    "significant": true
+  },
+  "tech_psionics": {
+    "text": "Random {{psionics}} Psionics Technology",
+    "significant": true
+  },
+  "tech_quantum_upgrade": {
+    "text": "Next-tier Quantum Firewall or Decryption tech, else a random {{computing}} Computing tech",
+    "significant": true
+  },
+  "tech_society": {
+    "text": "Gain a random {{society}} Society technology"
+  },
+  "tech_armor": {
+    "text": "Unlocks a random Armor technology",
+    "significant": true
+  },
+  "leader_trait_spark_of_genius": {
+    "text": "Scientist gains the Spark of Genius trait",
+    "significant": true
+  },
+  "plantoid_leader": {
+    "text": "Gain a Plantoid Leader",
+    "significant": true
+  },
+  "scientist_foreign_consciousness_traits": {
+    "text": "Scientist gains Resilience II, Planar Theorist, Psychic, Riftwalker, and Foreign Consciousness traits",
+    "significant": true
+  },
+  "scientist_partially_digested": {
+    "text": "Scientist gains the Partially Digested trait and a new portrait",
+    "significant": true
+  },
+  "scientist_psionic_foreign_consciousness_traits": {
+    "text": "Scientist gains Resilience, Planar Theorist, and Foreign Consciousness traits",
+    "significant": true
+  },
+  "scientist_returns_plantoid": {
+    "text": "Scientist returns as a plantoid leader after 5 years",
+    "significant": true
+  },
+  "scientist_rift_warped": {
+    "text": "Scientist goes missing and returns in 5-7 years with the Rift Warped Trait and Expertise: Propulsion I or Expertise: Voidcraft I (if it already has Propulsion I)",
+    "significant": true
+  },
+  "scientist_rift_warped_advisor": {
+    "text": "Scientist disappears for five years and returns with Rift Warped + one of Spark of Genius / Perfectionist / Roamer traits",
+    "significant": true
+  },
+  "scientist_rift_warped_corridors": {
+    "text": "Scientist returns in 5 years with Rift Warped and either Expertise: Materials I or Expertise: Particles I",
+    "significant": true
+  },
+  "scientist_rift_warped_replacement": {
+    "text": "In 1 year, receive a new Level 6 Scientist with Rift Warped trait and random specialization",
+    "significant": true
+  },
+  "scientist_tower_species": {
+    "text": "Gain a Scientist of The Tower's species with Society Focus and Increased Lifespan traits in one year",
+    "significant": true
+  },
+  "specimen_cleaning_drone": {
+    "text": "Repurposed Cleaning Drone specimen: +25% Planetary Build Speed",
+    "significant": true
+  },
+  "trait_psychic_gain": {
+    "text": "Leader gains the Psychic trait if they have Latent Psionic",
+    "significant": true
+  },
+  "trait_sanitary_drone_assistant": {
+    "text": "Scientist gains the Sanitary Drone Assistant trait",
+    "significant": true
+  },
+  "resource_dark_matter": {
+    "text": "{{dark_matter}} Dark Matter"
+  },
+  "resource_dark_matter_100": {
+    "text": "{{dark_matter}} 100 Dark Matter"
+  },
+  "baol_pops_3": {
+    "text": "3 Baol Pops are created on a random planet",
+    "significant": true
+  },
+  "basic_resource_jobs_05": {
+    "text": "{{food}} +0.5 Food from Farmers (Biological) / {{minerals}} +0.5 Minerals from Miners ({{lithoid}} Lithoid) / {{energy}} +0.5 Energy from Technicians ({{machine}} Machine)",
+    "significant": true
+  },
+  "habitability_5pc": {
+    "text": "+5% Habitability",
+    "significant": true
+  },
+  "pop_growth_speed_5pc": {
+    "text": "+5% Pop Growth Speed",
+    "significant": true
+  },
+  "astral_rift_speed_25pc": {
+    "text": "+25% Astral Rift Exploration Speed",
+    "significant": true
+  },
+  "astral_rift_fail_risk_50pc": {
+    "text": "-50% Astral Rift Fail Probability",
+    "significant": true
+  },
+  "armor_hp_10pc": {
+    "text": "+10% Armor Hit Points",
+    "significant": true
+  },
+  "armor_hardening_10pc": {
+    "text": "+10% Armor Hardening",
+    "significant": true
+  },
+  "kinetic_damage_10pc": {
+    "text": "+10% Kinetic Damage",
+    "significant": true
+  },
+  "shield_hp_10pc": {
+    "text": "+10% Shield Hit Points",
+    "significant": true
+  },
+  "shield_hardening_10pc": {
+    "text": "+10% Shield Hardening",
+    "significant": true
+  },
+  "sublight_speed_5pc": {
+    "text": "+5% Sublight Speed",
+    "significant": true
+  },
+  "ship_build_speed_5pc": {
+    "text": "+5% Ship Build Speed",
+    "significant": true
+  },
+  "scientist_rift_warped_lv3": {
+    "text": "Gain a level 3 Scientist with the Rift Warped Trait"
+  },
+  "commander_rift_warped_lv3": {
+    "text": "Gain a level 3 Commander with the Rift Warped Trait"
+  },
+  "official_rift_warped_lv3": {
+    "text": "Gain a level 3 Official with the Rift Warped Trait"
+  },
+  "official_unaging_50": {
+    "text": "Gain an Official with age 50, unable to receive negative traits"
+  },
+  "research": {
+    "text": "{{research}} Research"
+  },
+  "trait_strong": {
+    "text": "Give the new species the Strong trait"
+  },
+  "trait_natural_intellectuals": {
+    "text": "Give the new species the Natural Intellectuals trait"
+  },
+  "trait_proles": {
+    "text": "Give the new species the Proles trait"
+  },
+  "trait_ingenious": {
+    "text": "Give the new species the Ingenious trait"
+  },
+  "trait_conservative": {
+    "text": "Give the new species the Conservative trait"
+  },
+  "trait_starborn": {
+    "text": "Give the new species the Starborn trait"
+  },
+  "pop_new_species": {
+    "text": "On a random colony, one new {{pop}} pop is created from the new species. The new species' climate preference will match the colony"
+  },
+  "genesis_core_specimen": {
+    "text": "Genesis Core specimen: +6% Organic Pop Assembly Speed",
+    "significant": true
+  },
+  "genesis_insight": {
+    "text": "Gains empire modifier Genesis Insight: {{society}} +5% Society Research",
+    "significant": true
+  },
+  "governing_ethics_attraction_50pc_10y": {
+    "text": "Gains empire modifier Governing Ethics Attraction +50% for 10 years",
+    "significant": true
+  },
+  "establish_communications_mirror_empire": {
+    "text": "Establishes communications with the Mirror Empire"
+  },
+  "interdimensional_treaty_specimen": {
+    "text": "Interdimensional Treaty specimen: {{unity}} +10 Unity"
+  },
+  "fractured_ambassadors": {
+    "text": "Gains empire modifier Fractured Ambassadors: +10% Diplomatic Weight, +20 Opinion with non-Gestalt empires",
+    "significant": true
+  },
+  "scientist_younger_5y": {
+    "text": "Scientist becomes 5 years younger",
+    "significant": true
+  },
+  "a_star_is_born_modifier_10y": {
+    "text": "Gains empire modifier A Star is Born: {{physics}} +10% Physics Research for 10 years",
+    "significant": true
+  },
+  "tech_biology_genetics_random": {
+    "text": "Unlocks a random Genetics technology",
+    "significant": true
+  },
+  "tech_physics_wormhole_stabilization_or_particles_progress_50pc": {
+    "text": "Unlocks Wormhole Stabilization if possible or receive 50% progress towards a random {{particles}} Particles technology",
+    "significant": true
+  },
+  "revolutionary_medigel_modifier": {
+    "text": "Gains empire modifier Revolutionary Medigel: +50% output from Medical Workers",
+    "significant": true
+  },
+  "tech_industry_robotics_progress_10pc": {
+    "text": "Receive 10% progress towards a random {{industry}} Robotics technology",
+    "significant": true
+  },
+  "edict_spontaneous_crystallization": {
+    "text": "Gain the Spontaneous Crystallization edict: convert {{minerals}} 1% Mineral output into {{rare_crystals}} Rare Crystals",
+    "significant": true
+  },
+  "strange_wormhole_spawn": {
+    "text": "Spawns the Strange Wormhole giving access to the azilash system",
+    "significant": true
+  },
+  "situation_the_seal": {
+    "text": "Begins The Seal situation",
+    "significant": true
+  }
+}

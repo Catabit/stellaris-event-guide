@@ -1,0 +1,107 @@
+{
+    "id": "the_advisor",
+    "name": "The Advisor",
+    "banner_url": "https://stellaris.paradoxwikis.com/images/c/ce/Evt_astral_rift_vir_blue.png",
+    "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#The_Advisor",
+    "nodes": [
+        {
+            "id": "start",
+            "text": "The Advisor",
+            "choices": [
+                {
+                    "id": "start_choice_0",
+                    "text": "Ask for assistance.",
+                    "next": "ask_further_or_disable",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                },
+                {
+                    "id": "start_choice_1",
+                    "text": "Disable this thing.",
+                    "next": "placate_or_pulse",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ask_further_or_disable",
+            "text": "PLACEHOLDER_NODE_TEXT",
+            "choices": [
+                {
+                    "id": "ask_further_or_disable_choice_0",
+                    "text": "Ask for FURTHER assistance.",
+                    "next": null,
+                    "reward": [
+                        "scientist_rift_warped_advisor",
+                        "astral_threads_small"
+                    ],
+                    "costs": [
+                        "scientist_temporarily_lost_5y"
+                    ]
+                },
+                {
+                    "id": "ask_further_or_disable_choice_1",
+                    "text": "Disable this thing.",
+                    "next": "placate_or_pulse",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "placate_or_pulse",
+            "text": "PLACEHOLDER_NODE_TEXT",
+            "choices": [
+                {
+                    "id": "placate_or_pulse_choice_0",
+                    "text": "Placate the machine.",
+                    "next": null,
+                    "reward": [
+                        "scientist_rift_warped_advisor",
+                        "astral_threads_small"
+                    ],
+                    "costs": [
+                        "scientist_temporarily_lost_5y"
+                    ]
+                },
+                {
+                    "id": "placate_or_pulse_choice_1",
+                    "text": "Discharge an electromagnetic pulse.",
+                    "next": "recover_or_destroy",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "recover_or_destroy",
+            "text": "PLACEHOLDER_NODE_TEXT",
+            "choices": [
+                {
+                    "id": "recover_or_destroy_choice_0",
+                    "text": "Attempt to recover its core.",
+                    "next": null,
+                    "reward": [
+                        "research_engineering",
+                        "alloys",
+                        "progress_computing_20pc"
+                    ]
+                },
+                {
+                    "id": "recover_or_destroy_choice_1",
+                    "text": "Destroy the machine completely.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_large",
+                        "research_engineering"
+                    ]
+                }
+            ]
+        }
+    ]
+}

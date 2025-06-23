@@ -1,0 +1,234 @@
+:root {
+  /* Typography */
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: var(--stellaris-text, #e0ffe0);
+  background-color: var(--stellaris-bg, #181f18);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 90%;
+
+  /* Stellaris Theme Variables */
+  --stellaris-bg: #1f261f;
+  --stellaris-bg-panel-gradient: linear-gradient(180deg, #1a2d1a 0%, #223322 100%);
+  --stellaris-bg-banner: #162a16;
+  --stellaris-bg-btn: #1e3a1e;
+  --stellaris-bg-btn-hover: #223322;
+  --stellaris-bg-fail: #3a1e1e;
+  --stellaris-bg-fail-hover: #4d2323;
+  --stellaris-bg-variant: #202c20;
+  --stellaris-bg-variant-nested: #181f18;
+  --stellaris-border: #3fa36c;
+  --stellaris-border-fail: #a33f3f;
+  --stellaris-radius-lg: 1.125rem;
+  --stellaris-radius-md: 0.875rem;
+  --stellaris-radius-sm: 0.5rem;
+  --stellaris-radius-xs: 0.25rem;
+  --stellaris-radius-xxs: 0.125rem;
+  --stellaris-shadow-panel: 0 0 1.5rem #000a, 0 0 0 0.25rem #2e4d2e;
+  --stellaris-shadow-btn: 0 1px 4px #000a;
+  --stellaris-shadow-inset: 0 0.125rem 0.5rem #000a inset;
+  --stellaris-text: #e0ffe0;
+  --stellaris-text-secondary: #b6ffb6;
+  --stellaris-text-primary: #3fa36c;
+  --stellaris-text-warning: #ffb14e;
+  --stellaris-text-fail: #ffb6b6;
+  --stellaris-text-variant: #baffb7;
+  --stellaris-accent: #ffb14e;
+  --stellaris-accent-2: #7fffbe;
+}
+body, #root, html {
+  background: var(--stellaris-bg) !important;
+  color: var(--stellaris-text);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+#root {
+  margin: 0 auto;
+  padding: 2rem 0 0 0;
+  text-align: center;
+  width: 100%;
+  min-width: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+a {
+  font-weight: 400;
+  color: var(--stellaris-accent-2);
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--stellaris-accent);
+}
+
+::-webkit-scrollbar {
+  background: var(--stellaris-bg-btn-hover);
+  width: 0.625rem;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--stellaris-border);
+  border-radius: 0.375rem;
+}
+
+.stellaris-panel {
+  background: var(--stellaris-bg-panel-gradient);
+  border: 0.125rem solid var(--stellaris-border);
+  border-radius: var(--stellaris-radius-md);
+  box-shadow: var(--stellaris-shadow);
+  color: var(--stellaris-text);
+  max-width: 30em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.stellaris-panel-header {
+  background: var(--stellaris-bg-banner);
+  color: var(--stellaris-text-secondary);
+  border-bottom: 0.0625rem solid var(--stellaris-border);
+  border-radius: var(--stellaris-radius-sm) var(--stellaris-radius-sm) 0 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-align: left;
+  padding: 0.4rem 0.6rem;
+}
+
+.stellaris-panel-body {
+  padding: 1.2rem;
+}
+
+.form-select {
+  background: var(--stellaris-bg-btn);
+  border: 0.125rem solid var(--stellaris-border);
+  color: var(--stellaris-text-secondary);
+  appearance: none;
+  padding-right: 2.5em;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23b6ffb6" height="16" viewBox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7.293 7.293a1 1 0 011.414 0L10 8.586l1.293-1.293a1 1 0 111.414 1.414l-2 2a1 1 0 01-1.414 0l-2-2a1 1 0 010-1.414z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 0.75em center;
+  background-size: 1.2em;
+}
+
+.form-select:hover {
+  border-color: var(--stellaris-border);
+  box-shadow: 0 0 0 0.125rem #3fa36c55;
+}
+
+.text-primary {
+  color: var(--stellaris-text-primary) !important;
+}
+
+.text-reward {
+  color: var(--stellaris-text-variant) !important;
+}
+
+.text-cost {
+  color: var(--stellaris-text-fail) !important;
+}
+
+.reward-list-item, .cost-list-item {
+  font-size: 1em;
+  margin: 0.05em 0;
+  line-height: 1.4;
+  word-break: break-word;
+  text-indent: 0.1rem;
+}
+.reward-icon,
+.cost-icon {
+  font-weight: 700;
+  display: inline-block;
+  width: 1rem;
+  text-align: left;
+}
+.stellaris-text-icon {
+  vertical-align: middle;
+  margin: 0 0.1em 0 0.1em;
+  filter: drop-shadow(0 0 2px #3fa36c88);
+}
+.stellaris-separator {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--stellaris-border) 30%, var(--stellaris-border) 70%, transparent 100%);
+  opacity: 0.6;
+  margin: 0.25em 0 0.25em 0;
+  border: none;
+  pointer-events: none;
+}
+.stellaris-main-grid {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.stellaris-main-grid-event-simulator-group {
+    display: contents;
+}
+.stellaris-event-selector {
+    order: 1;
+}
+.stellaris-outcome-selector {
+    order: 2;
+}
+.stellaris-requirements-selector {
+    order: 3;
+}
+.stellaris-simulator {
+    order: 4;
+}
+
+@media (min-width: 1000px) {
+    :root {
+      font-size: 100%;
+    }
+
+    .stellaris-main-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        gap: 1rem;
+        align-items: start;
+    }
+
+    .stellaris-outcome-selector {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+
+    .stellaris-main-grid-event-simulator-group {
+        display: grid;
+        grid-column: 2;
+        grid-template-rows: auto auto;
+        align-self: start;
+        gap: 1rem;
+    }
+
+    .stellaris-requirements-selector {
+        grid-column: 3;
+        grid-row: 1 / span 2;
+    }
+}
+.stellaris-footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  color: var(--stellaris-border);
+  font-size: 0.85rem;
+  justify-self: flex-end;
+  max-width: 60em;
+}

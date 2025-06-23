@@ -1,0 +1,175 @@
+{
+  "id": "strange_station",
+  "name": "Strange Station",
+  "banner_url": "",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Strange_Station",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Strange Station",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Study their people.",
+          "reward": [
+            "astral_threads_small"
+          ],
+          "requirements": "not gestalt_consciousness",
+          "next": "studying_people"
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Study their fleets.",
+          "reward": [
+            "astral_threads_small"
+          ],
+          "requirements": "not gestalt_consciousness",
+          "next": "studying_fleets"
+        },
+        {
+          "id": "start_choice_2",
+          "text": "Study their people.",
+          "reward": [
+            "astral_threads_small"
+          ],
+          "requirements": "gestalt_consciousness",
+          "next": "studying_people_gestalt"
+        },
+        {
+          "id": "start_choice_3",
+          "text": "Study their fleets.",
+          "reward": [
+            "astral_threads_small"
+          ],
+          "requirements": "gestalt_consciousness",
+          "next": "studying_fleets_gestalt"
+        }
+      ]
+    },
+    {
+      "id": "studying_people",
+      "text": "Studying Their People",
+      "choices": [
+        {
+          "id": "studying_people_choice_0",
+          "text": "Excellent.",
+          "requirements": "not gestalt_consciousness",
+          "reward": [
+            "research_society",
+            "astral_threads_small"
+          ],
+          "next": "diplomatic_opportunity"
+        }
+      ]
+    },
+    {
+      "id": "studying_people_gestalt",
+      "text": "Studying Their People",
+      "choices": [
+        {
+          "id": "studying_people_choice_1",
+          "text": "<Unknown Quote>",
+          "requirements": "gestalt_consciousness",
+          "reward": [
+            "unity",
+            "astral_threads_small"
+          ],
+          "next": "diplomatic_opportunity_gestalt"
+        }
+      ]
+    },
+    {
+      "id": "studying_fleets",
+      "text": "Studying Their Fleets",
+      "choices": [
+        {
+          "id": "studying_fleets_choice_0",
+          "text": "Excellent.",
+          "requirements": "not gestalt_consciousness",
+          "reward": [
+            "research_engineering",
+            "astral_threads_small"
+          ],
+          "next": "diplomatic_opportunity"
+        }
+      ]
+    },
+    {
+      "id": "studying_fleets_gestalt",
+      "text": "Studying Their Fleets",
+      "choices": [
+        {
+          "id": "studying_fleets_choice_1",
+          "text": "<Unknown Quote>",
+          "requirements": "gestalt_consciousness",
+          "reward": [
+            "unity",
+            "astral_threads_small"
+          ],
+          "next": "diplomatic_opportunity_gestalt"
+        }
+      ]
+    },
+    {
+      "id": "diplomatic_opportunity",
+      "text": "Diplomatic Opportunity",
+      "choices": [
+        {
+          "id": "diplomatic_opportunity_choice_0",
+          "text": "Welcome friendship between our empires.",
+          "reward": [
+            "astral_threads_small",
+            "research_society",
+            "governing_ethics_attraction_50pc_10y",
+            "establish_communications_mirror_empire",
+            "interdimensional_treaty_specimen"
+          ],
+          "requirements": "not gestalt_consciousness",
+          "next": null
+        },
+        {
+          "id": "diplomatic_opportunity_choice_2",
+          "text": "Spurn their offer.",
+          "reward": [
+            "astral_threads_small",
+            "astral_threads_medium",
+            "unity",
+            "interdimensional_treaty_specimen"
+          ],
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "diplomatic_opportunity_gestalt",
+      "text": "Diplomatic Opportunity",
+      "choices": [
+        {
+          "id": "diplomatic_opportunity_choice_1",
+          "text": "Welcome friendship between our empires.",
+          "reward": [
+            "astral_threads_small",
+            "research_society",
+            "governing_ethics_attraction_50pc_10y",
+            "establish_communications_mirror_empire",
+            "interdimensional_treaty_specimen",
+            "fractured_ambassadors"
+          ],
+          "requirements": "gestalt_consciousness",
+          "next": null
+        },
+        {
+          "id": "diplomatic_opportunity_choice_2",
+          "text": "Spurn their offer.",
+          "reward": [
+            "astral_threads_small",
+            "astral_threads_medium",
+            "unity",
+            "interdimensional_treaty_specimen"
+          ],
+          "next": null
+        }
+      ]
+    }
+  ]
+}

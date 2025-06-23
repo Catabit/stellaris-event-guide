@@ -1,0 +1,48 @@
+{
+  "id": "hatching_ground",
+  "name": "Hatching Ground",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/4/42/Evt_astral_rift_hatchingground.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Hatching_Ground",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Hatching Ground",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Continue.",
+          "next": "choice_step",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "choice_step",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "choice_step_choice_0",
+          "text": "Get closer.",
+          "next": null,
+          "reward": [
+            "astral_threads_small",
+            "research_engineering",
+            "unity",
+            "astral_threads_large"
+          ]
+        },
+        {
+          "id": "choice_step_choice_1",
+          "text": "Keep your distance.",
+          "next": null,
+          "reward": [
+            "astral_threads_small",
+            "lonely_planet_propulsion_modifier",
+            "unity",
+            "astral_threads_large"
+          ]
+        }
+      ]
+    }
+  ]
+}

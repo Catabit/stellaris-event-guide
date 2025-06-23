@@ -1,0 +1,99 @@
+{
+  "static": {
+    "fanatic_authoritarian": {
+      "text": "{{fanatic_authoritarian}} Fanatic Authoritarian"
+    },
+    "authoritarian": {
+      "text": "{{authoritarian}} Authoritarian"
+    },
+    "egalitarian": {
+      "text": "{{egalitarian}} Egalitarian"
+    },
+    "fanatic_egalitarian": {
+      "text": "{{fanatic_egalitarian}} Fanatic Egalitarian"
+    },
+    "fanatic_spiritualist": {
+      "text": "{{fanatic_spiritualist}} Fanatic Spiritualist"
+    },
+    "spiritualist": {
+      "text": "{{spiritualist}} Spiritualist"
+    },
+    "materialist": {
+      "text": "{{materialist}} Materialist"
+    },
+    "fanatic_materialist": {
+      "text": "{{fanatic_materialist}} Fanatic Materialist"
+    },
+    "fanatic_militarist": {
+      "text": "{{fanatic_militarist}} Fanatic Militarist"
+    },
+    "militarist": {
+      "text": "{{militarist}} Militarist"
+    },
+    "pacifist": {
+      "text": "{{pacifist}} Pacifist"
+    },
+    "fanatic_pacifist": {
+      "text": "{{fanatic_pacifist}} Fanatic Pacifist"
+    },
+    "fanatic_xenophobe": {
+      "text": "{{fanatic_xenophobe}} Fanatic Xenophobe"
+    },
+    "xenophobe": {
+      "text": "{{xenophobe}} Xenophobe"
+    },
+    "xenophile": {
+      "text": "{{xenophile}} Xenophile"
+    },
+    "fanatic_xenophile": {
+      "text": "{{fanatic_xenophile}} Fanatic Xenophile"
+    },
+    "gestalt_consciousness": {
+      "text": "{{gestalt_consciousness}} Gestalt Consciousness"
+    },
+    "barbaric_despoilers": {
+      "text": "{{barbaric_despoilers}} Barbaric Despoilers"
+    },
+    "aquatic": {
+      "text": "{{aquatic}} Aquatic or {{waterproof}} Waterproof"
+    },
+    "genocidal": {
+      "text": "{{fanatic_purifier}}{{devouring_swarm}}{{determined_exterminator}} Genocidal"
+    },
+    "lithoid": {
+      "text": "{{lithoid}} Lithoid"
+    },
+    "biological": {
+      "text": "{{biological}} Biological"
+    },
+    "machine": {
+      "text": "{{machine}} Machine"
+    },
+    "toxoid": {
+      "text": "{{toxoid}} Toxoid"
+    }
+  },
+  "dynamic": {
+    "basic_cloaking_fields": {
+      "text": "Have Basic Cloaking Fields techology"
+    },
+    "gene_tailoring": {
+      "text": "Have Gene Tailoring technology"
+    },
+    "has_zroni": {
+      "text": "Discovered the Zroni precursor"
+    },
+    "precursor_baol": {
+      "text": "Encountered the Baol precursor"
+    },
+    "rare_technology": {
+      "text": "Have any rare technology"
+    },
+    "scientist_is_psionic": {
+      "text": "Scientist has the {{psionics}} Psychic trait"
+    },
+    "has_wormhole_stabilization": {
+      "text": "Has Wormhole Stabilization technology"
+    }
+  }
+}

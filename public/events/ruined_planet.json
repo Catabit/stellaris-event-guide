@@ -1,0 +1,276 @@
+{
+  "id": "ruined_planet",
+  "name": "Ruined Planet",
+  "banner_url": "",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Ruined_Planet",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Ruined Planet",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Search for remaining survivors.",
+          "next": "opposing_factions"
+        }
+      ]
+    },
+    {
+      "id": "opposing_factions",
+      "text": "Opposing Factions",
+      "choices": [
+        {
+          "id": "opposing_factions_choice_0",
+          "text": "Visit the Black Curtain.",
+          "requirements": "not genocidal",
+          "next": "lost_ancestors_black_curtain"
+        },
+        {
+          "id": "opposing_factions_choice_1",
+          "text": "Visit the Starlight Vanguard.",
+          "next": "lost_ancestors_starlight_vanguard"
+        }
+      ]
+    },
+    {
+      "id": "lost_ancestors_black_curtain",
+      "text": "Lost Ancestors (Black Curtain)",
+      "choices": [
+        {
+          "id": "lost_ancestors_black_curtain_choice_0",
+          "text": "The flow of time is vastly different here...",
+          "next": "black_curtain_1"
+        },
+        {
+          "id": "lost_ancestors_black_curtain_choice_1",
+          "text": "We were engineered?",
+          "next": "black_curtain_1"
+        }
+      ]
+    },
+    {
+      "id": "lost_ancestors_starlight_vanguard",
+      "text": "Lost Ancestors (Starlight Vanguard)",
+      "choices": [
+        {
+          "id": "lost_ancestors_starlight_vanguard_choice_0",
+          "text": "The flow of time is vastly different here...",
+          "next": "starlight_vanguard_2"
+        },
+        {
+          "id": "lost_ancestors_starlight_vanguard_choice_1",
+          "text": "We were engineered?",
+          "next": "starlight_vanguard_2"
+        }
+      ]
+    },
+    {
+      "id": "black_curtain_1",
+      "text": "The Black Curtain (First Visit)",
+      "choices": [
+        {
+          "id": "black_curtain_1_choice_0",
+          "text": "Offer basic resources.",
+          "costs": ["basic_resources_1000"],
+          "reward": ["basic_resource_jobs_05", "habitability_5pc", "pop_growth_speed_5pc"],
+          "next": "world_council"
+        },
+        {
+          "id": "black_curtain_1_choice_1",
+          "text": "Offer astral threads.",
+          "costs": ["astral_threads_100"],
+          "reward": ["astral_rift_speed_25pc", "astral_rift_fail_risk_50pc", "habitability_5pc", "pop_growth_speed_5pc"],
+          "next": "world_council"
+        },
+        {
+          "id": "black_curtain_1_choice_2",
+          "text": "These efforts are hopeless. Let us visit the militants.",
+          "reward": ["unity", "astral_threads_large"],
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "starlight_vanguard_1",
+      "text": "The Starlight Vanguard (Second Visit)",
+      "choices": [
+        {
+          "id": "starlight_vanguard_1_choice_0",
+          "text": "Offer alloys.",
+          "costs": ["alloys_100"],
+          "reward": ["armor_hp_10pc", "armor_hardening_10pc", "kinetic_damage_10pc"],
+          "next": "world_council"
+        },
+        {
+          "id": "starlight_vanguard_1_choice_1",
+          "text": "Offer astral threads.",
+          "costs": ["astral_threads_100"],
+          "reward": ["shield_hp_10pc", "shield_hardening_10pc", "kinetic_damage_10pc"],
+          "next": "world_council"
+        },
+        {
+          "id": "starlight_vanguard_1_choice_2",
+          "text": "This is a lost cause. Let us return to the new world.",
+          "reward": ["unity", "astral_threads_large"],
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "starlight_vanguard_2",
+      "text": "The Starlight Vanguard (First Visit)",
+      "choices": [
+        {
+          "id": "starlight_vanguard_2_choice_0",
+          "text": "Offer alloys.",
+          "costs": ["alloys_100"],
+          "reward": ["armor_hp_10pc", "armor_hardening_10pc", "kinetic_damage_10pc"],
+          "next": "world_council"
+        },
+        {
+          "id": "starlight_vanguard_2_choice_1",
+          "text": "Offer astral threads.",
+          "costs": ["astral_threads_100"],
+          "reward": ["shield_hp_10pc", "shield_hardening_10pc", "kinetic_damage_10pc"],
+          "next": "world_council"
+        },
+        {
+          "id": "starlight_vanguard_2_choice_2",
+          "text": "This war is hopeless. Let us visit the preservationists.",
+          "requirements": "not genocidal",
+          "reward": ["unity", "astral_threads_large"],
+          "next": "black_curtain_2"
+        },
+        {
+          "id": "starlight_vanguard_2_choice_3",
+          "text": "This is a lost cause. Let us return to the new world.",
+          "requirements": "genocidal",
+          "reward": ["unity", "astral_threads_large"],
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "black_curtain_2",
+      "text": "The Black Curtain (Second Visit)",
+      "choices": [
+        {
+          "id": "black_curtain_2_choice_0",
+          "text": "Offer basic resources.",
+          "costs": ["basic_resources_1000"],
+          "reward": ["basic_resource_jobs_05", "habitability_5pc", "pop_growth_speed_5pc"],
+          "next": "world_council"
+        },
+        {
+          "id": "black_curtain_2_choice_1",
+          "text": "Offer astral threads.",
+          "costs": ["astral_threads_100"],
+          "reward": ["astral_rift_speed_25pc", "astral_rift_fail_risk_50pc", "habitability_5pc", "pop_growth_speed_5pc"],
+          "next": "world_council"
+        },
+        {
+          "id": "black_curtain_2_choice_2",
+          "text": "This is a lost cause. Let us return to the new world.",
+          "reward": ["unity", "astral_threads_large"],
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "world_council",
+      "text": "World Council",
+      "choices": [
+        {
+          "id": "world_council_choice_0",
+          "text": "Offer astral threads.",
+          "costs": ["astral_threads_100"],
+          "reward": ["sublight_speed_5pc"],
+          "next": "council_outcome",
+          "failure_next": "devastation"
+        },
+        {
+          "id": "world_council_choice_1",
+          "text": "Offer energy.",
+          "costs": ["energy_1000"],
+          "reward": ["ship_build_speed_5pc"],
+          "next": "council_outcome",
+          "failure_next": "devastation"
+        },
+        {
+          "id": "world_council_choice_2",
+          "text": "Offer nothing.",
+          "next": "council_outcome",
+          "failure_next": "devastation"
+        }
+      ]
+    },
+    {
+      "id": "council_outcome",
+      "text": "Celebration",
+      "choices": [
+        {
+          "id": "council_outcome_choice_0",
+          "text": "Recruit scientist.",
+          "reward": ["scientist_rift_warped_lv3"],
+          "next": null
+        },
+        {
+          "id": "council_outcome_choice_1",
+          "text": "Recruit commander.",
+          "reward": ["commander_rift_warped_lv3"],
+          "next": null
+        },
+        {
+          "id": "council_outcome_choice_2",
+          "text": "Recruit official.",
+          "reward": ["official_rift_warped_lv3"],
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "devastation",
+      "text": "Devastation",
+      "choices": [
+        {
+          "id": "devastation_choice_0",
+          "text": "Take as many back as we can.",
+          "reward": ["unity"],
+          "next": null
+        },
+        {
+          "id": "devastation_choice_1",
+          "text": "Accept the noble's offer.",
+          "reward": ["energy", "official_unaging_50"],
+          "next": null
+        },
+        {
+          "id": "devastation_choice_2",
+          "text": "Preserve the library.",
+          "requirements": "not genocidal",
+          "reward": ["research", "unity"],
+          "next": null
+        },
+        {
+          "id": "devastation_choice_3",
+          "text": "Claim their knowledge.",
+          "requirements": "genocidal",
+          "reward": ["research", "unity"],
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "spirit_of_ancestors",
+      "text": "Spirit of our Ancestors",
+      "choices": [
+        {
+          "id": "spirit_of_ancestors_choice_0",
+          "text": "Accept the legacy.",
+          "reward": [],
+          "next": null
+        }
+      ]
+    }
+  ]
+}

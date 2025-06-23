@@ -1,0 +1,109 @@
+{
+  "id": "entangled_dark_matter",
+  "name": "Entangled Dark Matter",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/2/24/Evt_astral_rift_entangled_dark_matter.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Entangled_Dark_Matter",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Entangled Dark Matter",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Examine the mesh.",
+          "next": "mesh_1",
+          "reward": ["resource_dark_matter"]
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Approach the mass of dark matter.",
+          "next": "mass_1",
+          "reward": ["resource_dark_matter"]
+        }
+      ]
+    },
+    {
+      "id": "mesh_1",
+      "text": "Examining the mesh",
+      "choices": [
+        {
+          "id": "mesh_1_choice_0",
+          "text": "Remove the device.",
+          "next": null,
+          "reward": ["research_engineering", "resource_dark_matter", "astral_threads_large"]
+        },
+        {
+          "id": "mesh_1_choice_1",
+          "text": "Investigate the captive mass.",
+          "next": "mass_1",
+          "reward": ["research_engineering"]
+        }
+      ]
+    },
+    {
+      "id": "mass_1",
+      "text": "The captive mass pulses with potential.",
+      "choices": [
+        {
+          "id": "mass_1_choice_0",
+          "text": "Offer this scientist as a vessel.",
+          "next": null,
+          "failure_next": "vessel_failure",
+          "requirements": "scientist_is_psionic",
+          "reward": ["astral_threads_large", "scientist_psionic_foreign_consciousness_traits"]
+        },
+        {
+          "id": "mass_1_choice_1",
+          "text": "Offer this scientist as a vessel.",
+          "next": null,
+          "failure_next": "vessel_failure",
+          "requirements": "not scientist_is_psionic and not egalitarian",
+          "reward":["scientist_foreign_consciousness_traits"]
+        },
+        {
+          "id": "mass_1_choice_2",
+          "text": "Assimilate the entity.",
+          "next": null,
+          "requirements": "gestalt_consciousness",
+          "reward": ["astral_threads_large", "foreign_consciousness_mod"]
+        },
+        {
+          "id": "mass_1_choice_3",
+          "text": "Deny this proposal / Deny assimilation.",
+          "next": "deny_entity"
+        }
+      ]
+    },
+    {
+      "id": "vessel_failure",
+      "text": "The entity rejects the vessel.",
+      "choices": [
+        {
+          "id": "vessel_failure_choice_0",
+          "text": "The scientist is lost.",
+          "next": null,
+          "costs": ["scientist_dies"],
+          "reward": ["resource_dark_matter", "astral_threads_large"]
+        }
+      ]
+    },
+    {
+      "id": "deny_entity",
+      "text": "You reject the entity's offer.",
+      "choices": [
+        {
+          "id": "deny_entity_choice_0",
+          "text": "Euthanize the ethereal creature / Kill it.",
+          "next": null,
+          "reward": ["astral_threads_small", "resource_dark_matter"]
+        },
+        {
+          "id": "deny_entity_choice_1",
+          "text": "Preserve the captive for study.",
+          "next": null,
+          "reward": ["astral_threads_small", "physics_engineering_deposit", "astral_threads_large"]
+        }
+      ]
+    }
+  ]
+}

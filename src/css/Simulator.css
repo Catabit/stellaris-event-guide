@@ -1,0 +1,171 @@
+.stellaris-sim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+.stellaris-sim-banner-wrap {
+  width: 100%;
+  background: var(--stellaris-bg-banner);
+  border: var(--stellaris-radius-xxs) solid var(--stellaris-border);
+  border-radius: var(--stellaris-radius-md);
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.stellaris-sim-banner {
+  width: 100%;
+  display: block;
+  max-height: 10rem;
+  object-fit: cover;
+}
+.stellaris-sim-node-title {
+  color: var(--stellaris-text-warning);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+  width: 100%;
+}
+.stellaris-sim-choice-list {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0 1.5rem;
+  width: 100%;
+  max-width: 30em;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.stellaris-sim-choice-item {
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  gap: 0;
+}
+
+.stellaris-sim-choice-btn {
+  background: var(--stellaris-bg-variant);
+  color: var(--stellaris-text-variant);
+  border: 0.125rem solid var(--stellaris-border);
+  border-radius: var(--stellaris-radius-sm);
+  font-size: 1rem;
+  font-weight: 400;
+  transition: background 0.2s, border 0.2s, color 0.2s;
+  width: 100%;
+  text-align: left;
+  box-shadow: var(--stellaris-shadow-btn);
+  cursor: pointer;
+  min-height: 3.5em;
+  flex: 1 1 0%;
+  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0;
+}
+.stellaris-sim-choice-btn:hover {
+  background: var(--stellaris-bg-btn-hover);
+  border-color: var(--stellaris-accent);
+}
+.stellaris-sim-choice-btn .stellaris-sim-choice-btn-maintext {
+  font-size: 1.08em;
+  font-weight: 700;
+}
+
+.stellaris-sim-choice-btn .stellaris-sim-warning {
+  color: var(--stellaris-text-warning);
+  font-size: 0.95em;
+  margin-top: 0.2em;
+  font-weight: 700;
+  width: 100%;
+  display: block;
+}
+.stellaris-sim-choice-btn.chosen {
+  background: var(--stellaris-bg-btn);
+  border-color: var(--stellaris-accent);
+  position: relative;
+}
+.stellaris-sim-choice-btn.chosen:hover {
+  background: var(--stellaris-bg-btn-hover);
+  border-color: var(--stellaris-accent);
+}
+
+.stellaris-sim-choice-btn.restart {
+  background: #222;
+  color: #fff;
+  border-color: #888;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  padding: 1em 1.5em;
+}
+.stellaris-sim-choice-btn.restart:hover {
+  background: #333;
+  border-color: var(--stellaris-accent);
+}
+
+.stellaris-sim-fail-btn {
+  background: var(--stellaris-bg-fail);
+  color: var(--stellaris-text-fail);
+  border: 0.125rem solid var(--stellaris-border-fail);
+  border-radius: var(--stellaris-radius-sm);
+  font-weight: 700;
+  font-size: 0.98em;
+  box-shadow: none;
+  margin: 0;
+  gap: 0.3em;
+  min-width: 4em;
+  min-height: 2em;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.stellaris-sim-fail-btn:hover {
+  background: var(--stellaris-bg-fail-hover);
+  border-color: var(--stellaris-accent);
+}
+
+.stellaris-sim-choice-btn-grid {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-row-gap: 0.15em;
+  width: 100%;
+  padding: 1em 1.5em 1.2em 1.5em;
+  box-sizing: border-box;
+}
+.stellaris-sim-choice-btn-row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0.5em;
+}
+
+
+.stellaris-sim-choice-btn-row2,
+.stellaris-sim-choice-btn-row3,
+.stellaris-sim-choice-btn-row4 {
+  width: 100%;
+  display: block;
+  margin-top: 0.15em;
+}
+.stellaris-sim-choice-btn-row2:empty,
+.stellaris-sim-choice-btn-row3:empty,
+.stellaris-sim-choice-btn-row4:empty {
+  display: none;
+}
+.stellaris-sim-choice-btn-row4 {
+  margin-top: 0.25em;
+  text-align: center;
+}
+
+.stellaris-sim-wiki-footer {
+  text-align: center;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}

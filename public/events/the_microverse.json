@@ -1,0 +1,69 @@
+{
+  "id": "the_microverse",
+  "name": "The Microverse",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/f/fb/Evt_astral_rift_microverse.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#The_Microverse",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "The Microverse",
+      "choices": [
+        {
+          "id": "acceleration_choice_0",
+          "text": "<Unknown Quote>",
+          "reward": ["resource_dark_matter_100"],
+          "next": "shrinking_space"
+        }
+      ]
+    },
+    {
+      "id": "shrinking_space",
+      "text": "Shrinking Space",
+      "choices": [
+        {
+          "id": "shrinking_space_choice_0",
+          "text": "<Unknown Quote>",
+          "reward": ["astral_threads_small"],
+          "next": "temporal_leak"
+        }
+      ]
+    },
+    {
+      "id": "temporal_leak",
+      "text": "Temporal Leak",
+      "choices": [
+        {
+          "id": "temporal_leak_choice_0",
+          "text": "Synchronize with the Fleet.",
+          "reward": ["research_physics_24x", "research_physics_96x", "scientist_younger_5y"],
+          "next": null
+        },
+        {
+          "id": "temporal_leak_choice_1",
+          "text": "Repolarize the hull.",
+          "costs": ["astral_threads_10"],
+          "reward": ["research_physics_24x"],
+          "next": "unbirthing"
+        }
+      ]
+    },
+    {
+      "id": "unbirthing",
+      "text": "Unbirthing",
+      "choices": [
+        {
+          "id": "unbirthing_choice_0",
+          "text": "Approach the closest star system.",
+          "reward": ["research_physics_24x", "astral_threads_medium", "astral_threads_small", "a_star_is_born_modifier_10y"],
+          "next": null
+        },
+        {
+          "id": "unbirthing_choice_1",
+          "text": "Observe from the edge of the universe.",
+          "reward": ["research_physics_24x", "astral_threads_small", "research_physics_48x"],
+          "next": null
+        }
+      ]
+    }
+  ]
+}

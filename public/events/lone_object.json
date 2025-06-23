@@ -1,0 +1,163 @@
+{
+  "id": "lone_object",
+  "name": "Lone Object",
+  "banner_url": "",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Lone_Object",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Lone Object",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Attempt to translate the glyphs.",
+          "next": "glyphs_path",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Scan its entire perimeter.",
+          "next": "scan_path",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "glyphs_path",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "glyphs_path_choice_0",
+          "text": "Scan its entire perimeter.",
+          "next": "scan_path",
+          "reward": ["research_society"]
+        },
+        {
+          "id": "glyphs_path_choice_1",
+          "text": "Blast it open.",
+          "next": null,
+          "failure_next": "blast_failure",
+          "requirements": "scientist_is_psionic",
+          "reward": [
+            "research_society",
+            "minerals",
+            "alloys",
+            "rare_crystals",
+            "unity",
+            "tech_psionics"
+          ]
+        },
+        {
+          "id": "glyphs_path_choice_2",
+          "text": "Blast it open.",
+          "next": null,
+          "failure_next": "blast_failure",
+          "requirements": "not scientist_is_psionic",
+          "reward": [
+            "minerals",
+            "alloys",
+            "rare_crystals",
+            "unity",
+            "research_society"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scan_path",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "scan_path_choice_0",
+          "text": "Send a drone through the crack.",
+          "next": "drone_choices",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "scan_path_choice_1",
+          "text": "Blast it open.",
+          "next": null,
+          "failure_next": "blast_failure",
+          "requirements": "scientist_is_psionic",
+          "reward": [
+            "astral_threads_small",
+            "minerals",
+            "alloys",
+            "rare_crystals",
+            "unity",
+            "tech_psionics"
+          ]
+        },
+        {
+          "id": "scan_path_choice_2",
+          "text": "Blast it open.",
+          "next": null,
+          "failure_next": "blast_failure",
+          "requirements": "not scientist_is_psionic",
+          "reward": [
+            "astral_threads_small",
+            "minerals",
+            "alloys",
+            "rare_crystals",
+            "unity",
+            "research_society"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drone_choices",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "drone_choices_choice_0",
+          "text": "Take samples and return.",
+          "next": null,
+          "reward": ["astral_threads_medium"]
+        },
+        {
+          "id": "drone_choices_choice_1",
+          "text": "Engage destructive exploration.",
+          "next": null,
+          "failure_next": "blast_failure",
+          "requirements": "scientist_is_psionic",
+          "reward": [
+            "astral_threads_large",
+            "minerals",
+            "alloys",
+            "rare_crystals",
+            "unity",
+            "tech_psionics"
+          ]
+        },
+        {
+          "id": "drone_choices_choice_2",
+          "text": "Engage destructive exploration.",
+          "next": null,
+          "failure_next": "blast_failure",
+          "requirements": "not scientist_is_psionic",
+          "reward": [
+            "astral_threads_large",
+            "minerals",
+            "alloys",
+            "rare_crystals",
+            "unity",
+            "research_society"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blast_failure",
+      "text": "A hostile fleet has been unleashed.",
+      "choices": [
+        {
+          "id": "blast_failure_choice_0",
+          "text": "End the rift.",
+          "next": null,
+          "costs": ["hostile_fleet_spawn"]
+        }
+      ]
+    }
+  ]
+}

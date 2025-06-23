@@ -61,19 +61,19 @@ const App: React.FC = () => {
   const [selectedPathIndex, setSelectedPathIndex] = useState<number | null>(null);
 
   useEffect(() => {
-    fetch("/requirements.json")
+    fetch(import.meta.env.BASE_URL + "requirements.json")
       .then((res) => res.json())
       .then((data) => setRequirementsRaw(data));
   }, []);
 
   useEffect(() => {
-    fetch("/costs.json")
+    fetch(import.meta.env.BASE_URL + "costs.json")
       .then((res) => res.json())
       .then((data) => setCosts(data));
   }, []);
 
   useEffect(() => {
-    fetch("/rewards.json")
+    fetch(import.meta.env.BASE_URL + "rewards.json")
       .then((res) => res.json())
       .then((data) => setRewards(data));
   }, []);

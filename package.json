@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && rm -rf dist/events_raw",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

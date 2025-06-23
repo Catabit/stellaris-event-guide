@@ -1,6 +1,0 @@
-=== Hatching Ground ===
-* 1. Narrative, gives {{reward|ast|ast1|empty|empty}}.
-* 2. Choice, ''''Get closer'''', {{icon|astral rift difficulty hard}} 6 or ''''Keep your distance'''', {{icon|astral rift difficulty easy}} 2. Gives {{reward|ast|ast1|empty|empty}}.
-* 3a. Get closer, narrative, gives {{iconify|Engineering}} Research.
-* 3b. Keep your distance, narrative, Gives the Lonely Planet Propulsion Modifier, granting +30% {{iconify|Propulsion}} Research Speed for 15 years.
-* 4. Get closer/Keep your distance (continued), narrative, gives {{iconify|Unity}} and {{reward|ast|ast3|empty|empty}}. Ends the rift.

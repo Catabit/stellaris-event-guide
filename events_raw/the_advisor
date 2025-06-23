@@ -1,8 +1,0 @@
-=== The Advisor ===
-* 1. Choice, ''''Ask for assistance'''', {{icon|astral rift difficulty easy}} 1 or ''''Disable this thing'''' {{icon|astral rift difficulty hard}} 5. Gives {{reward|ast|ast1|empty|empty}}.
-* 2a. Ask for assistance, choice, ''''Disable this thing'''', {{icon|astral rift difficulty hard}} 5 or ''''Ask for FURTHER assistance'''', {{icon|astral rift difficulty easy}} 1. Gives {{reward|ast|ast1|empty|empty}}.
-* 2b. Disable this thing, choice, ''''Placate the machine'''', {{icon|astral rift difficulty easy}} 1 or ''''Discharge an electromagnetic pulse'''' {{icon|astral rift difficulty hard}} 6. Gives {{reward|ast|ast1|empty|empty}}.
-* 3a. Ask for FURTHER assistance/Placate the machine, narrative, Scientist disappears for five years, when they return they will get the [[File:Leader trait rift warped.png]] Rift Warped trait and either the [[File:Leader trait spark of genius.png]] Spark of Genius, [[File:Leader trait meticulous.png]] Perfectionist or [[File:Leader trait roamer.png]] Roamer trait, if they already have one of these traits one of the others will be chosen instead. Ends the rift.
-* 3b. Discharge an electromagnetic pulse, choice, ''''Attempt to recover its core'''', {{icon|astral rift difficulty hard}} 6 or ''''Destroy the machine completely'''' {{icon|astral rift difficulty easy}} 2. Gives {{iconify|Engineering}} Research.
-* 4a. Attempt to recover its core, narrative, gives {{iconify|Alloys}} and adds 20% progress towards a random {{iconify|Computing}} Technology or {{iconify|Engineering}} Research if none can be researched.
-* 4b. Destroy the machine completely, narrative, gives {{reward|ast|ast3|empty|empty}} and {{iconify|Engineering}} Research.

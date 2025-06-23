@@ -1,0 +1,134 @@
+{
+  "id": "the_fluid",
+  "name": "The Fluid",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/c/c7/Evt_astral_rift_fluid.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#The_Fluid",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "The Fluid",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Deploy sample collection rig",
+          "next": "sample_rig",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Proceed forward at ease",
+          "next": "forward_ease",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "sample_rig",
+      "text": "Deploy sample collection rig",
+      "choices": [
+        {
+          "id": "sample_rig_choice_0",
+          "text": "Cut it loose. The risk isn't worth it",
+          "next": "forward_ease",
+          "reward": ["research_option_transgenic_crops"]
+        },
+        {
+          "id": "sample_rig_choice_1",
+          "text": "Use emergency gasses",
+          "next": "path_gas_rewards",
+          "costs": ["exotic_gases_50"],
+          "reward": ["research_option_transgenic_crops"]
+        }
+      ]
+    },
+    {
+      "id": "forward_ease",
+      "text": "Proceed forward at ease",
+      "choices": [
+        {
+          "id": "forward_ease_choice_0",
+          "text": "Follow the flow outward",
+          "next": "flow_choice",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "forward_ease_choice_1",
+          "text": "Explore the crystalline orifice",
+          "next": "crystal_choice",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "path_gas_rewards",
+      "text": "Use emergency gasses",
+      "choices": [
+        {
+          "id": "path_gas_rewards_choice_0",
+          "text": "Follow the flow outward",
+          "next": "flow_choice",
+          "reward": ["exotic_gases"]
+        },
+        {
+          "id": "path_gas_rewards_choice_1",
+          "text": "Explore the crystalline orifice",
+          "next": "crystal_choice",
+          "reward": ["rare_crystals"]
+        }
+      ]
+    },
+    {
+      "id": "flow_choice",
+      "text": "Follow the flow outward",
+      "choices": [
+        {
+          "id": "flow_choice_0",
+          "text": "Pull anchor. Return immediately",
+          "next": null,
+          "reward": ["modifier_biology_research_10pc"]
+        },
+        {
+          "id": "flow_choice_1",
+          "text": "Pump exotic gasses. Neutralize the beast",
+          "next": null,
+          "reward": ["astral_threads_large", "relic_plasmic_core"],
+          "costs": ["exotic_gases_100"],
+          "failure_next": "neutralize_failure"
+        }
+      ]
+    },
+    {
+      "id": "crystal_choice",
+      "text": "Explore the crystalline orifice",
+      "choices": [
+        {
+          "id": "crystal_choice_0",
+          "text": "Pull anchor. Return immediately",
+          "next": null,
+          "reward": ["modifier_biology_research_10pc"]
+        },
+        {
+          "id": "crystal_choice_1",
+          "text": "Pump exotic gasses. Neutralize the beast",
+          "next": null,
+          "reward": ["astral_threads_large", "relic_plasmic_core"],
+          "costs": ["exotic_gases_100"],
+          "failure_next": "neutralize_failure"
+        }
+      ]
+    },
+    {
+      "id": "neutralize_failure",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "neutralize_failure_choice_0",
+          "text": "End the rift.",
+          "next": null,
+          "reward": ["astral_threads_large", "modifier_biology_research_20pc"],
+          "costs": ["scientist_dies"]
+        }
+      ]
+    }
+  ]
+}

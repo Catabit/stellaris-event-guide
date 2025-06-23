@@ -1,0 +1,139 @@
+{
+    "id": "tropical_habitat",
+    "name": "Tropical Habitat",
+    "banner_url": "https://stellaris.paradoxwikis.com/images/c/c2/Evt_astral_rift_tropical_habitat.png",
+    "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Tropical_Habitat",
+    "nodes": [
+        {
+            "id": "start",
+            "text": "Tropical Habitat",
+            "choices": [
+                {
+                    "id": "start_choice_0",
+                    "text": "Continue.",
+                    "next": "fauna_or_gas",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fauna_or_gas",
+            "text": "Examine the fauna or sample the pink gas",
+            "choices": [
+                {
+                    "id": "fauna_or_gas_choice_0",
+                    "text": "Examine the fauna.",
+                    "next": "chasm_choice",
+                    "reward": [
+                        "astral_threads_small",
+                        "exotic_gases"
+                    ],
+                    "requirements": "machine or toxoid or lithoid"
+                },
+                {
+                    "id": "fauna_or_gas_choice_1",
+                    "text": "Examine the fauna.",
+                    "next": "chasm_choice",
+                    "reward": [
+                        "astral_threads_small",
+                        "research_society"
+                    ],
+                    "requirements": "not (machine or toxoid or lithoid)"
+                },
+                {
+                    "id": "fauna_or_gas_choice_2",
+                    "text": "Sample the pink gas.",
+                    "next": "chasm_choice",
+                    "reward": [
+                        "astral_threads_small",
+                        "exotic_gases"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chasm_choice",
+            "text": "Approaching the chasm",
+            "choices": [
+                {
+                    "id": "chasm_choice_0",
+                    "text": "Use caution. Excavate around the chasm.",
+                    "next": null,
+                    "reward": [
+                        "exotic_gases",
+                        "minerals",
+                        "astral_threads_small",
+                        "tech_farming_biology",
+                        "astral_threads_large"
+                    ]
+                },
+                {
+                    "id": "chasm_choice_1",
+                    "text": "Explore the chasm directly.",
+                    "next": "explore_chasm",
+                    "reward": [
+                        "exotic_gases",
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "explore_chasm",
+            "text": "Exploring the chasm directly",
+            "choices": [
+                {
+                    "id": "explore_chasm_choice_0",
+                    "text": "Extract the mouth.",
+                    "next": null,
+                    "failure_next": "extract_mouth_fail",
+                    "reward": [
+                        "astral_threads_small",
+                        "modifier_formula_pink",
+                        "astral_threads_large"
+                    ]
+                },
+                {
+                    "id": "explore_chasm_choice_1",
+                    "text": "Harvest soil from the deepest walls.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_small",
+                        "tech_farming_biology",
+                        "research_society",
+                        "astral_threads_large"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "extract_mouth_fail",
+            "text": "Extracting the mouth",
+            "choices": [
+                {
+                    "id": "extract_mouth_choice_0",
+                    "text": "Extraction failed",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_small"
+                    ],
+                    "costs": [
+                        "scientist_maimed"
+                    ],
+                    "requirements": "not machine"
+                },
+                {
+                    "id": "extract_mouth_choice_1",
+                    "text": "Extraction failed",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_small"
+                    ],
+                    "requirements": "machine"
+                }
+            ]
+        }
+    ]
+}

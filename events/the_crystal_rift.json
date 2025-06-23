@@ -1,0 +1,101 @@
+{
+  "id": "the_crystal_rift",
+  "name": "The Crystal Rift",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/7/79/Evt_astral_rift_crystal_1.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#The_Crystal_Rift",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "The Crystal Rift",
+      "choices": [
+        {
+          "id": "understanding_choice_0",
+          "text": "Utilize A.I. to check for hidden patterns.",
+          "reward": ["astral_threads_small"],
+          "next": "home"
+        },
+        {
+          "id": "understanding_choice_1",
+          "text": "E.M.P. the anchor cord.",
+          "reward": ["astral_threads_small"],
+          "costs": ["energy_1000"],
+          "next": "taking_control"
+        }
+      ]
+    },
+    {
+      "id": "taking_control",
+      "text": "Taking Control",
+      "choices": [
+        {
+          "id": "taking_control_choice_0",
+          "text": "Provide A.I. assistance.",
+          "reward": ["research_physics_24x", "astral_threads_large"],
+          "next": "home"
+        },
+        {
+          "id": "taking_control_choice_1",
+          "text": "Get out! We've only stunned it.",
+          "reward": ["research_physics_24x", "astral_threads_large", "unity_output_96x"],
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "text": "Home",
+      "choices": [
+        {
+          "id": "home_choice_0",
+          "text": "Preserve the particles.",
+          "reward": ["astral_threads_medium", "progress_particles_25pc"],
+          "next": "ascendance"
+        },
+        {
+          "id": "home_choice_1",
+          "text": "Preserve the field manipulation data.",
+          "reward": ["astral_threads_medium", "progress_field_manipulation_25pc"],
+          "next": "ascendance"
+        }
+      ]
+    },
+    {
+      "id": "ascendance",
+      "text": "Ascendance",
+      "choices": [
+        {
+          "id": "ascendance_choice_0",
+          "text": "Preserve the physics data.",
+          "reward": ["research_physics_24x"],
+          "next": "shatter"
+        },
+        {
+          "id": "ascendance_choice_1",
+          "text": "Preserve the society data.",
+          "reward": ["research_society_24x"],
+          "next": "shatter"
+        }
+      ]
+    },
+    {
+      "id": "shatter",
+      "text": "Shatter",
+      "choices": [
+        {
+          "id": "shatter_choice_0",
+          "text": "We've opened a doorway...",
+          "reward": ["strange_wormhole_spawn", "situation_the_seal"],
+          "next": null
+        },
+        {
+          "id": "shatter_choice_1",
+          "text": "Seal it! Quickly!",
+          "requirements": "has_wormhole_stabilization",
+          "reward": ["deposit_10_physics_rift", "deposit_10_unity_rift"],
+          "costs": ["astral_threads_500"],
+          "next": null
+        }
+      ]
+    }
+  ]
+}

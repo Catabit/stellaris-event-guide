@@ -1,0 +1,70 @@
+==Chapter Detail==
+This is a detailed list of all chapters in this rift. The reward below each chapter name is issued when a selection is made, regardless of which one was chosen.
+
+Options which indirectly force or preclude any final outcomes of the rift are noted in {{Blue|blue}}.
+
+Chapters which terminate the rift are noted in {{Red|red}}.
+{| class="wikitable"
+! colspan="2" |Chapter
+! colspan="3" |Choices
+|-
+!1
+|'''Genesis'''
+{{reward|ast|ast1||empty}}
+|{{icon|astral rift difficulty normal}} 3: "Arm them with might."
+
+* Give the new species the {{iconify|Strong}} trait.
+* ''Proceed to '''chapter 2'''.''
+|{{icon|astral rift difficulty normal}} 3: "Plant the seeds of knowledge."
+
+* Give the new species the {{iconify|Natural Intellectuals}} trait.
+* ''Proceed to '''chapter 2'''.''
+|{{icon|astral rift difficulty normal}} 3: "We play no games. Activate an E.M.P."
+
+* {{reward|ast|ast3|empty|empty}}
+* {{reward|aly|mat5}}
+* {{Red|Ends the rift.}}
+|-
+| colspan="5" |
+|-
+!2
+|'''Fruit of Knowledge'''
+{{reward|ast|ast1||empty}}
+|{{icon|astral rift difficulty normal}} 3: "Diligence."
+
+* Give the new species the {{iconify|Proles}} trait.
+* ''Proceed to '''chapter 3'''.''
+| colspan="2" |{{icon|astral rift difficulty normal}} 3: "Intuition."
+
+* Give the new species the {{iconify|Ingenious}} trait.
+* ''Proceed to '''chapter 3'''.''
+|-
+| colspan="5" |
+|-
+!3
+|'''To The Stars'''
+{{reward|ast|ast1||empty}}
+|{{icon|astral rift difficulty normal}} 3: "Preserve the old ways."
+
+* Give the new species the {{iconify|Conservative}} trait.
+* ''Proceed to '''chapter 4'''.''
+| colspan="2" |{{icon|astral rift difficulty normal}} 3: "Challenge every frontier."
+
+* Give the new species the {{iconify|Starborn}} trait.
+* ''Proceed to '''chapter 4'''.''
+|-
+| colspan="5" |
+|-
+!4
+| colspan="4" |'''New Life'''
+
+* {{reward|ast|ast3|empty|empty}}
+* On a random colony, one new pop is created from the new species. The new species' climate preference will match the colony.
+
+* If the player empire is a {{iconify|Gestalt Consciousness}}:
+** Receive {{reward|soc|res3|empty|empty}}.
+** Receive the [[Empire modifiers#Genesis Insight|Genesis Insight]] empire modifier.
+* If the [[File:Grand Archive.png|24x24px]] [[Grand Archive (DLC)|Grand Archive]] DLC is enabled:
+** Receive the [[File:Specimen genesis core.png|24x24px]] [[Collection|Genesis Core]] specimen.
+* {{Red|Ends the rift.}}
+|}

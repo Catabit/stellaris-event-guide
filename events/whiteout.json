@@ -1,0 +1,56 @@
+{
+  "id": "whiteout",
+  "name": "Whiteout",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/1/1f/Evt_astral_rift_whiteout_1.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Whiteout",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Whiteout",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Maximize propulsion.",
+          "next": "sample_or_map",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Release a drone.",
+          "next": "sample_or_map",
+          "reward": ["astral_threads_small", "research_physics"]
+        }
+      ]
+    },
+    {
+      "id": "sample_or_map",
+      "text": "Take a sample or Trace a map",
+      "choices": [
+        {
+          "id": "sample_or_map_choice_0",
+          "text": "Take a sample.",
+          "next": "final_narrative",
+          "reward": ["astral_threads_medium", "rare_crystals"]
+        },
+        {
+          "id": "sample_or_map_choice_1",
+          "text": "Trace a map.",
+          "next": "final_narrative",
+          "reward": ["astral_threads_medium", "research_society"]
+        }
+      ]
+    },
+    {
+      "id": "final_narrative",
+      "text": "Narrative",
+      "choices": [
+        {
+          "id": "final_narrative_choice_0",
+          "text": "End the rift.",
+          "next": null,
+          "reward": ["astral_threads_large", "modifier_physics_research_10pc_10y"]
+        }
+      ]
+    }
+  ]
+}

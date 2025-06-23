@@ -1,0 +1,13 @@
+=== Tropical Habitat ===
+* 1. Narrative, gives {{reward|ast|ast1|empty|empty}}.
+* 2. Choice, ''''Examine the fauna'''', {{icon|astral rift difficulty easy}} 2 or ''''Sample the pink gas'''', {{icon|astral rift difficulty easy}} 2. Gives {{reward|ast|ast1|empty|empty}}.
+* 3a. Examine the fauna, narrative, gives Exotic Gasses if robotic, lithoid or toxoid, otherwise gives {{iconify|Society}} Research.
+* 3b. Sample the pink gas, narrative, gives {{iconify|Exotic gases}} and {{reward|ast|ast1|empty|empty}}.
+* 4. Examine the fauna/Sample the pink gas (continued), choice, ''''Use caution. Excavate around the chasm'''', {{icon|astral rift difficulty hard}} 5 or ''''Explore the chasm directly'''', {{icon|astral rift difficulty easy}} 2. Gives {{iconify|Exotic gases}} and {{reward|ast|ast1|empty|empty}}.
+* 5a. Use caution. Excavate around the chasm, narrative, gives {{iconify|Minerals}} and {{iconify|Exotic gases}}.
+* 5b. Explore the chasm directly, choice, ''''Extract the mouth'''' {{icon|astral rift difficulty hard}} 6 or ''''Harvest soil from the deepest walls'''' {{icon|astral rift difficulty normal}} 3. Gives {{reward|ast|ast1|empty|empty}}.
+* 6a. Use caution. Excavate around the chasm (continued), narrative, gives a random {{iconify|Biology}} Farming Technology and {{reward|ast|ast3|empty|empty}}. Ends the rift.
+* 6b. Extract the mouth, narrative, gives {{reward|ast|ast1|empty|empty}}.
+* 6c. Extract the mouth (failure outcome), narrative, if not robotic then scientist gains the [[File:Leader trait maimed.png]] Maimed trait. Gives {{reward|ast|ast1|empty|empty}}.
+* 6d. Harvest soil from the deepest walls, narrative, gives a random {{iconify|Biology}} Farming Technology, {{iconify|Society}} Research and {{reward|ast|ast3|empty|empty}}. Ends the rift.
+* 7. Extract the mouth (continued), narrative, gives the Formula Pink Modifier, granting a +20 positive opinion modifier to empires that are not Robotic, Lithoids or Toxoids. Also grants +10% health and -50% Morale damage taken to Armies. Gives {{reward|ast|ast3|empty|empty}} and Ends the rift.

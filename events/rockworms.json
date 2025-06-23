@@ -1,0 +1,133 @@
+{
+  "id": "rockworms",
+  "name": "Rockworms",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/3/3f/Evt_astral_rift_rockworms_1.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Rockworms",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Rockworms",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Continue surface observations.",
+          "next": "surface_path",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Explore the tunnels.",
+          "next": "tunnel_path",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "surface_path",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "surface_path_choice_0",
+          "text": "Sample the microorganisms.",
+          "next": "sample_microorganisms",
+          "reward": ["progress_biology_15pc"]
+        },
+        {
+          "id": "surface_path_choice_1",
+          "text": "Explore the worms' tunnels.",
+          "next": "tunnel_path",
+          "reward": ["progress_biology_15pc"]
+        }
+      ]
+    },
+    {
+      "id": "tunnel_path",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "tunnel_path_choice_0",
+          "text": "Harvest the eggs.",
+          "next": "harvest_eggs",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "tunnel_path_choice_1",
+          "text": "Proceed onward.",
+          "next": "proceed_onward",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "sample_microorganisms",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "sample_microorganisms_choice_0",
+          "text": "Set explosive charges.",
+          "next": null,
+          "failure_next": "explosion_failure",
+          "costs": ["exotic_gases_100"],
+          "reward": ["astral_threads_large", "planet_decision_rockworm_hive"]
+        },
+        {
+          "id": "sample_microorganisms_choice_1",
+          "text": "Pull emergency anchor.",
+          "next": null,
+          "reward": ["astral_threads_large"]
+        }
+      ]
+    },
+    {
+      "id": "harvest_eggs",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "harvest_eggs_choice_0",
+          "text": "Set explosive charges.",
+          "next": null,
+          "failure_next": "explosion_failure",
+          "costs": ["exotic_gases_100"],
+          "reward": ["astral_threads_large", "planet_decision_rockworm_hive"]
+        },
+        {
+          "id": "harvest_eggs_choice_1",
+          "text": "Pull emergency anchor.",
+          "next": null,
+          "reward": ["astral_threads_large"]
+        }
+      ]
+    },
+    {
+      "id": "proceed_onward",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "proceed_onward_choice_0",
+          "text": "Capture a live specimen.",
+          "next": null,
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "proceed_onward_choice_1",
+          "text": "We've pushed our luck far enough. Return at once.",
+          "next": null,
+          "reward": ["astral_threads_small", "progress_biology_15pc"]
+        }
+      ]
+    },
+    {
+      "id": "explosion_failure",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "explosion_failure_choice_0",
+          "text": "End the rift.",
+          "next": null,
+          "reward": ["astral_threads_small", "progress_biology_10pc", "scientist_partially_digested"],
+          "costs": ["scientist_temporarily_lost"]
+        }
+      ]
+    }
+  ]
+}

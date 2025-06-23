@@ -1,0 +1,153 @@
+{
+  "id": "bleached_planet",
+  "name": "Bleached Planet",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/e/e6/Evt_astral_rift_bleached_planet.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Bleached_Planet",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Bleached Planet",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Explore the Terrain.",
+          "next": "chapter_2",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_2",
+      "text": "Bleached Landscape",
+      "choices": [
+        {
+          "id": "chapter2_choice0",
+          "text": "Retreat to the Rift Sphere.",
+          "next": "chapter_3a",
+          "reward": ["research_society_4"]
+        },
+        {
+          "id": "chapter2_choice1",
+          "text": "Prepare for contact.",
+          "next": "chapter_3b",
+          "reward": ["research_society_4"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_3a",
+      "text": "Rock Creatures (from above)",
+      "choices": [
+        {
+          "id": "chapter3a_choice0",
+          "text": "Fly towards the distant horizon.",
+          "next": "chapter_5a",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "chapter3a_choice1",
+          "text": "Wait alongside the creatures.",
+          "next": "chapter_5b",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_3b",
+      "text": "Rock Creatures",
+      "choices": [
+        {
+          "id": "chapter3b_choice0",
+          "text": "Examine a rock creature.",
+          "next": "chapter_4",
+          "reward": ["research_society_3"]
+        },
+        {
+          "id": "chapter3b_choice1",
+          "text": "Wait alongside the creatures.",
+          "next": "chapter_5b",
+          "reward": ["research_society_3"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_4",
+      "text": "Bio-Geology",
+      "choices": [
+        {
+          "id": "chapter4_choice0",
+          "text": "Retreat to the Rift Sphere.",
+          "next": "chapter_5b",
+          "reward": ["progress_biology_25pc"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_5a",
+      "text": "Darkest Dawn",
+      "choices": [
+        {
+          "id": "chapter5a_choice0",
+          "text": "Continue your observations.",
+          "next": "chapter_6a",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "chapter5a_choice1",
+          "text": "Turn away!",
+          "next": "chapter_6a",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_5b",
+      "text": "Darkest Before the Dawn",
+      "choices": [
+        {
+          "id": "chapter5b_choice0",
+          "text": "Observe the dark star.",
+          "next": "chapter_6a",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "chapter5b_choice1",
+          "text": "Retreat.",
+          "next": "chapter_6b",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_6a",
+      "text": "Black Light Blinded",
+      "choices": [
+        {
+          "id": "chapter6a_choice0",
+          "text": "Ends the rift.",
+          "next": null,
+          "reward": [
+            "astral_threads_large",
+            "leader_trait_spark_of_genius"
+          ],
+          "costs": ["leader_trait_black_light_blinded"]
+        }
+      ]
+    },
+    {
+      "id": "chapter_6b",
+      "text": "Further Observations",
+      "choices": [
+        {
+          "id": "chapter6b_choice0",
+          "text": "Ends the rift.",
+          "next": null,
+          "reward": [
+            "astral_threads_large",
+            "deposit_10_physics_rift"
+          ]
+        }
+      ]
+    }
+  ]
+}

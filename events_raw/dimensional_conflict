@@ -1,0 +1,59 @@
+==Chapter Detail==
+This is a detailed list of all chapters in this rift. The reward below each chapter name is issued when a selection is made, regardless of which one was chosen.
+
+Options which indirectly force or preclude any final outcomes of the rift are noted in {{Blue|blue}}.
+
+Chapters which terminate the rift are noted in {{Red|red}}.
+{| class="wikitable"
+! colspan="3" |Chapter
+! colspan="2" |Choices
+|-
+! colspan="2" |1
+|'''An Ancient Battle'''
+{{Reward|ast|ast1}}
+|{{icon|astral rift difficulty easy}} 2: "Study its composition."
+''Proceed to '''chapter 2-A'''.''
+|{{icon|astral rift difficulty normal}} 3: "Let's get in there."
+''Proceed to '''chapter 2-B'''.''
+|-
+| colspan="5" |
+|-
+! rowspan="2" |2
+|'''A'''
+|'''Exotic Armor'''
+* [[File:Alloys.png|24x24px]] Alloys
+* Armor technology
+| colspan="2" |{{icon|astral rift difficulty easy}} ?: <Unknown Response>
+''Proceed to '''chapter 3'''.''
+|-
+|'''B'''
+|'''<Unknown Title>'''
+[[File:Biology.png|24x24px]] 25% progress towards a random Biology technology
+| colspan="2" |{{icon|astral rift difficulty easy}} ?: <Unknown Response>
+''Proceed to '''chapter 3'''.''
+|-
+| colspan="5" |
+|-
+! colspan="2" |3
+|'''A Dozen Faces'''
+{{reward|ast|ast2|empty|empty}}
+|{{icon|astral rift difficulty hard}} 6: "Try to activate the dodecahedron."
+''Proceed to '''chapter 4-A'''.''
+|{{icon|astral rift difficulty easy}} 2: "Strip it for parts."
+''Proceed to '''chapter 4-B'''.''
+|-
+| colspan="5" |
+|-
+! rowspan="2" |4
+|'''A'''
+| colspan="3" |'''Activation'''
+*(no [[File:Astral threads.png|24x24px]] astral threads reward)
+*[[File:R daedalus seal.png|24x24px]] [[Relics#Daedalus Seal|Daedalus Seal]] relic.
+*{{Red|Ends the rift.}}
+|-
+|'''B'''
+| colspan="3" |
+*{{reward|ast|ast3|empty|empty}}
+*[[File:Dark Matter.png|24x24px]] Dark Matter
+*{{Red|Ends the rift.}}
+|}

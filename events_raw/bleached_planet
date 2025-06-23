@@ -1,0 +1,84 @@
+== Chapter Detail ==
+This is a detailed list of all chapters in this rift. The reward below each chapter name is issued when a selection is made, regardless of which one was chosen.
+
+Options which force or preclude any final outcomes of the rift are noted in {{Blue|blue}}.
+
+Options which terminate the rift are noted in {{Red|red}}.
+{| class="wikitable"
+|+
+! colspan="3" |Chapter
+! colspan="2" |Choices
+|-
+! colspan="2" |1
+|'''Ashen Environment'''{{Reward|ast|ast1}}
+| colspan="2" |"Explore the Terrain."
+''Proceed to '''chapter 2'''.''
+|-
+| colspan="5" |
+|-
+! colspan="2" |2
+|'''Bleached Landscape'''{{reward|soc|rsh3|empty|empty}}
+|{{icon|astral rift difficulty easy}} 2: "Retreat to the Rift Sphere."
+''Proceed to '''chapter 3-A.'''''
+|{{icon|astral rift difficulty easy}} 2: "Prepare for contact."
+''Proceed to '''chapter 3-B'''.''
+|-
+| colspan="5" |
+|-
+! rowspan="2" |3
+|'''A'''
+|'''Rock Creatures (from above)'''{{reward|ast|ast1|empty|empty}}
+|{{icon|astral rift difficulty normal}} 3: "Fly towards the distant horizon."
+''Proceed to '''chapter 5-A'''.''
+''{{Blue|Forces outcome 6-A.}}''
+|{{icon|astral rift difficulty easy}} 1: "Wait alongside the creatures."
+''Proceed to '''chapter 5-B'''.''
+|-
+|'''B'''
+|'''Rock Creatures'''{{reward|soc|rsh2|empty|empty}}
+|{{icon|astral rift difficulty normal}} 5: "Examine a rock creature."
+''Proceed to '''chapter 4'''.''
+|{{icon|astral rift difficulty easy}} 1: "Wait alongside the creatures."
+''Proceed to '''chapter 5-B'''.''
+|-
+| colspan="5" |
+|-
+! colspan="2" |4
+|'''Bio-Geology'''{{icon|biology}} 25% progress towards a random Biology technology
+| colspan="2" |"Retreat to the Rift Sphere."
+''Proceed to '''chapter 5-B'''.''
+|-
+| colspan="5" |
+|-
+! rowspan="2" |5
+|'''A'''
+|'''Darkest Dawn'''{{reward|ast|ast1|empty|empty}}
+|{{icon|astral rift difficulty easy}} 1: "Continue your observations."
+''Proceed to '''chapter 6-A'''.''
+|{{icon|astral rift difficulty easy}} 1: "Turn away!"
+''Proceed to '''chapter 6-A'''.''
+|-
+|'''B'''
+|'''Darkest Before the Dawn'''{{reward|ast|ast1|empty|empty}}
+|{{icon|astral rift difficulty normal}} 3: "Observe the dark star."
+''Proceed to '''chapter 6-A'''.''
+|{{icon|astral rift difficulty easy}} 1: "Retreat."
+''Proceed to '''chapter 6-B'''.''
+|-
+| colspan="5" |
+|-
+! rowspan="2" |6
+|'''A'''
+| colspan="3" |'''Black Light Blinded'''
+* {{reward|ast|ast3|empty|empty}}
+* Scientist gains two traits:
+** [[File:Leader trait lightbulb on.png]] [[Spark of Genius]]
+** [[File:Leader trait black light blinded.png]][[Black Light Blinded]]
+* {{Red|Ends the rift.}}
+|-
+|'''B'''
+| colspan="3" |'''Further Observations'''
+* {{reward|ast|ast3|empty|empty}}
+* Adds a 10 [[File:Physics research.png]] Physics deposit to the rift.
+* {{Red|Ends the rift.}}
+|}

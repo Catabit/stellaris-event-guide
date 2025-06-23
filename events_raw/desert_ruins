@@ -1,0 +1,123 @@
+==Chapter Detail==
+This is a detailed list of all chapters in this rift. The reward below each chapter name is issued when a selection is made, regardless of which one was chosen.
+
+Options which indirectly force or preclude any final outcomes of the rift are noted in {{Blue|blue}}.
+
+Chapters which terminate the rift are noted in {{Red|red}}.
+
+Because the order in which events are encountered depends on the player's choices, chapter numbers in this table may differ from the chapter numbers assigned to the events in-game. This table assigns chapter numbers based on the optimal progression of events (in which no errors are made), while the in-game rift dialog window will assign chapter numbers based on the order in which events are encountered. The names of chapters will always match exactly.
+{| class="wikitable"
+! colspan="3" |Chapter
+! colspan="2" |Choices
+|-
+! colspan="2" |1
+|'''Strange Console'''{{Reward|ast|ast1}}
+| colspan="2" |"Fascinating."
+''Proceed to '''chapter 2'''.''
+|-
+| colspan="5" |
+|-
+! colspan="2" |2
+|'''Lost Contact'''{{Reward|ast|ast1}}
+| colspan="2" |"Let's hope for the best."
+''Proceed to '''chapter 3'''.''
+|-
+| colspan="5" |
+|-
+! colspan="2" |3
+|'''Outer Ruins'''{{Reward|ast|ast1}}
+| colspan="2" |"What on [homeworld name] is going on? Weren't they lost?"
+''Proceed to '''chapter 4'''.''
+|-
+| colspan="5" |
+|-
+! rowspan="3" |4
+|'''A'''
+|'''A Choice'''{{reward|ast|ast1|empty|empty}}
+|(Correct choice)
+{{icon|astral rift difficulty normal}} 3: "Press the blue button."
+''Proceed to '''chapter 5-A'''.''
+|(Wrong choice)
+{{icon|astral rift difficulty normal}} 3: "Press the green button."
+''Proceed to '''chapter 4-B'''.''
+|-
+|'''B'''
+|'''The Wrong Button'''{{reward|ast|ast1|empty|empty}}
+| colspan="2" |"Green was the wrong choice..."
+''Increase time passed by 1 and proceed to '''chapter 4-C'''.''
+|-
+|'''C'''
+|'''The Blue Button'''<br>(no chapter reward)
+| colspan="2" |"Press the blue button."
+''Proceed to '''chapter 5-A'''.''
+|-
+| colspan="5" |
+|-
+! rowspan="3" |5
+|'''A'''
+|'''The Second Chamber'''{{reward|ast|ast1|empty|empty}}
+|(Wrong choice)
+{{icon|astral rift difficulty normal}} 3: "Press the triangle button."
+''Proceed to '''chapter 5-B'''.''
+|(Correct choice)
+{{icon|astral rift difficulty normal}} 3: "Press the pentagon button."
+''Proceed to '''chapter 6-A'''.''
+|-
+|'''B'''
+|'''Wrong Button'''{{reward|ast|ast1|empty|empty}}
+|Only available if leader species class is not Toxoid:
+{{icon|astral rift difficulty normal}} 3: "Unfortunate."
+''Increase time passed by 1 and proceed to '''chapter 5-C'''.''
+|Only available if leader species class is Toxoid:
+{{icon|astral rift difficulty easy}} 1: "Fortunate."
+''Proceed to '''chapter 6-A'''.''
+|-
+|'''C'''
+|'''The Second Chamber'''{{reward|ast|ast1|empty|empty}}
+| colspan="2" |"Press the pentagon button."
+''Proceed to '''chapter 6-A'''.''
+|-
+| colspan="5" |
+|-
+! rowspan="3" |6
+|'''A'''
+|'''The Third Chamber'''{{reward|ast|ast1|empty|empty}}
+|(Wrong choice)
+{{icon|astral rift difficulty normal}} 3: "Press the button with four dots."
+''Proceed to '''chapter 6-B'''.''
+|(Correct choice)
+{{icon|astral rift difficulty normal}} 3: "Press the button with six dots."
+''Proceed to '''chapter 7-A'''.''
+|-
+|'''B'''
+|'''Flood'''<br>(no chapter reward)
+|Only available if leader species does not have [[File:Trait aquatic.png|24x24px]] Aquatic or [[File:Trait robot aquatic.png|24x24px]] Waterproof trait:
+{{icon|astral rift difficulty normal}} 3: "Unfortunate."
+''Increase time passed by 1, and then:''
+* ''If time passed is now 3 or more, proceed to '''chapter 7-B'''.''
+* ''If time passed is now 2 or less, proceed to '''chapter 6-C'''.''
+|Only available if leader species has [[File:Trait aquatic.png|24x24px]] Aquatic or [[File:Trait robot aquatic.png|24x24px]] Waterproof trait:
+{{icon|astral rift difficulty easy}} 1: "Fortunate."
+''Proceed to '''chapter 7-A'''.''
+|-
+|'''C'''
+|'''The Third Chamber'''{{reward|ast|ast1|empty|empty}}
+| colspan="2" |{{icon|astral rift difficulty normal}} 3: "Press the button with six dots."
+''Proceed to '''chapter 7-A'''.''
+|-
+| colspan="5" |
+|-
+! rowspan="2" |7
+|'''A'''
+| colspan="3" |'''Time Crystal'''
+*{{iconify|astral thread}} reward ({{green|~50, ~100, or ~150}}) based on the "time passed" variable which increments with some choices.
+*[[File:R time crystal.png|24px|link=Relics#Time Crystal|Time Crystal]] [[Relics#Time Crystal|Time Crystal]] relic.
+*If leader species has the {{iconify|Latent Psionic}} trait, leader gains the {{iconify|Psychic}} trait.
+*{{Red|Ends the rift.}}
+|-
+|'''B'''
+| colspan="3" |'''Trapped in Time'''
+* {{reward|ast|ast3|empty|empty}}
+* Scientist dies.
+* {{Red|Ends the rift.}}
+|}

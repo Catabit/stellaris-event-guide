@@ -1,0 +1,226 @@
+==Chapter Detail==
+This is a detailed list of all chapters in this rift. The reward below each chapter name is issued when a selection is made, regardless of which one was chosen.
+
+Options which indirectly force or preclude any final outcomes of the rift are noted in {{Blue|blue}}.
+
+Chapters which terminate the rift are noted in {{Red|red}}.
+{| class="wikitable"
+! colspan="3" |Chapter
+! colspan="2" |Choices
+!
+!
+|-
+! colspan="2" |1
+|'''Ruined Planet'''
+(no chapter reward)
+| colspan="4" |"Search for remaining survivors."
+''Proceed to '''chapter 2'''.''
+|-
+| colspan="7" |
+|-
+! colspan="2" |2
+|'''Opposing Factions'''
+(no chapter reward)
+|Only available if not {{icon|fanatic purifiers}}{{icon|devouring swarm}}{{icon|determined exterminator}} Genocidal:
+"Visit the Black Curtain."
+''Proceed to '''chapter 3''', then '''chapter 4-A'''.''
+| colspan="3" |"Visit the Starlight Vanguard."
+''Proceed to '''chapter 3''', then '''chapter 4-B'''.''
+|-
+| colspan="7" |
+|-
+! colspan="2" |3
+|'''Lost Ancestors'''
+(no chapter reward)
+|"The flow of time is vastly different here..."
+''Proceed '''based on choice from chapter 2'''.''
+| colspan="3" |"We were engineered?"
+''Proceed '''based on choice from chapter 2'''.''
+|-
+| colspan="7" |
+|-
+! rowspan="2" |4
+|'''A'''
+|'''The Black Curtain'''
+(no chapter reward)
+|{{icon|astral rift difficulty normal}} 3: "Offer [resource]."
+
+* ''Lose'' {{Tooltip|{{icon|basic resources}} ''1000 basic resources''|{{icon|food}} {{red|1000}} food if biological<br>{{icon|minerals}} {{red|1000}} minerals if {{iconify|Lithoid}}<br>{{icon|energy}} {{red|1000}} energy if {{iconify|Machine}}}}
+* ''Proceed to'' '''''chapter 5-A'''''.
+* ''{{Blue|Forces (and determines) chapter 7 outome.}}''
+|{{icon|astral rift difficulty hard}} 5: "Offer astral thread."
+
+* ''Lose [[File:Astral threads.png|24x24px]] 100 astral threads.''
+* ''Proceed to '''chapter 5-A'''.''
+* ''{{Blue|Forces (and determines) chapter 7 outome.}}''
+|Available only if '''Starlight Vanguard''' (chapter 4-B) has not been visited:
+{{icon|astral rift difficulty easy}} 1: "These efforts are hopeless. Let us visit the militants."
+''Proceed to '''chapter 4-B'''.''
+|Available only if '''Starlight Vanguard''' (chapter 4-B) has already been visited:
+{{icon|astral rift difficulty easy}} 1: "This is a lost cause. Let us return to the new world."
+''Proceed to '''chapter 5-B'''.''
+|-
+|'''B'''
+|'''The Starlight Vanguard'''
+(no chapter reward)
+|{{icon|astral rift difficulty normal}} 3: "Offer alloys."
+
+* ''Lose {{icon|alloys}}'' ''100 Alloys.''
+* ''Proceed to '''chapter 5-A'''.''
+* ''{{Blue|Forces (and determines) chapter 7 outome.}}''
+|{{icon|astral rift difficulty hard}} 5: "Offer astral thread."
+
+* ''Lose [[File:Astral threads.png|24x24px]] 100 astral threads.''
+* ''Proceed to '''chapter 5-A'''.''
+* ''{{Blue|Forces (and determines) chapter 7 outome.}}''
+|Available only if not {{icon|fanatic purifiers}}{{icon|devouring swarm}}{{icon|determined exterminator}} Genocidal and '''Black Curtain''' (chapter 4-A) has not been visited:
+{{icon|astral rift difficulty easy}} 1: "This war is hopeless. Let us visit the preservationists."
+''Proceed to '''chapter 4-A'''.''
+|Available if {{icon|fanatic purifiers}}{{icon|devouring swarm}}{{icon|determined exterminator}} Genocidal or if '''Black Curtain''' (chapter 4-B) has already been visited:
+{{icon|astral rift difficulty easy}} 1: "This is a lost cause. Let us return to the new world."
+''Proceed to '''chapter 5-B'''.''
+|-
+| colspan="7" |
+|-
+! rowspan="2" |5
+|'''A'''
+|'''World Council'''
+(no chapter reward)
+|{{icon|astral rift difficulty normal}} 3: "Offer astral thread."
+
+* ''Lose [[File:Astral threads.png|24x24px]]'' ''100 astral threads.''
+* ''Has a chance to fail:''
+** ''On success, proceed to '''chapter 6-A'''.''
+** ''On failure, proceed to '''chapter 6-B'''.''
+* ''{{Blue|Modifies chapter 7 outome.}}''
+|{{icon|astral rift difficulty normal}} 3: "Offer energy."
+
+* ''Lose {{icon|energy}}'' ''1000 energy.''
+* ''Has a chance to fail:''
+** ''On success, proceed to '''chapter 6-A'''.''
+** ''On failure, proceed to '''chapter 6-B'''.''
+* ''{{Blue|Modifies chapter 7 outome.}}''
+| colspan="2" |{{icon|astral rift difficulty hard}} 6: "Offer nothing."
+
+* ''Has a chance to fail:''
+** ''On success, proceed to '''chapter 6-A'''.''
+** ''On failure, proceed to '''chapter 6-B'''.''
+* ''{{Blue|Modifies chapter 7 outome.}}''
+|-
+|'''B'''
+| colspan="5" |'''Abandoning our Ancestors'''
+* {{reward|ast|ast3|empty|empty}}
+* Gain a small amount of {{iconify|Unity}}.
+* One year after this rift is completed, the Formless contact the empire and hint at the Crystal Rift requirements. (See "[[The Crystal Rift]]")
+* {{Red|Ends the rift.}}
+|-
+| colspan="7" |
+|-
+! rowspan="2" |6
+|'''A'''
+|'''Celebration'''
+(no chapter reward)
+|"Recruit scientist."
+
+* ''Gain a [[File:Skill level 3.png]] Level 3 {{iconify|Scientist||}} with the {{iconify|Rift Warped}} trait.''
+* ''Proceed to '''chapter 7'''.''
+|"Recruit commander."
+
+* ''Gain a [[File:Skill level 3.png]] Level 3 {{iconify|Commander||}} with the {{iconify|Rift Warped}} trait.''
+* ''Proceed to '''chapter 7'''.''
+| colspan="2" |"Recruit official."
+
+* ''Gain a [[File:Skill level 3.png]] Level 3 {{iconify|Official||}} with the {{iconify|Rift Warped}} trait.''
+* ''Proceed to '''chapter 7'''.''
+|-
+|'''B'''
+|'''Devastation'''
+(no chapter reward)
+|"Take as many back as we can."
+
+* ''Receive {{iconify|Unity}}''.
+* ''Proceed to '''chapter 7'''.''
+|"Accept the noble's offer."
+
+* ''Receive {{iconify|Energy}}''.
+* ''Receive an {{iconify|Official}}'' ''whose age is 50 and who can never receive negative traits.''
+* ''Proceed to '''chapter 7'''.''
+|Available only if not {{icon|fanatic purifiers}}{{icon|devouring swarm}}{{icon|determined exterminator}} Genocidal:
+"Preserve the library."
+
+* ''Receive {{iconify|Research}}'' ''and {{iconify|Unity}}''.
+* ''Proceed to '''chapter 7'''.''
+|Available only if {{icon|fanatic purifiers}}{{icon|devouring swarm}}{{icon|determined exterminator}} Genocidal:
+"Claim their knowledge."
+
+* ''Receive {{iconify|Research}}'' ''and {{iconify|Unity}}''.
+* ''Proceed to '''chapter 7'''.''
+|-
+| colspan="7" |
+|-
+!7
+| colspan="6" |'''Spirit of our Ancestors'''
+This outcome has three parts. The player always receives all three:
+
+* Two or more empire modifiers based on the choices made in chapter 4 (see table below).
+* One or zero empire modifiers based on the choices made in chapter 5 (see table below).
+* One year after this rift is completed, the Formless contact the empire and hint at the Crystal Rift requirements. (See "[[The Crystal Rift]]")
+
+This chapter {{Red|ends the rift}}.
+{| class="wikitable"
+|+
+! colspan="3" |Outcome Based on Choices in Chapter 4
+|-
+!
+!Helped the Black Curtain
+(not available for  {{icon|fanatic purifiers}}{{icon|devouring swarm}}{{icon|determined exterminator}} Genocidal empires)
+!Helped the Starlight Vanguard
+|-
+!Always
+|Receive both of these empire modifiers:
+
+* {{icon|pop growth speed}} {{Green|+5%}} Pop Growth Speed
+* {{icon|habitability}} {{Green|+5%}} Habitability
+|Receive empire modifier:
+
+* {{icon|kinetic weapons|24px}} {{green|+10%}} Kinetic Weapon Damage
+|-
+!Only if gave [[File:Astral threads.png|24x24px]] astral threads
+|Receive both of these empire modifiers:
+
+* {{icon|astral rift exploration speed}} {{green|+25%}} Astral Rift Exploration Speed
+* {{icon|anomaly fail risk}} {{green|-50%}} Astral Rift Fail Probability
+|Receive both of these empire modifiers:
+
+* {{icon|shield}} {{green|+10%}} Shield Hit Points
+* {{icon|shield}} {{green|+10%}} Shield Hardening
+|-
+!Only if gave [[File:Basic resources.png|24x24px]] resources or ''{{icon|alloys}}'' alloys
+|Receive {{green|+0.5}} of your leader species' {{Tooltip|{{icon|basic resources}} basic resource|{{icon|food}} {{red|1000}} food if biological<br>{{icon|minerals}} {{red|1000}} minerals if {{iconify|Lithoid}}<br>{{icon|energy}} {{red|1000}} energy if {{iconify|Machine}}}} from jobs:
+
+* If biological, {{icon|food}} {{green|+0.5}} Food from {{iconify|Farmer|suf=category}}s.
+* If {{iconify|Lithoid|22px}}, {{icon|minerals}} {{green|+0.5}} Minerals from {{iconify|Miner|suf=category}}s.
+* If {{iconify|Machine|22px}}, {{icon|energy}} {{green|+0.5}} Energy from {{iconify|Technician|suf=category}}s.
+|Receive both of these empire modifiers:
+
+* {{icon|armor}} {{green|+10%}} Armor Hit Points
+* {{icon|armor}} {{green|+10%}} Armor Hardening
+|}
+{| class="wikitable"
+|+
+! colspan="2" |Outcome Based on Choices in Chapter 5
+|-
+!Only if gave [[File:Astral threads.png|24x24px]] astral threads
+|Receive empire modifier:
+
+* {{icon|sublight speed}} {{green|+5%}} Sublight Speed
+|-
+!Only if gave ''{{icon|energy}}'' energy
+|Receive empire modifier:
+
+* {{icon|ship build speed}} {{green|+5%}} Ship Build Speed
+|-
+!If gave nothing
+|No reward.
+|}
+|}

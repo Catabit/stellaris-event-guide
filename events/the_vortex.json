@@ -1,0 +1,95 @@
+{
+  "id": "the_vortex",
+  "name": "The Vortex",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/9/9b/Evt_astral_rift_vortex.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#The_Vortex",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "The Vortex",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Proceed further.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "proceed_further"
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Expose sample to flame.",
+          "costs": [],
+          "reward": ["astral_threads_small", "research_engineering", "modifier_vortex_fuel"],
+          "requirements": "",
+          "next": "physics_narrative",
+          "failure_next": "flame_failure"
+        }
+      ]
+    },
+    {
+      "id": "proceed_further",
+      "text": "Proceed further (narrative)",
+      "choices": [
+        {
+          "id": "proceed_further_choice_0",
+          "text": "Continue.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "physics_narrative"
+        }
+      ]
+    },
+    {
+      "id": "flame_failure",
+      "text": "Expose sample to flame (Failure)",
+      "choices": [
+        {
+          "id": "flame_failure_choice_0",
+          "text": "End the rift.",
+          "costs": ["scientist_dies"],
+          "reward": ["exotic_gases", "astral_threads_large"],
+          "requirements": "",
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "physics_narrative",
+      "text": "Physics narrative",
+      "choices": [
+        {
+          "id": "physics_narrative_choice_0",
+          "text": "Continue.",
+          "costs": [],
+          "reward": ["research_physics", "astral_threads_small"],
+          "requirements": "",
+          "next": "flash_or_observe"
+        }
+      ]
+    },
+    {
+      "id": "flash_or_observe",
+      "text": "Flash lights or Observe",
+      "choices": [
+        {
+          "id": "flash_or_observe_choice_0",
+          "text": "Flash lights.",
+          "costs": [],
+          "reward": ["astral_threads_small", "astral_threads_medium", "relic_ever_spinning_top"],
+          "requirements": "",
+          "next": null
+        },
+        {
+          "id": "flash_or_observe_choice_1",
+          "text": "Observe.",
+          "costs": [],
+          "reward": ["astral_threads_small", "research_physics", "relic_ever_spinning_top"],
+          "requirements": "",
+          "next": null
+        }
+      ]
+    }
+  ]
+}

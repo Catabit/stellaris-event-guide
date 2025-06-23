@@ -1,0 +1,106 @@
+{
+  "id": "subnautical",
+  "name": "Subnautical",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/6/60/Evt_astral_rift_subnautical_1.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Subnautical",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Subnautical",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Go down.",
+          "next": "engine_or_swim",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Go up.",
+          "next": "engine_or_swim",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "engine_or_swim",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "engine_or_swim_choice_0",
+          "text": "Activate the engine.",
+          "next": "deep_object_encounter",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "engine_or_swim_choice_1",
+          "text": "Swim.",
+          "next": "swim_reward",
+          "reward": ["astral_threads_small"],
+          "requirements": "aquatic"
+        },
+        {
+          "id": "engine_or_swim_choice_1b",
+          "text": "Swim. (not aquatic, diff 5)",
+          "next": "swim_reward",
+          "reward": ["astral_threads_small"],
+          "requirements": "not aquatic"
+        }
+      ]
+    },
+    {
+      "id": "swim_reward",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "swim_reward_choice_0",
+          "text": "Continue.",
+          "next": "deep_object_encounter",
+          "reward": ["astral_threads_medium"]
+        }
+      ]
+    },
+    {
+      "id": "deep_object_encounter",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "deep_object_encounter_choice_0",
+          "text": "Talk.",
+          "next": "dialogue_options",
+          "reward": ["research_physics", "astral_threads_small"]
+        },
+        {
+          "id": "deep_object_encounter_choice_1",
+          "text": "Go to the object.",
+          "next": "dialogue_options",
+          "reward": ["research_physics", "astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "dialogue_options",
+      "text": "PLACEHOLDER_NODE_TEXT",
+      "choices": [
+        {
+          "id": "dialogue_choice_0",
+          "text": "Hello.",
+          "next": null,
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "dialogue_choice_1",
+          "text": "What are you?",
+          "next": null,
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "dialogue_choice_2",
+          "text": "Do you need help?",
+          "next": null,
+          "reward": ["tech_celestial_tear", "research_society","astral_threads_small"]
+        }
+      ]
+    }
+  ]
+}

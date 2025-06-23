@@ -1,0 +1,82 @@
+{
+  "id": "the_corridors",
+  "name": "The Corridors",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/c/c7/Evt_astral_rift_backrooms.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#The_Corridors",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Corridors",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Break through the floor.",
+          "next": "impossible_glass",
+          "reward": ["astral_threads_small"]
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Open the walls.",
+          "next": "regeneration",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "impossible_glass",
+      "text": "Impossible \"Glass\"",
+      "choices": [
+        {
+          "id": "impossible_glass_choice_0",
+          "text": "Proceed to the Terminal.",
+          "next": "terminal",
+          "reward": ["research_physics"]
+        }
+      ]
+    },
+    {
+      "id": "regeneration",
+      "text": "Regeneration",
+      "choices": [
+        {
+          "id": "regeneration_choice_0",
+          "text": "Proceed to the Terminal.",
+          "next": "terminal",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "terminal",
+      "text": "The Terminal",
+      "choices": [
+        {
+          "id": "terminal_choice_0",
+          "text": "Hack it.",
+          "next": null,
+          "failure_next": "entombed",
+          "reward": ["modifier_procedural_space"]
+        },
+        {
+          "id": "terminal_choice_1",
+          "text": "Strip it for parts.",
+          "next": null,
+          "reward": ["astral_threads_large"]
+        }
+      ]
+    },
+    {
+      "id": "entombed",
+      "text": "Entombed",
+      "choices": [
+        {
+          "id": "entombed_choice_0",
+          "text": "End the rift.",
+          "next": null,
+          "costs": ["scientist_temporarily_lost_5y"],
+          "reward": ["scientist_rift_warped_corridors"]
+        }
+      ]
+    }
+  ]
+}

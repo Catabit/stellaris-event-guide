@@ -1,0 +1,235 @@
+{
+    "id": "windswept_planet",
+    "name": "Windswept Planet",
+    "banner_url": "https://stellaris.paradoxwikis.com/images/d/df/Evt_astral_rift_windswept_planet.png",
+    "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Windswept_Planet",
+    "nodes": [
+        {
+            "id": "start",
+            "text": "Windswept Planet",
+            "choices": [
+                {
+                    "id": "start_choice_0",
+                    "text": "Rise above the storm.",
+                    "next": "beyond_stratosphere",
+                    "reward": [
+                        "exotic_gases"
+                    ]
+                },
+                {
+                    "id": "start_choice_1",
+                    "text": "Shelter in the cave below.",
+                    "next": "fungal_cavern",
+                    "reward": [
+                        "exotic_gases"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "beyond_stratosphere",
+            "text": "Beyond the Stratosphere",
+            "choices": [
+                {
+                    "id": "beyond_stratosphere_choice_0",
+                    "text": "Take a sample of the wind.",
+                    "next": "living_wind",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "living_wind",
+            "text": "Living Wind",
+            "choices": [
+                {
+                    "id": "living_wind_choice_0",
+                    "text": "Follow the living wind.",
+                    "next": "fungal_threat",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fungal_threat",
+            "text": "Fungal Threat",
+            "choices": [
+                {
+                    "id": "fungal_threat_choice_0",
+                    "text": "Find a way to remove the fungus.",
+                    "next": null,
+                    "costs": [
+                        "alloys_25"
+                    ],
+                    "reward": [
+                        "astral_threads_small",
+                        "incubate_wind_creatures_decision"
+                    ]
+                },
+                {
+                    "id": "fungal_threat_choice_1",
+                    "text": "Investigate the fungus.",
+                    "next": "fungal_transmission",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fungal_transmission",
+            "text": "Fungal Transmission",
+            "choices": [
+                {
+                    "id": "fungal_transmission_choice_0",
+                    "text": "Decipher the fungal transmission.",
+                    "next": "case_for_fungus_wind",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fungal_cavern",
+            "text": "Fungal Cavern",
+            "choices": [
+                {
+                    "id": "fungal_cavern_choice_0",
+                    "text": "Attempt to communicate.",
+                    "next": "among_fungus",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "among_fungus",
+            "text": "Among the Fungus",
+            "choices": [
+                {
+                    "id": "among_fungus_choice_0",
+                    "text": "Maintain fungal correspondence.",
+                    "next": "carnivorous_winds",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "carnivorous_winds",
+            "text": "Carnivorous Winds",
+            "choices": [
+                {
+                    "id": "carnivorous_winds_choice_0",
+                    "text": "Protect the ecosystem against the wind.",
+                    "next": null,
+                    "costs": [
+                        "minerals_50"
+                    ],
+                    "reward": [
+                        "astral_threads_small",
+                        "extra_dimensional_spores_modifier"
+                    ]
+                },
+                {
+                    "id": "carnivorous_winds_choice_1",
+                    "text": "Study the wind.",
+                    "next": "current_events",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "current_events",
+            "text": "Current Events",
+            "choices": [
+                {
+                    "id": "current_events_choice_0",
+                    "text": "Continue the investigation.",
+                    "next": "case_for_fungus_wind",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "case_for_fungus_wind",
+            "text": "The Case for the Fungus/Wind",
+            "choices": [
+                {
+                    "id": "case_for_fungus_wind_choice_0",
+                    "text": "Fortify the wind.",
+                    "next": null,
+                    "costs": [
+                        "alloys_100"
+                    ],
+                    "reward": [
+                        "astral_threads_small",
+                        "incubate_wind_creatures_decision"
+                    ]
+                },
+                {
+                    "id": "case_for_fungus_wind_choice_1",
+                    "text": "Nourish the fungus.",
+                    "next": null,
+                    "costs": [
+                        "minerals_50"
+                    ],
+                    "reward": [
+                        "astral_threads_small",
+                        "extra_dimensional_spores_modifier"
+                    ]
+                },
+                {
+                    "id": "case_for_fungus_wind_choice_2",
+                    "text": "Negotiate a compromise.",
+                    "next": null,
+                    "requirements": "not genocidal and not gestalt_consciousness",
+                    "reward": [
+                        "astral_threads_small",
+                        "deposit_10_society_rift",
+                        "exotic_gases_output_18x",
+                        "energy_output_18x",
+                        "astral_threads_large",
+                        "convert_scientist_envoy"
+                    ]
+                },
+                {
+                    "id": "case_for_fungus_wind_choice_2_gestalt",
+                    "text": "Negotiate a compromise.",
+                    "next": null,
+                    "requirements": "not genocidal and gestalt_consciousness",
+                    "reward": [
+                        "astral_threads_small",
+                        "deposit_10_society_rift",
+                        "exotic_gases_output_18x",
+                        "energy_output_18x",
+                        "astral_threads_large",
+                        "unity_output_18x"
+                    ]
+                },
+                {
+                    "id": "case_for_fungus_wind_choice_3",
+                    "text": "Eradicate both species.",
+                    "next": null,
+                    "requirements": "genocidal",
+                    "reward": [
+                        "astral_threads_small",
+                        "food_output_48x",
+                        "unity_output_18x"
+                    ]
+                }
+            ]
+        }
+    ]
+}

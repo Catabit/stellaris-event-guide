@@ -1,0 +1,88 @@
+=== Siege on Paradise ===
+[[File:Evt astral rift siege on paradise baol.png|450px|thumb|The Baol world on other side of the astral rift]]
+Siege on Paradise leads to an alternate universe where the Baol are still alive.
+: 1. '''''Siege on Paradise''''', gives {{reward|ast|ast1|empty|empty}}, choice:
+:* {{icon|astral rift difficulty normal}} 3 ''"Contact the planet's inhabitants."''
+:* {{icon|astral rift difficulty normal}} 3 ''"Contact the orbiting fleet."''
+: Contacted the planet's inhabitats (the Baol):
+:: 2. '''''Meeting the Baol / Plantoid Encounter''''': ''"Disclose what we know of the Baol." / "We are explorers."'', gives {{reward|ast|ast1|empty|empty}}
+:: 3. '''''Impending Doom / A Request for Aid''''', gives {{reward|ast|ast1|empty|empty}}
+::* {{icon|astral rift difficulty normal}} 3 ''"We will help however we can."'', proceed to '''''Saving the Baol / Considering Options'''''
+::* {{icon|astral rift difficulty easy}} 1 ''"It is not our place to interfere"'', proceed to '''''Not Our Fight'''''
+::: 4. '''''Not Our Fight''''', ''""Prepare observation satellites."'', gives {{reward|ast|ast1|empty|empty}}
+::: 5. '''''Ashes to Ashes''''', ''"This is a unique research opportunity."'', ends the rift, creates a {{icon|society}} 25 society research deposit on the astral rift. After 2-4 years, triggers the '''''Dust to Dust''''' event:
+:::* '''''Dust to Dust''''', gives {{iconify|society}} and {{iconify|engineering}} research, removes the society research deposit from the rift.
+:: 4. '''''Saving the Baol / Considering Options''''', gives {{reward|ast|ast1|empty|empty}}
+::* {{icon|astral rift difficulty hard}} 6 ''"Genetically modify the Baol."'', proceed to '''''Genetic Reinforcement''''' (requires {{iconify|Gene Tailoring|22px}})
+::* {{icon|astral rift difficulty hard}} 6 ''"Deploy experimental planetary cloaking."'', pay {{icon|astral threads}} {{red|50}} astral threads, proceed to '''''Under the Radar''''' (requires {{iconify|Basic Cloaking Fields|22px}})
+::* {{icon|astral rift difficulty hard}} 6 ''"Generate an astral shield."'', pay {{icon|astral threads}} {{red|100}} astral threads, proceed to '''''Astral Shield''''' (unavailable if has both of the above technologies)
+::* {{icon|astral rift difficulty easy}} 2 ''"Preserve the seedlings."'', proceed to '''''Life Finds a Way'''''
+:: 5. Final outcome:
+:: {| class="wikitable plainlist"
+! Outcome
+! Effect
+|-
+| '''''Genetic Reinforcement'''''
+| An option to recruit the paragon [[Paragons#Oakenstalk|Oakenstalk]]
+|-
+| '''''Under the Radar'''''
+|
+* {{icon link|edict|Astral Cloaking}} Unlocks the Astral Cloaking edict:
+** {{iconify|Cloaking Strength||+1|green}} while active
+|-
+| '''''Astral Shield'''''
+|
+* ''Astral Shield Experimentation'' modifier:
+** {{icon|shield}} {{green|+5%}} Shield Hit Points
+** {{icon|shield}} {{green|+5%}} Shield Hardening
+|-
+| '''''Life Finds a Way'''''
+|
+* 3 Baol pops are created on a random planet:
+** {{icon|gaia world preference}}{{icon|venerable}}{{icon|agrarian}}{{icon|communal}}{{icon|delicious}}{{icon|slow breeders}}
+** {{iconify|Pacifist}} ethic
+|}
+::Regardless of outcome, gives {{reward|ast|ast3|empty|empty}}, ends the rift.
+: Contacted the orbiting fleet (the Grunur):
+:: 2. '''''Flagship Escort''''', ''"Let us see where this leads..."'' / ''"The Grunur are dangerous. Be cautious."'', gives {{reward|ast|ast1|empty|empty}}
+:: 3. '''''A Unique Conversation''''', ''"We are explorers."'' / ''"We are explorers, and we have seen your future."'', gives {{reward|ast|ast1|empty|empty}}
+:: {{yellow|IF Discovered the Baol precursor:}}
+::: 4. '''''The Infamous Grunur''''', gives {{reward|ast|ast1|empty|empty}}
+:::* {{icon|astral rift difficulty hard}} 6 ''"Share rare military technology with the Grunur."'', proceed to '''''Sharing of Knowledge''''' (requires a rare technology such as {{iconify|Artificial Dragonscales|22px|suf=tech}}, {{iconify|Dark Matter Propulsion|22px}}, or {{iconify|Jump Drive|22px|suf=tech}})
+:::* {{icon|astral rift difficulty normal}} 4 ''"Share Baol research data with the Grunur."'', proceed to '''''Bearing Witness'''''
+:::* {{icon|astral rift difficulty easy}} 2 ''"Refuse to co-operate."'', proceed to '''''Expedition's End'''''
+::: 5. '''''Sharing of Knowledge''''', ''"A worthy exchange."'', gives 25% progress towards a random {{iconify|Military Theory}} technology, proceed to '''''Grunur Weapons Interface'''''
+::: 5. '''''Bearing Witness''''', gives {{reward|ast|ast1|empty|empty}}
+:::* {{icon|astral rift difficulty normal}} 4 ''"Watch the extermination."'', proceed to '''''Watching a World Burn'''''
+:::* {{icon|astral rift difficulty easy}} 1 ''"Refuse."'', proceed to '''''Expedition's End'''''
+:: {{yellow|Did not discover the Baol precursor:}}
+::: 4. '''''A Meek Introduction''''', gives {{reward|ast|ast1|empty|empty}}
+:::* {{icon|astral rift difficulty easy}} 1 ''"Respond with bravado. Do not be intimidated."'', proceed to '''''Taking a Stand'''''
+:::* {{icon|astral rift difficulty easy}} 1 ''"Attempt to reason with them."'', proceed to '''''Punishment'''''
+::: 5. '''''Taking a Stand''''', gives {{reward|ast|ast1|empty|empty}}
+:::* {{icon|astral rift difficulty normal}} 4 ''"Press the crystal. Order the launch."'', proceed to '''''Watching a World Burn'''''
+:::* {{icon|astral rift difficulty easy}} 1 ''"Refuse."'', proceed to '''''Expedition's End'''''
+::: 5. '''''Punishment''''', ''"Remain strong. We will find a way to recover you."'', gives {{reward|ast|ast1|empty|empty}}, proceed to '''''Expedition's End'''''
+:: 6. Final outcome:
+:: {| class="wikitable plainlist"
+! Outcome
+! Effect
+|-
+| '''''Grunur Weapons Interface'''''
+| 
+* ''Grunur Weapons Interface'' modifier: 
+* {{icon|ship fire rate}} {{green|+10%}} Ship Fire Rate
+|-
+| '''''Watching a World Burn'''''
+|
+* {{reward|soc|rsh3}}
+* [[File:Army flamestorm.png|24px|link=Armies#Flamestorm Troopers|Flamestorm Troopers]] Unlocks the ability to recruit Flamestorm Troopers.
+|-
+| '''''Expedition's End'''''
+|
+* {{reward|eng|rsh3}}
+* Scientist is lost for 5-7 years.
+|}
+:: Regardless of outcome, gives {{reward|ast|ast3|empty|empty}}, ends the rift.
+If the rift concluded with the '''''Expedition's End''''' outcome, get '''''[leader name] Returns''''' event in 5-7 years:
+* Leader comes back with the {{iconify|Rift Warped}} trait. They gain the {{trait|Expertise: Propulsion|w=24px|class=Scientist|bg=eng|veteran=yes|tier=1}} Expertise: Propulsion I trait if they do not have it, otherwise they gain the {{trait|Expertise: Voidcraft|w=24px|class=Scientist|bg=eng|veteran=yes|tier=1}} Expertise: Voidcraft I trait. If the leader already has both traits, no other trait is given.

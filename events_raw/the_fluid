@@ -1,0 +1,10 @@
+=== The Fluid ===
+* 1. Choice, ''''Deploy sample collection rig'''', {{icon|astral rift difficulty hard}} 5 or ''''Proceed forward at ease'''', {{icon|astral rift difficulty easy}} 2. Gives {{reward|ast|ast1|empty|empty}}.
+* 2. Deploy sample collection rig, choice, ''''Cut it loose. The risk isn't worth it'''', {{icon|astral rift difficulty easy}} 2 or ''''Use emergency gasses'''', {{icon|astral rift difficulty hard}} 6, costs 50 {{iconify|Exotic gases}}. Gives {{iconify|Biology}} Research Option Transgenic Crops.
+* 3a. Proceed forward at ease/Cut it loose. The risk isn't worth it, choice, ''''Follow the flow outward'''' {{icon|astral rift difficulty easy}} 2 or ''''Explore the crystalline orifice'''', {{icon|astral rift difficulty hard}} 5. Gives {{reward|ast|ast1|empty|empty}}.
+* 3b. Use emergency gasses, choice, ''''Follow the flow outward'''', {{icon|astral rift difficulty easy}} 2, gives 200 {{iconify|Exotic gases}} or ''''Explore the crystalline orifice'''', {{icon|astral rift difficulty hard}} 5, gives 200 {{iconify|Rare crystals}}.
+* 4a. Follow the flow outward, choice, ''''Pull anchor. Return immediately'''', {{icon|astral rift difficulty easy}} 1 or ''''Pump exotic gasses. Neutralize the beast'''', {{icon|astral rift difficulty hard}} 6, costs 100 {{iconify|Exotic gases}}. Gives {{reward|ast|ast1|empty|empty}}.
+* 4b. Explore the crystalline orifice, choice, ''''Pull anchor. Return immediately'''' {{icon|astral rift difficulty easy}} 1 or ''''Pump exotic gasses. Neutralize the beast'''' {{icon|astral rift difficulty hard}} 6, costs 100 {{iconify|Exotic gases}}. Gives {{reward|ast|ast1|empty|empty}}.
+* 5a. Pull anchor. Return immediately, narrative, gives the Rift Samples Biology Modifier granting +10% {{iconify|Biology}} Research for 5 to 10 years.
+* 5b. Pump exotic gasses. Neutralize the beast, narrative, gives the Plasmic Core relic and {{reward|ast|ast3|empty|empty}}.
+* 5c. Pump exotic gasses. Neutralize the beast (Failure outcome), narrative, Scientist dies,  gives the Rift Samples Biology Modifier granting +20% {{iconify|Biology}} Research for 10 years and {{reward|ast|ast3|empty|empty}}.

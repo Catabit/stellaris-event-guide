@@ -1,0 +1,59 @@
+==Chapter Detail==
+This is a detailed list of all chapters in this rift. The reward below each chapter name is issued when a selection is made, regardless of which one was chosen.
+
+Options which indirectly force or preclude any final outcomes of the rift are noted in {{Blue|blue}}.
+
+Chapters which terminate the rift are noted in {{Red|red}}.
+{| class="wikitable"
+! colspan="3" |Chapter
+! colspan="2" |Choices
+|-
+! colspan="2" |1
+|'''Floating Body'''
+*{{Reward|ast|ast1}}
+|{{icon|astral rift difficulty normal}} 3: "Bring it aboard and give aid."
+*''Proceed to '''chapter 2'''.''
+|{{icon|astral rift difficulty normal}} 3: "Bring it aboard and recover its gear."
+*''Proceed to '''chapter 2'''.''
+|-
+| colspan="5" |
+|-
+! colspan="2" |2
+|'''Floating Body'''
+*{{Reward|ast|ast1}}
+|{{icon|astral rift difficulty hard}} 6: "Dispatch the individual."
+*''Proceed to '''chapter 3-A'''.''
+|{{icon|astral rift difficulty normal}} 3: "Attempt to negotiate."
+*''Proceed to '''chapter 3-B'''.''
+|-
+| colspan="5" |
+|-
+! rowspan="2" |3
+|'''A'''
+| colspan="2" |'''Floating Body'''
+* {{reward|ast|ast2}}
+* {{reward|min|mat4}}
+* {{reward|aly|mat4}}
+* If chose ''Bring it aboard and recover its gear.'' in '''chapter 1''',
+** {{reward|eng|res5}}
+* {{Red|Ends the rift.}}
+| If failed, '''Fatalities Sustained'''
+* Kills scientist
+* {{reward|aly|mat4}}
+* {{reward|ast|ast3}}
+* {{Red|Ends the rift.}}
+|-
+|'''B'''
+| colspan="3" |'''De-escalation'''
+* {{Reward|ast|ast1}}
+* ''Proceed to '''chapter 4'''.''
+|-
+| colspan="5" |
+|-
+! colspan="2" |4
+| colspan="3" |'''Lost Junker'''
+*{{reward|ast|ast3|empty|empty}}
+*{{reward|soc|res3}}
+*In 1 year, receive a new [[File:Skill level 6.png]] Level 6 [[File:Scientist.png|24px]] Scientist with {{trait|Rift Warped|w=24px|class=scientist}} [[Scientist traits#Rift Warped|Rift Warped]] trait and a random specialization.
+*{{Red|Ends the rift.}}
+|}

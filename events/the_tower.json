@@ -1,0 +1,128 @@
+{
+  "id": "the_tower",
+  "name": "The Tower",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/4/44/Evt_astral_rift_tower.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#The_Tower",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "The Tower",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Attempt to communicate with the creature.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "not genocidal",
+          "next": "binary_communication"
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Observe the creature and report back.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "a_long_awaited_welcome"
+        },
+        {
+          "id": "start_choice_2",
+          "text": "Kill it.",
+          "costs": [],
+          "reward": ["astral_threads_small", "unity_output_48x", "astral_threads_large"],
+          "requirements": "genocidal",
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "binary_communication",
+      "text": "Binary Communication",
+      "choices": [
+        {
+          "id": "binary_communication_choice_0",
+          "text": "Invite them aboard.",
+          "costs": [],
+          "reward": ["research_society_18x"],
+          "requirements": "",
+          "next": "playing_host"
+        },
+        {
+          "id": "binary_communication_choice_1",
+          "text": "Offer something in return.",
+          "costs": ["alloys_100"],
+          "reward": ["research_society_18x", "unity_output_48x"],
+          "requirements": "",
+          "next": null
+        },
+        {
+          "id": "binary_communication_choice_2",
+          "text": "Leave the site.",
+          "costs": [],
+          "reward": ["research_society_18x", "astral_threads_large"],
+          "requirements": "",
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "a_long_awaited_welcome",
+      "text": "A Long Awaited Welcome",
+      "choices": [
+        {
+          "id": "a_long_awaited_welcome_choice_0",
+          "text": "Invite them aboard.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "not genocidal",
+          "next": "playing_host"
+        },
+        {
+          "id": "a_long_awaited_welcome_choice_1",
+          "text": "Offer something in return.",
+          "costs": ["alloys_100"],
+          "reward": ["astral_threads_small", "unity_output_48x"],
+          "requirements": "not genocidal",
+          "next": null
+        },
+        {
+          "id": "a_long_awaited_welcome_choice_2",
+          "text": "Leave the site.",
+          "costs": [],
+          "reward": ["astral_threads_small", "astral_threads_large"],
+          "requirements": "",
+          "next": null
+        },
+        {
+          "id": "a_long_awaited_welcome_choice_3",
+          "text": "Kill the creature.",
+          "costs": [],
+          "reward": ["astral_threads_small", "unity_output_48x", "astral_threads_large"],
+          "requirements": "genocidal",
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "playing_host",
+      "text": "Playing Host",
+      "choices": [
+        {
+          "id": "playing_host_choice_0",
+          "text": "Invite them to our empire.",
+          "costs": [],
+          "reward": ["scientist_tower_species"],
+          "requirements": "",
+          "next": null
+        },
+        {
+          "id": "playing_host_choice_1",
+          "text": "Confiscate their documents and release them.",
+          "costs": [],
+          "reward": ["tech_society"],
+          "requirements": "",
+          "next": null
+        }
+      ]
+    }
+  ]
+}

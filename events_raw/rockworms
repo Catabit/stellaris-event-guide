@@ -1,0 +1,10 @@
+=== Rockworms ===
+* 1. Choice, ''''Continue surface observations'''' {{icon|astral rift difficulty easy}} 2 or ''''Explore the tunnels'''', {{icon|astral rift difficulty hard}} 5. Gives {{reward|ast|ast1|empty|empty}}.
+* 2a. Continue surface observations, choice, ''''Sample the microorganisms'''', {{icon|astral rift difficulty easy}} 2 or ''''Explore the worms'''' tunnels'''', {{icon|astral rift difficulty hard}} 5. Gives 15% progress towards a random {{iconify|Biology}} Technology. 
+* 2b. Explore the tunnels, choice, ''''Harvest the eggs'''' {{icon|astral rift difficulty hard}} 5 or ''''Proceed onward'''' {{icon|astral rift difficulty easy}} 2. Gives {{reward|ast|ast1|empty|empty}}.
+* 3a. Sample the microorganisms, choice, ''''Set explosive charges'''', {{icon|astral rift difficulty hard}} 6 -100 {{iconify|Exotic gases}} or ''''Pull emergency anchor'''', {{icon|astral rift difficulty easy}} 1. Gives {{reward|ast|ast1|empty|empty}}.
+* 3b. Proceed onward, choice, ''''capture a live specimen'''', {{icon|astral rift difficulty hard}} 5 gives {{reward|ast|ast1|empty|empty}} or ''''We've pushed our luck far enough. Return at once'''', {{icon|astral rift difficulty easy}} 1. Gives {{reward|ast|ast1|empty|empty}} and 15% towards a random {{iconify|Biology}} Technology, ends the rift.
+* 3c. Harvest the eggs, choice ''''Set explosive charges'''', {{icon|astral rift difficulty hard}} 6 -100 {{iconify|Exotic gases}} or ''''Pull emergency anchor'''', {{icon|astral rift difficulty easy}} 1.
+* 4a. Pull emergency anchor, narrative, gives {{reward|ast|ast3|empty|empty}}, ends the rift.
+* 4b. Set explosive charges, narrative, gives {{reward|ast|ast3|empty|empty}} and the single use Rockworm Hive planetary decision, creating a planetary feature that grants +20% {{iconify|minerals}} from {{iconify|jobs}} and +5 max mining districts. Ends the rift.
+* 4c. Set explosive charges (failure outcome), narrative, temporarily removes your scientist (they return after several years with a new portrait and the Partially Digested trait), grants 10% towards a random {{iconify|Biology}} Technology and {{reward|ast|ast1|empty|empty}}, ends the rift.

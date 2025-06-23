@@ -1,0 +1,157 @@
+{
+  "id": "entertainment_nexus",
+  "name": "Entertainment Nexus",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/8/80/Evt_astral_rift_interdimensional_circus.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Entertainment_Nexus",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Entertainment Nexus",
+      "choices": [
+        {
+          "id": "come_one_come_all_choice_0",
+          "text": "Continue investigations.",
+          "reward": ["astral_threads_small"],
+          "next": "anticipation"
+        }
+      ]
+    },
+    {
+      "id": "anticipation",
+      "text": "Anticipation",
+      "choices": [
+        {
+          "id": "anticipation_choice_0",
+          "text": "Very Well.",
+          "reward": ["astral_threads_small"],
+          "next": "vaulting_vulpines"
+        }
+      ]
+    },
+    {
+      "id": "vaulting_vulpines",
+      "text": "The Vaulting Vulpines",
+      "choices": [
+        {
+          "id": "vaulting_vulpines_choice_0",
+          "text": "A flippant use of impressive technology.",
+          "reward": ["astral_threads_small"],
+          "next": "jaws_of_life"
+        }
+      ]
+    },
+    {
+      "id": "jaws_of_life",
+      "text": "The Jaws of Life",
+      "choices": [
+        {
+          "id": "jaws_of_life_choice_0",
+          "text": "An interesting talent.",
+          "reward": ["astral_threads_small"],
+          "next": "final_act"
+        }
+      ]
+    },
+    {
+      "id": "final_act",
+      "text": "The Final Act",
+      "choices": [
+        {
+          "id": "final_act_choice_0",
+          "text": "A rare specimen, indeed.",
+          "reward": ["rare_crystals"],
+          "next": "after_the_show"
+        }
+      ]
+    },
+    {
+      "id": "after_the_show",
+      "text": "After the Show",
+      "choices": [
+        {
+          "id": "after_the_show_choice_0",
+          "text": "Meet with the vulpine acrobats.",
+          "reward": ["astral_threads_small"],
+          "next": "meet_the_acrobats"
+        },
+        {
+          "id": "after_the_show_choice_1",
+          "text": "Meet with the cyborg maw.",
+          "reward": ["astral_threads_small"],
+          "next": "meet_the_cyborg_maw"
+        },
+        {
+          "id": "after_the_show_choice_2",
+          "text": "Meet with the contortionist.",
+          "reward": ["astral_threads_small"],
+          "next": "meet_the_contortionist"
+        }
+      ]
+    },
+    {
+      "id": "meet_the_acrobats",
+      "text": "Meet the Acrobats",
+      "choices": [
+        {
+          "id": "meet_the_acrobats_choice_0",
+          "text": "Secure a tissue sample.",
+          "reward": ["astral_threads_large", "tech_biology_genetics_random", "research_society"],
+          "next": null
+        },
+        {
+          "id": "meet_the_acrobats_choice_1",
+          "text": "Tip them some energy credits.",
+          "costs": ["energy_1000"],
+          "reward": ["astral_threads_large", "tech_physics_wormhole_stabilization_or_particles_progress_50pc"],
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "meet_the_cyborg_maw",
+      "text": "Meet the Cyborg Maw",
+      "choices": [
+        {
+          "id": "meet_the_cyborg_maw_choice_0",
+          "text": "Secure a tissue sample.",
+          "reward": ["astral_threads_large", "revolutionary_medigel_modifier"],
+          "requirements":"(biological or lithoid) and not gestalt_consciousness",
+          "next": null
+        },
+        {
+          "id": "meet_the_cyborg_maw_choice_1",
+          "text": "Secure a tissue sample.",
+          "reward": ["astral_threads_large", "tech_farming_biology"],
+          "requirements":"gestalt_consciousness or not (biological or lithoid)",
+          "next": null
+        },
+        {
+          "id": "meet_the_cyborg_maw_choice_2",
+          "text": "Offer a snack.",
+          "costs": ["food_1000"],
+          "reward": ["astral_threads_large", "tech_industry_robotics_progress_10pc"],
+          "next": null
+        }
+      ]
+    },
+    {
+      "id": "meet_the_contortionist",
+      "text": "Meet the Contortionist",
+      "choices": [
+        {
+          "id": "meet_the_contortionist_choice_0",
+          "text": "Secure a tissue sample.",
+          "reward": ["astral_threads_large", "edict_spontaneous_crystallization"],
+          "next": null
+        },
+        {
+          "id": "meet_the_contortionist_choice_1",
+          "text": "Tip them some energy credits.",
+          "costs": ["energy_1000"],
+          "reward": ["astral_threads_large", "research_physics"],
+          "next": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "tiny_planet",
+  "name": "Tiny Planet",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/7/7f/Evt_astral_rift_tiny_planet.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Tiny_Planet",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Tiny Planet",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Continue.",
+          "next": "lunar_impact",
+          "reward": ["research_physics_12x"]
+        }
+      ]
+    },
+    {
+      "id": "lunar_impact",
+      "text": "Lunar Impact",
+      "choices": [
+        {
+          "id": "lunar_impact_choice_0",
+          "text": "Continue.",
+          "next": "small_problem",
+          "reward": ["astral_threads_small"]
+        }
+      ]
+    },
+    {
+      "id": "small_problem",
+      "text": "A Small Problem",
+      "choices": [
+        {
+          "id": "small_problem_choice_0",
+          "text": "Establish contact.",
+          "requirements": "not genocidal and not barbaric_despoilers",
+          "next": "communications_established",
+          "costs": [],
+          "reward": ["research_society_18x"]
+        },
+        {
+          "id": "small_problem_choice_1",
+          "text": "Observe passively.",
+          "requirements": "not genocidal and not barbaric_despoilers",
+          "next": null,
+          "reward": ["astral_threads_large", "research_society_12x", "deposit_10_society_rift"]
+        },
+        {
+          "id": "small_problem_choice_2",
+          "text": "Demand ransom.",
+          "requirements": "barbaric_despoilers",
+          "next": "communications_established",
+          "reward": ["research_society_18x"]
+        },
+        {
+          "id": "small_problem_choice_3",
+          "text": "Inform them that their doom has come.",
+          "requirements": "genocidal",
+          "next": "communications_established",
+          "reward": ["research_society_18x"]
+        },
+        {
+          "id": "small_problem_choice_4",
+          "text": "Watch the destruction unfold.",
+          "requirements": "genocidal or barbaric_despoilers",
+          "next": null,
+          "reward": ["astral_threads_large", "research_society_12x", "deposit_10_society_rift", "unity_output_24x"]
+        }
+      ]
+    },
+    {
+      "id": "communications_established",
+      "text": "Communications Established",
+      "choices": [
+        {
+          "id": "communications_established_choice_0",
+          "text": "Attempt to fix the moon's orbit.",
+          "requirements": "not genocidal and not barbaric_despoilers",
+          "next": null,
+          "reward": ["astral_threads_small", "research_physics_24x", "astral_threads_large", "unity_output_12x", "intentional_tidal_locking_decision"]
+        },
+        {
+          "id": "communications_established_choice_1",
+          "text": "Destroy the moon.",
+          "requirements": "not (pacifist and xenophile) and not genocidal and not barbaric_despoilers",
+          "next": "no_more_moon",
+          "reward": ["astral_threads_small"]
+        },
+         {
+          "id": "communications_established_choice_1",
+          "text": "Destroy the moon.",
+          "requirements": "not (pacifist and xenophile) and (genocidal or barbaric_despoilers)",
+          "next": null,
+          "reward": ["astral_threads_small", "minerals_5", "research_physics_12x", "astral_threads_large", "research_society_12x", "deposit_society_15_10y"]
+        },
+        {
+          "id": "communications_established_choice_2",
+          "text": "Cut communications. Observe passively.",
+          "requirements": "not genocidal and not barbaric_despoilers",
+          "next": null,
+          "reward": ["astral_threads_large", "research_society_12x", "deposit_10_society_rift"]
+        },
+        {
+          "id": "communications_established_choice_3",
+          "text": "Cut communications. Watch the destruction unfold.",
+          "requirements": "genocidal or barbaric_despoilers",
+          "next": null,
+          "reward": ["astral_threads_large", "research_society_12x", "deposit_10_society_rift", "unity_output_24x"]
+        }
+      ]
+    },
+    {
+      "id": "no_more_moon",
+      "text": "No More Moon",
+      "choices": [
+        {
+          "id": "no_more_moon_choice_0",
+          "text": "Put them out of their misery.",
+          "next": null,
+          "reward": ["astral_threads_large", "shallow_impact_decision"]
+        },
+        {
+          "id": "no_more_moon_choice_1",
+          "text": "Deploy remote research devices.",
+          "next": null,
+          "reward": ["astral_threads_large", "research_society_12x", "deposit_society_15_10y"]
+        }
+      ]
+    }
+  ]
+}

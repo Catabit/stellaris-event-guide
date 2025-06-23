@@ -1,0 +1,20 @@
+=== Psionic Stranger ===
+[[File:Evt astral rift psionic stranger.png|450px|thumb|The Zroni on the other side of the astral rift]]
+Psionic Stranger leads to an alternate universe where the Zroni are still alive.
+:1. '''''Psionic Stranger''''': ''"Find this being."'', gives {{reward|ast|ast1|empty|empty}}.
+:2. '''''The Far-Seer''''': ''"Listen to the Far-Seer's words."'', gives {{reward|ast|ast1|empty|empty}}.
+:3. '''''The Far Seer's Burden''''', gives {{reward|ast|ast1|empty|empty}}, choice:
+:* {{icon|astral rift difficulty hard}} 6 ''"Reveal the fate of the Zroni." / "Reveal what we know of the Zroni." / "We can only offer our perspective."'', proceed to '''''Portents of Doom / Certain Fate / Our Perspective'''''
+:* {{icon|astral rift difficulty easy}} 1 ''"It is not our place to intervene." / "Such spiritual pursuits are trivial."'', proceed to '''''Leaving it to Fate'''''
+::4. '''''Leaving it to Fate''''': ''"Explore the mineral cache"'', gives {{reward|ast|ast1|empty|empty}}, proceed to '''''Opportunity Strikes'''''
+::5. '''''Opportunity Strikes''''', gives {{iconify|minerals}}, {{iconify|rare crystals}} and {{reward|ast|ast3|empty|empty}}. Ends the rift.
+:4. '''''Portents of Doom / Certain Fate / Our Perspective''''', gives {{reward|ast|ast1|empty|empty}}, choice:
+:* ''"It is a doomed endeavor" / "Advise against interfering with the Shroud"'', proceed to '''''Prophetic Advice''''' (not available if {{iconify|Fanatic Spiritualist}} and has not discovered the Zroni)
+:* ''"This time, it may be different" / "Encourage the Far-Seer to breach the Shroud"'', proceed to '''''Prophetic Advice'''''  (not available if {{iconify|Fanatic Materialist}} and has not discovered the Zroni)
+:5. '''''Prophetic Advice''''': ''"Perhaps we will meet again."'', gives 75% progress towards a random {{iconify|Psionics}} technology. {{iconify|Gestalt Consciousness}} and {{icon split|Materialist|Fanatic Materialist|iconify=yes}} empires are rewarded with {{iconify|energy}} instead. Ends the rift.
+If concluded the rift with '''''Prophetic Advice''''', get an event in 3-5 years:
+* If picked ''"It is a doomed endeavor" / "Advise against interfering with the Shroud"'', get '''''A Message from Beyond''''' event: 
+** Gives 75% progress towards a random {{iconify|Particles}} technology and {{reward|ast|ast3|empty|empty}}.
+* If picked ''"This time, it may be different" / "Encourage the Far-Seer to breach the Shroud"'', get '''''The Shroud's Promise''''' event: 
+** Gives the Zroni Insight Storm Safeguard modifier, reducing the negative effects of space storms by 50%
+** Gives {{iconify|energy}}, {{iconify|rare crystals}}, and {{reward|ast|ast3|empty|empty}} .

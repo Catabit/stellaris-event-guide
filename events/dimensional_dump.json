@@ -1,0 +1,131 @@
+{
+    "id": "dimensional_dump",
+    "name": "Dimensional Dump",
+    "banner_url": "https://stellaris.paradoxwikis.com/images/4/4c/Evt_astral_rift_dimensional_dump.png",
+    "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Dimensional_Dump",
+    "nodes": [
+        {
+            "id": "start",
+            "text": "Dimensional Dump",
+            "choices": [
+                {
+                    "id": "start_choice_0",
+                    "text": "Bring it aboard and give aid.",
+                    "next": "chapter_2_aid",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                },
+                {
+                    "id": "start_choice_1",
+                    "text": "Bring it aboard and recover its gear.",
+                    "next": "chapter_2_gear",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_2_aid",
+            "text": "Floating Body",
+            "choices": [
+                {
+                    "id": "chapter_2_aid_choice_0",
+                    "text": "Dispatch the individual.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_small",
+                        "astral_threads_medium",
+                        "minerals_output_24x",
+                        "alloys_output_24x"
+                    ],
+                    "failure_next":"chapter_3a_failure"
+                },
+                {
+                    "id": "chapter_2_aid_choice_1",
+                    "text": "Attempt to negotiate.",
+                    "next": "chapter_3b",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_2_gear",
+            "text": "Floating Body",
+            "choices": [
+                {
+                    "id": "chapter_2_gear_choice_0",
+                    "text": "Dispatch the individual.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_small",
+                        "astral_threads_medium",
+                        "minerals_output_24x",
+                        "alloys_output_24x",
+                        "research_engineering_96x"
+                    ],
+                    "failure_next":"chapter_3a_failure"
+                },
+                {
+                    "id": "chapter_2_gear_choice_1",
+                    "text": "Attempt to negotiate.",
+                    "next": "chapter_3b",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_3a_failure",
+            "text": "Fatalities Sustained",
+            "choices": [
+                {
+                    "id": "chapter_3a_failure_choice_0",
+                    "text": "Casualties confirmed.",
+                    "next": null,
+                    "costs": [
+                        "scientist_dies"
+                    ],
+                    "reward": [
+                        "alloys_output_24x",
+                        "astral_threads_large"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_3b",
+            "text": "De-escalation",
+            "choices": [
+                {
+                    "id": "chapter_3b_choice_0",
+                    "text": "Proceed peacefully.",
+                    "next": "chapter_4",
+                    "reward": [
+                        "astral_threads_small"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "chapter_4",
+            "text": "Lost Junker",
+            "choices": [
+                {
+                    "id": "chapter_4_choice_0",
+                    "text": "Let them go.",
+                    "next": null,
+                    "reward": [
+                        "astral_threads_large",
+                        "research_society_24x",
+                        "scientist_rift_warped_replacement"
+                    ]
+                }
+            ]
+        }
+    ]
+}

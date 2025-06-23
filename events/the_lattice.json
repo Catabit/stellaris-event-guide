@@ -1,0 +1,86 @@
+{
+  "id": "the_lattice",
+  "name": "The Lattice",
+  "banner_url": "",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#The_Lattice",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "The Lattice",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Continue.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "narrative_2"
+        }
+      ]
+    },
+    {
+      "id": "narrative_2",
+      "text": "[Narrative]",
+      "choices": [
+        {
+          "id": "narrative_2_choice_0",
+          "text": "Continue.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "narrative_3"
+        }
+      ]
+    },
+    {
+      "id": "narrative_3",
+      "text": "[Narrative]",
+      "choices": [
+        {
+          "id": "narrative_3_choice_0",
+          "text": "Continue.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "narrative_4"
+        }
+      ]
+    },
+    {
+      "id": "narrative_4",
+      "text": "[Narrative]",
+      "choices": [
+        {
+          "id": "narrative_4_choice_0",
+          "text": "Continue.",
+          "costs": [],
+          "reward": ["astral_threads_small"],
+          "requirements": "",
+          "next": "final_choice"
+        }
+      ]
+    },
+    {
+      "id": "final_choice",
+      "text": "[Narrative]",
+      "choices": [
+        {
+          "id": "final_choice_0",
+          "text": "Leave.",
+          "costs": [],
+          "reward": ["astral_threads_large", "fractal_seed_planetary_decision_3"],
+          "requirements": "",
+          "next": null
+        },
+        {
+          "id": "final_choice_1",
+          "text": "Take the orbs.",
+          "costs": [],
+          "reward": ["astral_threads_large", "fractal_seed_planetary_decision_9"],
+          "requirements": "",
+          "next": null
+        }
+      ]
+    }
+  ]
+}

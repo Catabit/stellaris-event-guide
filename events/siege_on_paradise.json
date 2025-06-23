@@ -1,0 +1,345 @@
+{
+  "id": "siege_on_paradise",
+  "name": "Siege On Paradise",
+  "banner_url": "https://stellaris.paradoxwikis.com/images/8/87/Evt_astral_rift_siege_on_paradise_baol.png",
+  "wiki_url": "https://stellaris.paradoxwikis.com/Astral_rift#Siege_on_Paradise",
+  "nodes": [
+    {
+      "id": "start",
+      "text": "Siege on Paradise",
+      "choices": [
+        {
+          "id": "start_choice_0",
+          "text": "Contact the planet's inhabitants.",
+          "next": "contact_planet",
+          "reward": [
+            "astral_threads_small"
+          ]
+        },
+        {
+          "id": "start_choice_1",
+          "text": "Contact the orbiting fleet.",
+          "next": "contact_fleet",
+          "reward": [
+            "astral_threads_small"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact_planet",
+      "text": "Contacted the planet's inhabitats (the Baol)",
+      "choices": [
+        {
+          "id": "contact_planet_choice_0",
+          "text": "Disclose what we know of the Baol.",
+          "next": "aid",
+          "reward": [
+            "astral_threads_small"
+          ]
+        },
+        {
+          "id": "contact_planet_choice_1",
+          "text": "We are explorers.",
+          "next": "aid",
+          "reward": [
+            "astral_threads_small"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aid",
+      "text": "Impending Doom / A Request for Aid",
+      "choices": [
+        {
+          "id": "aid_choice_0",
+          "text": "We will help however we can",
+          "next": "saving",
+          "reward": [
+            "astral_threads_small"
+          ]
+        },
+        {
+          "id": "aid_choice_1",
+          "text": "It is not our place to interfere",
+          "next": "not_our_fight",
+          "reward": [
+            "astral_threads_small"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "not_our_fight",
+      "text": "Not Our Fight",
+      "choices": [
+        {
+          "id": "not_our_fight_choice_0",
+          "text": "Prepare observation satellites.",
+          "next": "ashes",
+          "reward": [
+            "astral_threads_small"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashes",
+      "text": "Ashes to Ashes",
+      "choices": [
+        {
+          "id": "ashes_choice_0",
+          "text": "This is a unique research opportunity.",
+          "next": null,
+          "reward": [
+            "deposit_25_society_rift",
+            "event_dust_to_dust"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saving",
+      "text": "Saving the Baol / Considering Options",
+      "choices": [
+        {
+          "id": "saving_choice_0",
+          "text": "Genetically modify the Baol.",
+          "next": null,
+          "reward": [
+            "astral_threads_large",
+            "paragon_oakenstalk"
+          ],
+          "requirements": "gene_tailoring"
+        },
+        {
+          "id": "saving_choice_1",
+          "text": "Deploy experimental planetary cloaking.",
+          "next": null,
+          "reward": [
+            "astral_threads_large",
+            "edict_astral_cloaking"
+          ],
+          "costs": [
+            "astral_threads_50"
+          ],
+          "requirements": "basic_cloaking_fields"
+        },
+        {
+          "id": "saving_choice_2",
+          "text": "Generate an astral shield.",
+          "next": null,
+          "reward": [
+            "astral_threads_large",
+            "shield_hp_5pc",
+            "shield_hardening_5pc"
+          ],
+          "costs": [
+            "astral_threads_100"
+          ],
+          "requirements": "not (gene_tailoring and basic_cloaking_fields)"
+        },
+        {
+          "id": "saving_choice_3",
+          "text": "Preserve the seedlings.",
+          "next": null,
+          "reward": [
+            "astral_threads_large",
+            "baol_pops_3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact_fleet",
+      "text": "Flagship Escort",
+      "choices": [
+        {
+          "id": "contact_fleet_choice_0",
+          "text": "Let us see where this leads...",
+          "next": "conversation",
+          "reward": [
+            "astral_threads_small"
+          ]
+        },
+        {
+          "id": "contact_fleet_choice_1",
+          "text": "The Grunur are dangerous. Be cautious.",
+          "next": "conversation",
+          "reward": [
+            "astral_threads_small"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conversation",
+      "text": "A Unique Conversation",
+      "choices": [
+        {
+          "id": "conversation_choice_0",
+          "text": "We are explorers.",
+          "next": "infamous",
+          "requirements": "precursor_baol",
+          "reward": [
+            "astral_threads_small"
+          ]
+        },
+        {
+          "id": "conversation_choice_1",
+          "text": "We are explorers, and we have seen your future.",
+          "next": "infamous",
+          "requirements": "precursor_baol",
+          "reward": [
+            "astral_threads_small"
+          ]
+        },
+        {
+          "id": "conversation_choice_2",
+          "text": "We are explorers.",
+          "next": "meek",
+          "requirements": "not precursor_baol",
+          "reward": [
+            "astral_threads_small"
+          ]
+        },
+        {
+          "id": "conversation_choice_3",
+          "text": "We are explorers, and we have seen your future.",
+          "next": "meek",
+          "requirements": "not precursor_baol",
+          "reward": [
+            "astral_threads_small"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infamous",
+      "text": "The Infamous Grunur",
+      "choices": [
+        {
+          "id": "infamous_choice_0",
+          "text": "Share rare military technology with the Grunur.",
+          "next": "sharing",
+          "requirements": "rare_technology",
+          "reward": [
+            "astral_threads_small"
+          ]
+        },
+        {
+          "id": "infamous_choice_1",
+          "text": "Share Baol research data with the Grunur.",
+          "next": "witness",
+          "reward": [
+            "astral_threads_small"
+          ]
+        },
+        {
+          "id": "infamous_choice_2",
+          "text": "Refuse to co-operate.",
+          "next": null,
+          "reward": [
+            "astral_threads_small",
+            "astral_threads_large",
+            "scientist_rift_warped"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sharing",
+      "text": "Sharing of Knowledge",
+      "choices": [
+        {
+          "id": "sharing_choice_0",
+          "text": "A worthy exchange.",
+          "next": null,
+          "reward": [
+            "astral_threads_small",
+            "astral_threads_large",
+            "research_random_military_25pc",
+            "ship_fire_rate_10pc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "witness",
+      "text": "Bearing Witness",
+      "choices": [
+        {
+          "id": "witness_choice_0",
+          "text": "Watch the extermination.",
+          "next": null,
+          "reward": [
+            "astral_threads_small",
+            "astral_threads_large",
+            "recruit_flamestorm_troopers"
+          ]
+        },
+        {
+          "id": "witness_choice_1",
+          "text": "Refuse.",
+          "next": null,
+          "reward": [
+            "astral_threads_small",
+            "astral_threads_large",
+            "scientist_rift_warped"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meek",
+      "text": "A Meek Introduction",
+      "choices": [
+        {
+          "id": "meek_choice_0",
+          "text": "Respond with bravado. Do not be intimidated.",
+          "next": null,
+          "reward": [
+            "astral_threads_small",
+            "astral_threads_large",
+            "scientist_rift_warped"
+          ]
+        },
+        {
+          "id": "meek_choice_1",
+          "text": "Attempt to reason with them.",
+          "next": "stand",
+          "reward": [
+            "astral_threads_small"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stand",
+      "text": "Taking a Stand",
+      "choices": [
+        {
+          "id": "stand_choice_0",
+          "text": "Press the crystal. Order the launch",
+          "next": null,
+          "reward": [
+            "astral_threads_small",
+            "astral_threads_large",
+            "recruit_flamestorm_troopers"
+          ]
+        },
+        {
+          "id": "stand_choice_1",
+          "text": "Refuse.",
+          "next": null,
+          "reward": [
+            "astral_threads_small",
+            "astral_threads_large",
+            "scientist_rift_warped"
+          ]
+        }
+      ]
+    }
+  ]
+}

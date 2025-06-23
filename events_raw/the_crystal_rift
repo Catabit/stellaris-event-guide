@@ -1,0 +1,88 @@
+== Chapter Detail ==
+This is a detailed list of all chapters in this rift. The reward below each chapter name is issued when a selection is made, regardless of which one was chosen.
+
+Options which indirectly force or preclude any final outcomes of the rift are noted in {{Blue|blue}}.
+
+Chapters which terminate the rift are noted in {{Red|red}}.
+{| class="wikitable"
+! colspan="3" |Chapter
+! colspan="2" |Choices
+|-
+! colspan="2" |1
+|'''Understanding'''<br>{{Reward|ast|ast1}}
+|{{icon|astral rift difficulty easy}} 2: "Utilize A.I. to check for hidden patterns."
+''Proceed to '''chapter 3-B'''.''
+
+{{Blue|Prevents outcome 3-A.}}
+|{{icon|astral rift difficulty hard}} 6: "E.M.P. the anchor cord."
+
+* ''Lose {{iconify|energy||1000}}.''
+* ''Proceed to '''chapter''' '''2'''.''
+|-
+| colspan="5" |
+|-
+! colspan="2" |2
+|'''Taking Control'''
+* {{reward|phy|rsh3|empty|empty}}
+* {{reward|ast|ast3|empty|empty}}
+|{{icon|astral rift difficulty hard}} 6: "Provide A.I. assistance."
+''Proceed to '''chapter 3-B'''.''
+|{{icon|astral rift difficulty easy}} 1: "Get out! We've only stunned it."
+''Proceed to '''chapter 3-A'''.''
+|-
+| colspan="5" |
+|-
+! rowspan="2" |3
+|'''A'''
+| colspan="3" |'''Escape'''
+
+* {{reward|ast|ast3|empty|empty}}
+* {{reward|uni|rsh5|empty|empty}}
+* {{Red|Ends the rift.}}
+|-
+|'''B'''
+|'''Home'''<br>{{reward|ast|ast2|empty|empty}}
+|{{icon|astral rift difficulty normal}} 3: "Preserve the particles."
+
+* ''Receive 25% progress towards a random {{icon|particles}} Particles technology.''
+* ''Proceed to '''chapter 4'''.''
+|{{icon|astral rift difficulty easy}} 1: "Preserve the field manipulation data."
+
+* ''Receive 25% progress towards a random {{icon|Field Manipulation}} Field Manipulation technology.''
+* ''Proceed to '''chapter 4'''.''
+|-
+| colspan="5" |
+|-
+! colspan="2" |4
+|'''Ascendance'''<br>(no chapter reward)
+|{{icon|astral rift difficulty normal}} 3: "Preserve the physics data."
+
+* ''Receive {{reward|phy|rsh3|empty|empty}}''
+* ''Proceed to '''chapter 5'''.''
+|{{icon|astral rift difficulty normal}} 3: "Preserve the society data."
+
+* ''Receive {{reward|soc|rsh3|empty|empty}}''
+* ''Proceed to '''chapter 5'''.''
+|-
+| colspan="5" |
+|-
+! colspan="2" |5
+|'''Shatter'''<br>(no chapter reward)
+|"We've opened a doorway..."
+
+* Spawns the [[Crystal Rift#The Strange Wormhole|Strange Wormhole]] giving access to the [[Unique systems#azilash|azilash]] system and the [[Situations#The Seal|''The Seal'' situation]].
+* {{Red|Immediately ends the rift.}}
+|Only possible if the {{iconify|Wormhole Stabilization|24px}} technology has already been researched:
+{{icon|astral rift difficulty normal}} 3: "Seal it! Quickly!"
+
+* ''Lose 500 {{iconify|astral threads}}.''
+* ''Proceed to '''chapter 6'''.''
+|-
+| colspan="5" |
+|-
+! colspan="2" |6
+| colspan="3" |'''The Seal'''
+
+* The rift gains a deposit of {{green|+10}} {{iconify|unity}} and {{green|+10}} {{iconify|physics}} research.
+* {{Red|Ends the rift.}}
+|}

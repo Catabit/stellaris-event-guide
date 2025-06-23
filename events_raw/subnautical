@@ -1,0 +1,9 @@
+=== Subnautical ===
+* 1 choice, go down or go up, gives {{reward|ast|ast1|empty|empty}}.
+* 2 choice, activate engine or swim(aquatic) both difficult 2 if not aquatic swim has difficult 5, and both give {{reward|ast|ast1|empty|empty}}
+* 3 swim , narrative {{reward|ast|ast2|empty|empty}}
+* 4 choice, talk difficult 6 or go to the object difficult 2
+** 2892 {{iconify|Physics}} Research and {{reward|ast|ast1|empty|empty}}
+* 5 choice, hello difficult 1, what are you? difficult 3, do you need help? difficult 6 all {{reward|ast|ast1|empty|empty}}
+* 6 do you need help?, narrative, relic [[Relics#Celestial_Tear|Celestial Tear]], {{iconify|Society}} Research 23494, {{reward|ast|ast1|empty|empty}}
+** relic [[Relics#Celestial_Tear|Celestial Tear]], passive all planets around stars a,b,f and g get +5% habitability, active 1250 {{iconify|Astral Threads}}

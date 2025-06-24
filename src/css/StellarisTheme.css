@@ -41,7 +41,10 @@
   --stellaris-accent: #ffb14e;
   --stellaris-accent-2: #7fffbe;
 }
-body, #root, html {
+
+body,
+#root,
+html {
   background: var(--stellaris-bg) !important;
   color: var(--stellaris-text);
   margin: 0;
@@ -52,6 +55,7 @@ body, #root, html {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
 #root {
   margin: 0 auto;
   padding: 2rem 0 0 0;
@@ -61,24 +65,30 @@ body, #root, html {
   min-height: 100vh;
   box-sizing: border-box;
 }
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
 a {
   font-weight: 400;
   color: var(--stellaris-accent-2);
   text-decoration: underline;
   transition: color 0.2s;
 }
-a:hover {
-  color: var(--stellaris-accent);
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    color: var(--stellaris-accent);
+  }
 }
 
 ::-webkit-scrollbar {
   background: var(--stellaris-bg-btn-hover);
   width: 0.625rem;
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--stellaris-border);
   border-radius: 0.375rem;
@@ -125,9 +135,11 @@ a:hover {
   background-size: 1.2em;
 }
 
-.form-select:hover {
-  border-color: var(--stellaris-border);
-  box-shadow: 0 0 0 0.125rem #3fa36c55;
+@media (hover: hover) and (pointer: fine) {
+  .form-select:hover {
+    border-color: var(--stellaris-border);
+    box-shadow: 0 0 0 0.125rem #3fa36c55;
+  }
 }
 
 .text-primary {
@@ -142,13 +154,15 @@ a:hover {
   color: var(--stellaris-text-fail) !important;
 }
 
-.reward-list-item, .cost-list-item {
+.reward-list-item,
+.cost-list-item {
   font-size: 1em;
   margin: 0.05em 0;
   line-height: 1.4;
   word-break: break-word;
   text-indent: 0.1rem;
 }
+
 .reward-icon,
 .cost-icon {
   font-weight: 700;
@@ -156,11 +170,13 @@ a:hover {
   width: 1rem;
   text-align: left;
 }
+
 .stellaris-text-icon {
   vertical-align: middle;
   margin: 0 0.1em 0 0.1em;
   filter: drop-shadow(0 0 2px #3fa36c88);
 }
+
 .stellaris-separator {
   width: 100%;
   height: 1px;
@@ -170,60 +186,66 @@ a:hover {
   border: none;
   pointer-events: none;
 }
+
 .stellaris-main-grid {
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
-    padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 2rem;
 }
 
 .stellaris-main-grid-event-simulator-group {
-    display: contents;
+  display: contents;
 }
+
 .stellaris-event-selector {
-    order: 1;
+  order: 1;
 }
+
 .stellaris-outcome-selector {
-    order: 2;
+  order: 2;
 }
+
 .stellaris-requirements-selector {
-    order: 3;
+  order: 3;
 }
+
 .stellaris-simulator {
-    order: 4;
+  order: 4;
 }
 
 @media (min-width: 1000px) {
-    :root {
-      font-size: 100%;
-    }
+  :root {
+    font-size: 100%;
+  }
 
-    .stellaris-main-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: auto;
-        gap: 1rem;
-        align-items: start;
-    }
+  .stellaris-main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 1rem;
+    align-items: start;
+  }
 
-    .stellaris-outcome-selector {
-        grid-column: 1;
-        grid-row: 1 / span 2;
-    }
+  .stellaris-outcome-selector {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
 
-    .stellaris-main-grid-event-simulator-group {
-        display: grid;
-        grid-column: 2;
-        grid-template-rows: auto auto;
-        align-self: start;
-        gap: 1rem;
-    }
+  .stellaris-main-grid-event-simulator-group {
+    display: grid;
+    grid-column: 2;
+    grid-template-rows: auto auto;
+    align-self: start;
+    gap: 1rem;
+  }
 
-    .stellaris-requirements-selector {
-        grid-column: 3;
-        grid-row: 1 / span 2;
-    }
+  .stellaris-requirements-selector {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
 }
+
 .stellaris-footer {
   margin-top: 2rem;
   padding: 1rem;

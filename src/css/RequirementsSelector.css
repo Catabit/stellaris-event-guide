@@ -33,13 +33,18 @@
 .stellaris-ethics-wheel .stellaris-ethics-icon.highlighted {
     border-color: var(--stellaris-accent-2);
 }
+
 .stellaris-ethics-wheel .stellaris-ethics-icon.selected {
     border: var(--stellaris-radius-xxs) solid var(--stellaris-accent, #6cf);
 }
-.stellaris-ethics-wheel .stellaris-ethics-icon:hover {
-    background: var(--stellaris-bg-btn-hover);
-    border-color: var(--stellaris-accent);
+
+@media (hover: hover) and (pointer: fine) {
+    .stellaris-ethics-wheel .stellaris-ethics-icon:hover {
+        background: var(--stellaris-bg-btn-hover);
+        border-color: var(--stellaris-accent);
+    }
 }
+
 .stellaris-ethics-wheel .stellaris-ethics-icon.disabled {
     opacity: 0.5;
     pointer-events: none;
@@ -92,6 +97,7 @@
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
+
 .requirements-dynamic-selector-item {
     display: flex;
     align-items: center;
@@ -106,24 +112,30 @@
     padding: 1.2rem;
     cursor: pointer;
 }
+
 .requirements-static-selector-item.disabled,
 .requirements-dynamic-selector-item.disabled {
     opacity: 0.5;
     pointer-events: none;
     border-style: dashed;
 }
+
 .requirements-static-selector-item.highlighted,
 .requirements-dynamic-selector-item.highlighted {
     border-color: var(--stellaris-accent-2);
 }
+
 .requirements-static-selector-item.selected,
 .requirements-dynamic-selector-item.selected {
     border-color: var(--stellaris-accent);
 }
-.requirements-static-selector-item:hover,
-.requirements-dynamic-selector-item:hover {
-    background: var(--stellaris-bg-btn-hover);
-    border-color: var(--stellaris-accent);
+
+@media (hover: hover) and (pointer: fine) {
+    .requirements-static-selector-item:hover,
+    .requirements-dynamic-selector-item:hover {
+        background: var(--stellaris-bg-btn-hover);
+        border-color: var(--stellaris-accent);
+    }
 }
 
 .requirements-static-selector-item-icons {
@@ -133,6 +145,7 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 .stellaris-requirements-selector {
     display: flex;
     flex-direction: column;

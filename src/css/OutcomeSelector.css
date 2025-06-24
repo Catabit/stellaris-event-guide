@@ -8,15 +8,18 @@
   overflow-x: hidden;
   gap: 0.5rem;
 }
+
 .stellaris-outcome-panel-header {
   font-weight: 700;
   font-size: x-large;
   margin-top: 0;
   margin-bottom: 0.2em;
 }
+
 .stellaris-option-text-block {
   width: 100%;
 }
+
 .stellaris-option-text-block strong {
   color: var(--stellaris-text-secondary);
   font-size: 1em;
@@ -26,6 +29,7 @@
   text-align: left;
   display: inline-block !important;
 }
+
 .stellaris-option-list-block {
   margin-left: 0;
   margin-bottom: 0;
@@ -33,15 +37,18 @@
   padding-left: 0;
   width: 100%;
 }
+
 .stellaris-option-list-block li {
   list-style-position: inside;
   padding-left: 0;
 }
+
 .stellaris-option-requirements-text {
   margin-left: 0.25em;
   text-align: left;
   display: inline;
 }
+
 .stellaris-hidden-toggle {
   color: var(--stellaris-accent);
   font-weight: 600;
@@ -71,17 +78,23 @@
   gap: 0.5rem;
   cursor: pointer;
 }
+
 .stellaris-outcome-panel .stellaris-primary-list-item:empty {
   display: none;
 }
-.stellaris-outcome-panel .stellaris-primary-list-item:hover {
-  background: var(--stellaris-bg-btn-hover) !important;
-  border-color: var(--stellaris-accent) !important;
+
+@media (hover: hover) and (pointer: fine) {
+  .stellaris-outcome-panel .stellaris-primary-list-item:hover {
+    background: var(--stellaris-bg-btn-hover) !important;
+    border-color: var(--stellaris-accent) !important;
+  }
 }
+
 .stellaris-outcome-panel .stellaris-primary-list-item.selected {
   border-color: var(--stellaris-accent) !important;
   background: var(--stellaris-bg-btn-hover) !important;
 }
+
 /* End Primary rewards list */
 
 
@@ -99,6 +112,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .stellaris-variant-list .stellaris-variant-list-item {
   margin: 0.5rem 0;
   width: 100%;
@@ -113,14 +127,19 @@
   box-shadow: var(--stellaris-shadow-btn);
   padding: 10px 18px;
 }
+
 .stellaris-variant-list .stellaris-variant-list-item.selected {
   border-color: var(--stellaris-accent) !important;
   background: var(--stellaris-bg-btn-hover) !important;
 }
-.stellaris-variant-list .stellaris-variant-list-item:hover {
-  border-color: var(--stellaris-accent) !important;
-  background: var(--stellaris-bg-btn-hover) !important;
+
+@media (hover: hover) and (pointer: fine) {
+  .stellaris-variant-list .stellaris-variant-list-item:hover {
+    border-color: var(--stellaris-accent) !important;
+    background: var(--stellaris-bg-btn-hover) !important;
+  }
 }
+
 /* End Variants list */
 
 .stellaris-primary-list-item.hidden-by-static,

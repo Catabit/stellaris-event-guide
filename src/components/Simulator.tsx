@@ -71,14 +71,14 @@ const Simulator: React.FC<Props> = ({ event, currentNodeId, onChoose, rewards, c
                             return (
                                 <li key={choice.id} className="stellaris-sim-choice-item">
                                     <button
-                                        className={`stellaris-sim-choice-btn${isInSelectedPath ? ' chosen' : ''}`}
+                                        className={`stellaris-sim-choice-btn${selectedPath ? isInSelectedPath ? ' chosen' : ' not-chosen' : ''}`}
                                         onClick={() => {
                                             if (choice.next) onChoose(choice.next);
                                         }}
                                     >
                                         <div className="stellaris-sim-choice-btn-grid">
                                             <div className="stellaris-sim-choice-btn-row1">
-                                                <span className="stellaris-sim-choice-btn-maintext">{choice.text}</span>
+                                                <span className="stellaris-sim-choice-btn-maintext">{isInSelectedPath ? '★ ' : ''}{choice.text}</span>
                                                 {choice.failure_next && (
                                                     <button
                                                         className="stellaris-sim-fail-btn"
